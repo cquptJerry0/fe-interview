@@ -1,0 +1,23 @@
+version: 1
+type: object
+required:
+  - tags
+properties:
+  tags:
+    type: object
+    additionalProperties:
+      type: object
+      required: [level, confidence]
+      properties:
+        level:
+          type: integer
+          minimum: 0
+          maximum: 5
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+        last_practice:
+          type: string
+        notes:
+          type: string
