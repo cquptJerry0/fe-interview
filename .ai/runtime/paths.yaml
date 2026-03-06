@@ -1,0 +1,9 @@
+version: 1
+paths:
+  content_raw: 01-内容库/01-原始题单
+  content_knowledge: 01-内容库/02-知识条目
+  content_code_demo: 01-内容库/03-编程与Demo
+  records_profile: 02-训练记录/01-熟练度画像/profile.yaml
+  records_sessions: 02-训练记录/02-训练会话
+  records_logs: 02-训练记录/03-归档日志（可统计）/mastery-history.jsonl
+  nav_root: 03-导航
