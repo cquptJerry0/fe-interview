@@ -7,110 +7,98 @@ difficulty: 5
 
 ## 一句话结论
 
-Git 的底层是“对象数据库 + 指针系统”：commit 指向 tree（目录快照）与 parent，branch 是指向 commit 的 ref，HEAD 表示当前检出位置；merge 生成一个有两个 parent 的合并提交并移动分支指针，rebase 在新基底上重放提交生成新 commit（hash 变化）；stash 不是新区，是 `refs/stash` 指向的一组保存对象。
+Git 的本质是对象数据库加引用系统：`commit -> tree -> blob`，分支只是指向 commit 的 ref，HEAD 表示当前检出位置。`merge` 保留分叉历史并生成合并提交，`rebase` 在新基底重放提交（产生新 commit）；`stash` 是挂在 `refs/stash` 的临时保存栈。高分点是能把“指针如何移动”讲清。
 
 ## 技术解释
 
-先从“人类只看得到文件/目录”映射到 Git：
+### 1) 对象模型
+
+- blob：文件内容快照。
+- tree：目录快照，记录文件名到 blob/tree 的映射。
+- commit：提交对象，指向一个 tree 和父 commit，并附带作者、时间、消息。
 
 ```text
-Working Tree（你看到的目录与文件）
-   │ git add
-   ▼
-Index/Stage（下一次 commit 的候选目录快照表：path -> blob）
-   │ git commit
-   ▼
-commit -> tree -> blob（写入 .git/objects 对象库）
+commit
+  ├─ parent: <commit>
+  ├─ tree: <tree>
+  └─ meta: author/message/time
 ```
 
-对象模型（最底层）：
-- blob：文件内容快照
-- tree：目录结构快照（指向 blob/tree）
-- commit：一次版本（指向 tree + parent + meta）
-- ref：指向某个 commit 的指针（分支/标签/refs/stash）
+### 2) HEAD 与 branch 的关系
 
-HEAD vs branch：
-- `.git/HEAD` 通常是 `ref: refs/heads/main`，表示 HEAD 指向当前分支引用
-- branch（如 main）是一个 ref，内容是某个 commit hash
-- detached HEAD 时，HEAD 直接指向 commit（不通过分支名）
+- 分支是 ref（如 `refs/heads/main`），值是 commit hash。
+- HEAD 通常指向当前分支 ref，不直接指向 commit。
+- detached HEAD 时，HEAD 直接指向某个 commit，后续提交容易“游离”。
 
-merge 做了什么（指针层）：
-- 新建一个 merge commit（2 个 parent）
-- 把当前分支 ref 移到这个 merge commit
+### 3) merge 做了什么
 
-```text
-main:   C1---C2---C3-----M
-               \       /
-feature:        D1---D2
-M.parent = (C3, D2)
-```
+- 找最近共同祖先。
+- 以三方合并生成结果树。
+- 产生一个双父（或多父）merge commit，保留分叉历史。
 
-rebase 做了什么：
-- 把 feature 上的提交“改动”依次重放到新基底上（类似连续 cherry-pick）
-- 生成新的提交 D1'/D2'（parent 变了，所以 hash 必变）
+### 4) rebase 做了什么
 
-```text
-rebase 前：
-main:    C1---C2---C3
-feature:       \---D1---D2
+- 选择一组提交作为“待重放序列”。
+- 按顺序在新基底上重放，每个提交都会生成新 hash。
+- 结果是历史更线性，但原提交身份改变。
 
-rebase 后：
-main:    C1---C2---C3
-feature:             D1'---D2'
-```
+### 5) stash 是什么
 
-stash 是什么（不是第四个区）：
-- stash 是一个 ref：`refs/stash`
-- `stash@{n}` 来自 `refs/stash` 的 reflog
-- `stash apply/pop` 是把这份保存的改动应用到当前工作区（可能冲突）
-
-## 图解
-
-```text
-refs/heads/main  -> commit(C3)
-HEAD             -> refs/heads/main
-
-refs/stash       -> stashCommit(S0) -> S1 -> ...
-```
+- `git stash` 会把当前工作区和暂存区状态保存为对象，并更新 `refs/stash`。
+- 可以理解为一个临时栈：`stash@{0}` 最新。
+- 常见操作：`stash list/apply/pop/drop`。
 
 ## 对比与取舍
 
-- merge vs rebase（协作维度）
-  - merge：不重写历史，公共分支安全；缺点是历史可能有分叉
-  - rebase：历史线性、MR 更干净；缺点是重写历史，公共分支上会坑协作者
-
-- stash vs WIP commit
-  - stash：适合本地临时切换上下文；缺点是不易协作追踪、容易忘
-  - WIP commit：可追踪可协作；缺点是可能污染历史（可在合并时 squash）
+- `merge`：保留真实分叉历史，适合公共分支协作。
+- `rebase`：历史干净，便于阅读，但改写历史需谨慎。
+- 团队实践：私有分支可 rebase 整理，公共分支优先 merge。
 
 ## 实践与验证
 
-- 验证对象与指针：
-  - `cat .git/HEAD` 看 HEAD 指向
-  - `cat .git/refs/heads/main` 看分支指针指到哪个 commit
-  - `git cat-file -p HEAD` 看 commit 的 tree/parent
-  - `git cat-file -p <tree>` 看目录快照条目
-- 排障：
-  - rebase 后推送用 `--force-with-lease`，避免误覆盖别人提交
-  - stash 跨分支 apply 可能冲突，优先 `apply` 确认再 `drop`
-
-## 追问
-
-- 为什么 rebase 会改 hash？hash 里包含了什么？
-- merge 冲突和 rebase 冲突处理体验差异？
-- stash 能不能恢复到别的分支？有哪些风险？
-
-## 易错点
-
-- 对公共分支 rebase 并 force push，导致团队历史错乱
-- 把 stash 当成“安全长期存储”，最后忘记清理或难以追踪来源
+- 用 `git log --graph --oneline --decorate` 观察指针变化。
+- 合并前先跑测试，冲突解决后再次全量验证。
+- 对 rebase 后分支避免强推到多人共用分支。
 
 ## 业务举例
 
-- 场景：多人并行开发时需要保持主干稳定、分支历史可读。
-- 做法：公共分支以 merge 为主，个人分支整理历史时用 rebase；临时切任务用 stash 短暂保存。
-- 验证：主干无强推事故；MR 历史清晰；stash 使用后及时清理并可回溯来源。
+### 背景与约束
+
+- 多人并行开发，主干要求可随时发布。
+- 需求分支较多，历史很容易变成“意大利面”图。
+- 团队希望兼顾历史可读性与协作安全。
+
+### 方案与取舍
+
+- 主干和发布分支只允许 merge，不允许 rebase 改写。
+- 个人功能分支提交前允许 rebase/squash 整理历史。
+- 临时切任务统一用 stash，禁止“半成品直接 commit 到主分支”。
+
+### 实施与验证
+
+- 在 CI 加规则：主分支保护 + 必须通过测试才能合并。
+- 代码评审中检查提交历史可读性与冲突处理说明。
+- 定期抽查 `stash list`，避免长期遗留临时改动。
+
+### 结果与复盘
+
+- 主干稳定性提升，回溯问题更快。
+- 分支历史更可读，评审成本下降。
+- 复盘发现部分同学滥用 stash，后续补“stash 生命周期规范”。
 
 ## 面试口述版（60-90秒）
 
-我会先讲底层：Git 是对象库加指针系统，branch 和 HEAD 本质是指向 commit 的引用。`merge` 是生成一个双 parent 的合并提交，不改已有历史；`rebase` 是在新基底重放提交，会产生新 commit hash。团队协作上公共分支优先 merge，个人分支可 rebase，但推送时用 `--force-with-lease`。`stash` 是 `refs/stash` 的临时保存，不是长期存储，跨分支 apply 要预期冲突。
+我会先讲 Git 底层：文件内容是 blob，目录是 tree，提交是 commit，分支只是指向 commit 的 ref，HEAD 表示当前检出位置。然后解释 merge 和 rebase 的本质区别：merge 是保留分叉历史并生成 merge commit，rebase 是在新基底重放提交，历史更线性但 hash 会变。团队协作上我一般建议公共分支用 merge，个人分支可以 rebase 整理。stash 我会当成短期临时栈，不会长期堆积。
+
+## 追问
+
+- 为什么 rebase 后 commit hash 一定变化？
+- 什么场景下绝对不该在远端分支 rebase？
+- merge 冲突和 rebase 冲突处理思路有什么不同？
+- stash 和临时 commit 各自适用什么场景？
+
+## 易错点
+
+- 把分支当成“提交副本”，而不是“指针”。
+- 在多人共用分支随意 rebase 并强推。
+- stash 后长期不清理，后续来源不可追踪。
