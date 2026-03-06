@@ -7,82 +7,111 @@ difficulty: 4
 
 ## 一句话结论
 
-Vue2 用 `Object.defineProperty` 按属性劫持 getter/setter，初始化要遍历 key，新增/删除属性与数组细节需要额外处理；Vue3 用 `Proxy` 代理整个对象，能拦截 get/set/delete/ownKeys 等操作，新增/删除更自然且支持懒代理，代价是无法兼容 IE11。
+Vue2 用 `Object.defineProperty` 按属性劫持，新增属性和数组边界处理复杂；Vue3 用 `Proxy` 代理对象，拦截能力更完整，响应式行为更自然。核心差异不是 API 写法，而是“拦截粒度”和“依赖收集触发时机”。
 
 ## 技术解释
 
-Vue2（defineProperty）底层形态：
+### 1) Vue2 响应式模型
+
+- 初始化时遍历已有 key，用 getter/setter 劫持。
+- 读取时收集依赖，写入时触发更新。
+- 对新增属性、数组下标变更等场景支持不完整，需要 `Vue.set` 或数组方法补丁。
 
 ```js
-function defineReactive(obj, key) {
-  let val = obj[key];
-  const dep = new Dep();
-  Object.defineProperty(obj, key, {
-    get() { dep.depend(); return val; },
-    set(v) { val = v; dep.notify(); },
-  });
-}
-```
-
-关键边界：
-- 只能劫持“已存在 key”，后续新增 key 没 getter/setter → 不响应（需要 `Vue.set` 或替换对象）
-- 数组下标与 length 变化不易完整覆盖（Vue2 通过重写数组方法等方式补齐）
-
-Vue3（Proxy）底层形态：
-
-```js
-const state = new Proxy(target, {
-  get(t, k, r) { track(t, k); return Reflect.get(t, k, r); },
-  set(t, k, v, r) { const ok = Reflect.set(t, k, v, r); trigger(t, k); return ok; },
-  deleteProperty(t, k) { const ok = Reflect.deleteProperty(t, k); trigger(t, k); return ok; },
+Object.defineProperty(obj, key, {
+  get() {
+    dep.depend();
+    return val;
+  },
+  set(newVal) {
+    val = newVal;
+    dep.notify();
+  },
 });
 ```
 
-关键能力：
-- 新增属性会走 `set` trap，删除会走 `deleteProperty` trap
-- 支持懒代理：只有访问到子对象时才继续包 Proxy，初始化更轻
+### 2) Vue3 响应式模型
 
-## 图解
+- 使用 `Proxy` 拦截 `get/set/deleteProperty/has/ownKeys` 等操作。
+- 可按访问路径懒代理，初始化成本更可控。
+- 对新增属性和删除属性可自然追踪。
 
-```text
-Vue2：对每个 key 打补丁（defineProperty）
-  新 key：没补丁 -> 不响应
-
-Vue3：对整个对象包一层代理（Proxy）
-  所有操作都经过代理层 -> 新 key/删除/枚举都可拦截
+```js
+const state = new Proxy(target, {
+  get(t, k, r) {
+    track(t, k);
+    return Reflect.get(t, k, r);
+  },
+  set(t, k, v, r) {
+    const ok = Reflect.set(t, k, v, r);
+    trigger(t, k);
+    return ok;
+  },
+});
 ```
+
+### 3) 迁移时常见边界
+
+- Vue2 时代依赖 `this.$set` 的逻辑在 Vue3 需调整写法。
+- 深层响应式与 `shallowRef/shallowReactive` 的取舍要明确。
+- 组合式 API 下要避免“解构丢失响应式引用”问题。
+
+### 4) 兼容性与工程影响
+
+- Vue3 不支持 IE11，是架构层面的兼容决策。
+- 响应式更强并不代表性能自动更好，仍要控制无效依赖。
 
 ## 对比与取舍
 
-- defineProperty vs Proxy
-  - defineProperty：兼容性更广；缺点是初始化成本高、覆盖面受限
-  - Proxy：覆盖完整、表达自然、可懒代理；缺点是老环境不支持且不可完全 polyfill
+- Vue2：兼容历史包袱多，边界处理成本高。
+- Vue3：模型更统一，迁移有收益但有学习和改造成本。
+- 实际项目常采用“关键路径先迁移、逐步替换”的策略。
 
 ## 实践与验证
 
-业务例子：后端返回 user，对象上动态加 `isSelected`
-- Vue2：需要 `Vue.set(user, "isSelected", true)` 或 `user = { ...user, isSelected: true }`
-- Vue3：`user.isSelected = true`（前提 user 是 reactive 代理）
-
-排障：
-- Vue3 中改了“原始对象”而不是代理对象，不会触发更新
-
-## 追问
-
-- 为什么 Proxy 不能被 polyfill？
-- Reflect 在 Proxy 里有什么意义？
-- Vue2 为什么数组要额外处理？
-
-## 易错点
-
-- 把“是否响应式”当成“对象本身的属性”，忽略了代理对象与原始对象的差别
+- 对核心页面做行为快照，迁移前后对比响应式更新是否一致。
+- 建立“易失效点”清单：新增属性、数组操作、解构引用。
+- 监控关键交互的渲染次数，避免迁移后无效更新增多。
 
 ## 业务举例
 
-- 场景：老项目从 Vue2 逐步迁移 Vue3，担心响应式行为变化引发回归。
-- 做法：先识别依赖 `Vue.set/数组下标` 的代码点，再按 Proxy 语义逐步替换并回归关键页面。
-- 验证：迁移后新增属性和数组更新行为稳定，核心交互无响应式失效问题。
+### 背景与约束
+
+- 老项目部分模块从 Vue2 迁移到 Vue3，担心响应式行为变化导致回归。
+- 业务要求分阶段上线，不能一次性全量重写。
+- 团队对组合式 API 熟悉度不一致。
+
+### 方案与取舍
+
+- 先盘点依赖 `Vue.set`、数组下标写入等高风险代码点。
+- 关键模块优先迁移，低风险模块延后。
+- 通过统一编码规范限制解构导致的响应式丢失。
+
+### 实施与验证
+
+- 对迁移模块补响应式边界测试。
+- 灰度阶段记录页面渲染次数和交互错误率。
+- 通过 code review checklist 强化高风险场景检查。
+
+### 结果与复盘
+
+- 核心模块迁移后响应式行为稳定，回归问题可控。
+- 复盘发现主要问题集中在“解构后失去响应式”，后续通过 `toRefs` 规范收敛。
+- 结论：Vue2/3 差异要从拦截模型讲，迁移要从边界清单管控。
 
 ## 面试口述版（60-90秒）
 
-Vue2 用 `defineProperty` 按 key 劫持，新增属性和数组下标这类场景有天然边界；Vue3 用 Proxy 拦截对象级操作，覆盖面更完整，对动态结构更友好。面试里我会强调不是“谁先进”，而是边界和迁移成本：Vue2 项目要靠 `Vue.set` 等补丁，Vue3 则更自然但要注意代理对象与原始对象比较等细节。验证上我会给新增属性和数组修改的最小例子对比。
+Vue2 和 Vue3 响应式的核心差异是拦截模型。Vue2 用 `defineProperty` 对已有属性做劫持，所以新增属性和数组边界要额外处理；Vue3 用 `Proxy` 代理对象，能更完整拦截读写和删除，行为更自然，也支持按访问懒代理。面试里我会补迁移视角：差异不仅是 API 改名，真正风险在边界，比如 `Vue.set` 依赖、数组写法和解构丢失响应式。我做过分阶段迁移，靠高风险清单和边界测试把回归控制住。
+
+## 追问
+
+- 为什么 Vue2 新增属性默认不响应？
+- Vue3 里何时该用 `ref`，何时用 `reactive`？
+- `toRefs` 的作用是什么，不用会怎样？
+- 迁移中如何量化“响应式行为没有退化”？
+
+## 易错点
+
+- 把差异只讲成“写法变化”，不讲拦截模型。
+- 忽视解构导致的响应式丢失。
+- 迁移时没有高风险边界清单，回归失控。

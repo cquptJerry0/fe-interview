@@ -7,75 +7,113 @@ difficulty: 4
 
 ## 一句话结论
 
-函数组件每次渲染都会重新执行，Hooks 之所以能“记住状态”，是因为 React 在 fiber 上维护一条 hook 状态链表并用游标按调用顺序取用；因此 hooks 只能在组件/自定义 hook 顶层调用，不能放在 if/loop/嵌套函数里，否则调用顺序变化会导致状态错位。
+Hooks 的状态不是靠变量名识别，而是靠“调用顺序”定位。React 在 Fiber 上维护 hooks 状态链表，渲染时按顺序读取；一旦你把 hook 放进 `if/loop` 导致顺序变化，就会状态错位。规则本质是“保证调用序稳定”。
 
 ## 技术解释
 
-底层模型（代码层原理）：
-- 每个组件对应一个 fiber
-- fiber 上有一条 hooks 链表（或等价结构），每个节点保存一次 hook 的状态（state/effect deps 等）
-- 渲染开始时游标指向头节点；每执行一个 hook，取当前节点并游标后移
+### 1) Fiber 上的 hooks 存储模型
+
+- 每个函数组件对应一个 Fiber。
+- Fiber 上记录 hooks 链表（或等价结构）。
+- 渲染开始时内部游标从头遍历，每调用一个 hook 游标前进一次。
 
 ```text
-Fiber
-  └─ memoizedState -> Hook1 -> Hook2 -> Hook3 -> null
-                         ↑       ↑
-                     useState  useEffect
+Fiber.memoizedState
+  -> Hook(useState)
+  -> Hook(useEffect)
+  -> Hook(useMemo)
 ```
 
-为什么 if 会错位（最小反例）：
+### 2) 为什么 `if` 会出错
 
 ```js
-function C({ flag }) {
-  if (flag) useState("A"); // 有时调用
-  useState("B");           // 永远调用
+function Demo({ flag }) {
+  if (flag) {
+    useState(0);
+  }
+  useEffect(() => {}, []);
 }
 ```
 
-- flag=true：hook 序列是 [A, B]
-- flag=false：hook 序列是 [B]
-React 仍按“第 1 个 hook / 第 2 个 hook”去取状态，导致 B 读到原来 A 的位置，出现状态串台。
+- `flag=true` 时，第一个 hook 是 `useState`。
+- `flag=false` 时，第一个 hook 变成 `useEffect`。
+- React 仍按“第 N 个 hook”取状态，最终读写错位。
 
-正确写法：
-- hook 顶层调用，把条件放到 hook 内部逻辑
-- 或拆组件保证每个组件的 hook 序列固定
+### 3) 正确写法
 
-## 图解
+- hooks 必须在组件顶层调用。
+- 条件分支放进 hook 内部。
+- 复杂分支可拆子组件或自定义 hook。
 
-```text
-调用顺序 = hooks 身份
-顺序不稳定 -> 游标错位 -> state/effect 绑定错
+```js
+const value = useMemo(() => {
+  if (!flag) return null;
+  return compute(flag);
+}, [flag]);
 ```
+
+### 4) Rules of Hooks 的两条核心规则
+
+- 只在 React 函数组件或自定义 hook 中调用。
+- 只在顶层调用，不在循环、条件、嵌套函数里调用。
+
+### 5) 相关追问点
+
+- `useEffect` 依赖数组不是“优化项”，而是副作用同步边界。
+- `useRef` 不触发渲染，适合持有可变引用。
+- 闭包陷阱与 hooks 结合时要关注 stale closure。
 
 ## 对比与取舍
 
-- 条件调用 hook vs 拆组件
-  - 条件调用：不可用（顺序不稳定）
-  - 拆组件：每个组件 hooks 固定，语义清晰；缺点是组件数增加，但更可维护
+- 条件 hook：写起来看似直观，但稳定性极差。
+- 顶层 hook + 内部分支：语义稍绕，但可预测性高。
+- 拆子组件：结构更清晰，代价是组件边界增加。
 
 ## 实践与验证
 
-- DevTools/排障：
-  - 遇到“状态莫名串台/某个 effect 对不上依赖”，先检查 hooks 是否在条件/循环/嵌套函数里
-  - 开启 eslint rules-of-hooks 可以静态阻止高危写法
-
-## 追问
-
-- Hooks 能在普通函数/事件回调里调用吗？为什么？
-- 自定义 hook 为什么也必须顶层？
-- `use` 前缀除了约定还有什么作用（lint 静态分析）？
-
-## 易错点
-
-- 在事件回调里调用 hook（它不是 render 过程）
-- 用随机 key 或频繁卸载组件导致“看似 hooks 失效”（其实是组件重挂载）
+- 开启 `eslint-plugin-react-hooks`，把规则违规设为 error。
+- 对复杂组件写渲染路径测试，覆盖关键条件组合。
+- 对异步副作用使用取消机制，避免卸载后更新状态。
 
 ## 业务举例
 
-- 场景：复杂组件里把 hook 放进条件分支后，线上出现状态错位。
-- 做法：重构为顶层固定调用，条件逻辑移入 hook 内部或拆分子组件。
-- 验证：eslint rules-of-hooks 零告警，相关状态错位 bug 消失。
+### 背景与约束
+
+- 复杂表单组件中根据权限条件动态调用 hooks，线上出现状态串台。
+- 问题隐蔽，只在某些角色切换路径触发。
+- 需要快速修复且不影响已有交互。
+
+### 方案与取舍
+
+- 把所有 hooks 提升到顶层，条件逻辑下沉到 hook 内部。
+- 将权限分支拆分为子组件，减少单组件状态复杂度。
+- 保留 lint 规则强约束，防止回归。
+
+### 实施与验证
+
+- 补齐角色切换路径单测，覆盖状态读写一致性。
+- 使用 React DevTools 检查 hooks 顺序稳定。
+- 灰度观察错误日志与状态异常反馈。
+
+### 结果与复盘
+
+- 状态错位问题消失，组件行为恢复稳定。
+- 复盘确认根因是“顺序依赖被条件分支破坏”。
+- 后续把“复杂分支优先拆组件”纳入规范。
 
 ## 面试口述版（60-90秒）
 
-Hooks 规则的本质是调用顺序稳定：React 在 fiber 上按顺序读取 hook 状态链，顺序一变就会状态错位。所以 hooks 只能在组件或自定义 hook 顶层调用，不能放在 if/loop/回调里。正确做法是把条件写进 hook 内部，或者拆分子组件让调用序列稳定。排障时我会结合 rules-of-hooks lint 和最小反例定位问题。
+Hooks 不能放在 `if/loop` 里的根因是 React 通过调用顺序定位 hook 状态，而不是通过名字。每次渲染 React 都会按顺序遍历 Fiber 上的 hook 链表，顺序一变就会读错状态，所以规则要求 hooks 必须在顶层调用。我的实践是把条件放进 hook 内部，或者直接拆子组件，再配合 eslint 规则做强约束。线上我处理过一次条件 hook 导致状态串台的问题，重构后通过路径测试和灰度验证稳定上线。
+
+## 追问
+
+- 为什么 hooks 不能在普通函数里调用？
+- stale closure 在 hooks 里怎么产生，如何规避？
+- `useEffect` 依赖漏写会导致什么问题？
+- 复杂组件什么时候该拆 hook，什么时候该拆子组件？
+
+## 易错点
+
+- 把 Rules of Hooks 当成语法限制，而非状态定位机制。
+- 为了“少写几行”把 hooks 放进条件分支。
+- 忽视副作用清理导致卸载后更新警告。
