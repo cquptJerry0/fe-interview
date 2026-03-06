@@ -34,6 +34,7 @@ description: 前端面试训练主编排（拆题、路由、训练、编程题�
 - 工程化题：Webpack/Vite/构建链路
 - React 深挖：Hooks/渲染机制/性能
 - 跨栈速学：Go/服务端/Agent 开发
+- 满分答案按题型路由：八股/场景/开放/手写/项目复盘（由 `answer-coaching` 内部处理）
 
 ## 统一约束
 

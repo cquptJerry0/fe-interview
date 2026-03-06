@@ -7,116 +7,114 @@ difficulty: 4
 
 ## 一句话结论
 
-图片懒加载的本质是“延迟设置真实 `src`”，现代浏览器优先用 `IntersectionObserver` 观察元素进入视口（含 `rootMargin` 预加载），老浏览器退化为 `scroll/resize` 监听 + rAF/节流 + `getBoundingClientRect` 判断，并在滚动监听中使用 `{ passive: true }` 避免阻塞滚动。
+图片懒加载本质是“延迟触发真实资源请求”。现代浏览器优先用 `IntersectionObserver` 观察元素进入预加载区，再把 `data-src` 赋给 `src`；老浏览器退化为 `scroll/resize + rAF + getBoundingClientRect`。真正做对这题的关键不是 API 名字，而是预加载窗口、失败兜底、可观测指标。
 
-## 解释（从零到一）
+## 技术解释
 
-最底层视角：浏览器只会在 `img.src` 被赋值后才发起图片网络请求（或从缓存命中）。懒加载做的事就是把真实地址先放在 `data-src`，等“接近可见”再把 `data-src` 赋给 `src`。
+### 1) 懒加载的本质
 
-IntersectionObserver（IO）是什么：
-- 一个浏览器 API：`new IntersectionObserver(callback, options)`
-- callback 入参是 `entries`，每个 entry 代表一个被观察的 target 当前的相交状态
-- options 常用参数：
-  - `root`：滚动容器（不传就是 viewport）
-  - `rootMargin`：提前量（预加载），例如底部提前 200px 触发
-  - `threshold`：相交比例阈值（0/0.1/1）
+- 浏览器只有在 `img.src` 确认后才会发起该资源请求。
+- 懒加载就是把真实地址先放在 `data-src`，等元素接近可视区再赋值到 `src`。
+- 如果是现代项目，还可以叠加原生 `loading="lazy"` 作为基础能力，再用 IO 做更精细控制。
 
-最小例子（IO）：
+### 2) IntersectionObserver 的工作模型
+
+- 你注册观察目标：`io.observe(target)`。
+- 浏览器在布局变化和滚动过程中计算相交关系。
+- 满足阈值时触发 callback，返回 `entries`。
+- 命中后立即 `unobserve`，避免重复处理。
 
 ```js
 const io = new IntersectionObserver(
   (entries) => {
-    for (const e of entries) {
-      if (!e.isIntersecting) continue;
-      const img = e.target;
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      const img = entry.target;
       img.src = img.dataset.src;
+      img.removeAttribute("data-src");
       io.unobserve(img);
-    }
+    });
   },
-  { root: null, rootMargin: "0px 0px 200px 0px", threshold: 0 }
+  {
+    root: null,
+    rootMargin: "0px 0px 200px 0px",
+    threshold: 0,
+  }
 );
 
 document.querySelectorAll("img[data-src]").forEach((img) => io.observe(img));
 ```
 
-兼容退化（不支持 IO）：
-- 监听 `scroll/resize` 触发检查
-- 用 `requestAnimationFrame` 把多次滚动合并到一帧检查
-- 用 `getBoundingClientRect()` 判断元素是否进入“预加载区域”
+### 3) 关键参数怎么讲才像工程实践
 
-最小例子（退化版）：
+- `root`：滚动容器，不传就是 viewport。很多“IO 不触发”的线上问题都来自 root 设错。
+- `rootMargin`：预加载窗口。图片类场景通常给底部提前量（如 200px~400px），平衡“白屏风险”和“请求提前过多”。
+- `threshold`：相交比例阈值。懒加载通常 `0` 足够；曝光统计才会用更高阈值。
 
-```js
-function inPreloadArea(el, preloadPx = 200) {
-  const rect = el.getBoundingClientRect();
-  return rect.top < window.innerHeight + preloadPx && rect.bottom > -preloadPx;
-}
+### 4) 兼容退化策略
 
-function makeLazyloadFallback(images) {
-  let ticking = false;
-  const onScroll = () => {
-    if (ticking) return;
-    ticking = true;
-    requestAnimationFrame(() => {
-      ticking = false;
-      for (const img of images) {
-        if (img.dataset.src && inPreloadArea(img)) {
-          img.src = img.dataset.src;
-          img.removeAttribute("data-src");
-        }
-      }
-    });
-  };
+- 检测 `window.IntersectionObserver`。
+- 不支持时用 `scroll/resize` 监听，配合 `requestAnimationFrame` 合帧，避免每次 scroll 都做重计算。
+- 滚动监听加 `{ passive: true }`，减少滚动阻塞风险。
 
-  window.addEventListener("scroll", onScroll, { passive: true });
-  window.addEventListener("resize", onScroll);
-  onScroll();
-}
+### 5) 失败与异常处理
 
-const imgs = Array.from(document.querySelectorAll("img[data-src]"));
-makeLazyloadFallback(imgs);
-```
-
-`passive: true` 是什么：
-- `addEventListener` 的选项，表示监听器不会调用 `preventDefault()`
-- 浏览器因此可以不等待回调执行就开始滚动，减少卡顿
-- 代价：你不能在该监听器里 `preventDefault()` 来阻止滚动
-
-## 图解
-
-```text
-HTML 初始：
-<img data-src="real.jpg" src="placeholder.jpg" />
-
-触发条件：
-元素进入（或接近）视口
-
-执行动作：
-img.src = img.dataset.src  -> 浏览器发起 real.jpg 请求
-unobserve / 移除 data-src  -> 避免重复处理
-```
+- 首次加载失败要有占位兜底图，避免破图。
+- 图片请求超时或 4xx/5xx 要打日志，不能只在 UI 层静默失败。
+- SSR 场景要保证首屏关键图可直接请求，不要全部延迟。
 
 ## 对比与取舍
 
-- IntersectionObserver vs scroll 监听
-  - IO：回调由浏览器调度、低侵入、性能更稳；缺点是老浏览器不支持
-  - scroll：兼容性好；缺点是需要自己控频、容易造成滚动卡顿与边界 bug
+- IO vs scroll 监听：IO 更省心更稳；scroll 兼容更广但维护成本高。
+- `loading="lazy"` vs 自定义 IO：原生实现简单；自定义 IO 可做预加载窗口与埋点控制。
+- 预加载窗口大 vs 小：窗口大体验更稳但请求提前；窗口小省流量但容易出现滚动到位仍未完成加载。
 
 ## 实践与验证
 
-- Network 验证：滚动前不应看到真实图片 URL 请求；接近视口（受 rootMargin 影响）时才出现请求
-- Performance 验证：滚动时主线程不出现密集长任务；退化版应在 rAF 中批量处理而不是每个 scroll 都跑重逻辑
-- 线上排障：如果图片不加载，先看 target 是否被 observe、root 是否为实际滚动容器、rootMargin/threshold 是否设置错误
+- Network：确认非首屏图请求在接近视口时才出现。
+- Performance：滚动过程中长任务数量下降，主线程卡顿减少。
+- RUM：记录图片加载成功率、首屏完成时间、滚动到图可见时的加载命中率。
 
-## 常见追问
+## 业务举例
 
-- entries 里最关注哪些字段？
-- root 与 rootMargin 的差别是什么？如何做“预加载”？
-- 为什么 scroll 监听要加 `{ passive: true }`？
-- 老浏览器怎么兜底？怎么避免滚动卡顿？
+### 背景与约束
+
+- 首页信息流包含 80+ 张封面图，弱网下首屏白屏和卡顿投诉高。
+- 业务要求两周内上线优化，不能改接口结构。
+- 兼容约束：仍需支持一部分旧浏览器。
+
+### 方案与取舍
+
+- 现代浏览器主链路用 IO，`rootMargin` 设为 300px 做预加载。
+- 老浏览器退化成 `scroll + rAF`，并限制单帧处理图片数量。
+- 首屏前 6 张关键图不懒加载，保证首屏稳定。
+
+### 实施与验证
+
+- 增加埋点：图片首次可见时间、首次请求时间、加载耗时。
+- 灰度 20% 流量，观察首屏和滚动阶段长任务。
+- 补充异常兜底：加载失败替换默认图并上报 URL 与错误码。
+
+### 结果与复盘
+
+- 首屏阶段图片请求数显著下降，滚动卡顿投诉减少。
+- 图片“可见但未加载完成”的问题在低端机仍存在，后续按机型动态调整 `rootMargin`。
+- 结论：懒加载不是简单延迟请求，核心是“预加载窗口 + 兼容 + 可观测”。
+
+## 面试口述版（60-90秒）
+
+图片懒加载我会先讲本质：延迟设置真实 `src`，让浏览器在元素接近可视区时才请求资源。实现上现代浏览器优先用 `IntersectionObserver`，我会重点提 `root`、`rootMargin`、`threshold` 三个参数，尤其 `rootMargin` 用来做提前加载。命中后要 `unobserve`，避免重复触发。兼容上我会提供 `scroll/resize + rAF + getBoundingClientRect` 的降级方案，并在滚动监听里用 `passive: true`。落地时不会只讲代码，我会给验证方法：看 Network 是否按预期延迟请求、看 Performance 滚动长任务是否下降、看线上埋点的图片加载成功率与可见时延。
+
+## 追问
+
+- 如果页面是内部滚动容器，不是 window，IO 该怎么配？
+- 懒加载和首屏体验冲突时，如何决定哪些图片不懒加载？
+- `loading="lazy"` 和 IO 应该怎么组合，而不是二选一？
+- 线上出现“图片偶尔不加载”时，你会优先检查哪三件事？
+- 如何给低端机和弱网做差异化 `rootMargin` 策略？
 
 ## 易错点
 
-- 忘了 `unobserve` 或移除 `data-src`，导致反复触发与重复赋值
-- 滚动容器不是 window（例如一个内部滚动 div），却没传 `root`，导致永远不触发
-- 退化版在 scroll 里直接做大量 DOM 查询/布局读取，导致滚动明显卡顿
+- 忘记 `unobserve`，造成重复赋值和重复回调。
+- 把所有图片都懒加载，反而拖慢首屏关键内容。
+- 没有失败兜底图和日志，线上问题难以定位。

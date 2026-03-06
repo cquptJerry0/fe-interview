@@ -9,7 +9,7 @@ difficulty: 5
 
 Git 的底层是“对象数据库 + 指针系统”：commit 指向 tree（目录快照）与 parent，branch 是指向 commit 的 ref，HEAD 表示当前检出位置；merge 生成一个有两个 parent 的合并提交并移动分支指针，rebase 在新基底上重放提交生成新 commit（hash 变化）；stash 不是新区，是 `refs/stash` 指向的一组保存对象。
 
-## 解释（从零到一）
+## 技术解释
 
 先从“人类只看得到文件/目录”映射到 Git：
 
@@ -94,7 +94,7 @@ refs/stash       -> stashCommit(S0) -> S1 -> ...
   - rebase 后推送用 `--force-with-lease`，避免误覆盖别人提交
   - stash 跨分支 apply 可能冲突，优先 `apply` 确认再 `drop`
 
-## 常见追问
+## 追问
 
 - 为什么 rebase 会改 hash？hash 里包含了什么？
 - merge 冲突和 rebase 冲突处理体验差异？
@@ -104,3 +104,13 @@ refs/stash       -> stashCommit(S0) -> S1 -> ...
 
 - 对公共分支 rebase 并 force push，导致团队历史错乱
 - 把 stash 当成“安全长期存储”，最后忘记清理或难以追踪来源
+
+## 业务举例
+
+- 场景：多人并行开发时需要保持主干稳定、分支历史可读。
+- 做法：公共分支以 merge 为主，个人分支整理历史时用 rebase；临时切任务用 stash 短暂保存。
+- 验证：主干无强推事故；MR 历史清晰；stash 使用后及时清理并可回溯来源。
+
+## 面试口述版（60-90秒）
+
+我会先讲底层：Git 是对象库加指针系统，branch 和 HEAD 本质是指向 commit 的引用。`merge` 是生成一个双 parent 的合并提交，不改已有历史；`rebase` 是在新基底重放提交，会产生新 commit hash。团队协作上公共分支优先 merge，个人分支可 rebase，但推送时用 `--force-with-lease`。`stash` 是 `refs/stash` 的临时保存，不是长期存储，跨分支 apply 要预期冲突。

@@ -1,20 +1,20 @@
 {"date":"2026-03-03","tag":"js.event-loop.microtask","delta":0,"evidence":"初始化画像样例","session":"2026-03-03-第1次-示例"}
-{"date":"2026-03-06","tag":"browser.api.intersection-observer","delta":1,"evidence":"新学：完成满分回答与验证路径","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"browser.performance.lazyload","delta":1,"evidence":"新学：补齐兼容兜底与排障","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"css.overflow.ellipsis","delta":1,"evidence":"新学：单行/多行与 flex 生效条件","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"security.sop","delta":1,"evidence":"新学：同源策略攻击模型口述","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"security.cors","delta":1,"evidence":"新学：CORS 头/预检/凭证配置","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"js.closure","delta":1,"evidence":"新学：闭包与泄漏排查思路","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"js.debounce","delta":1,"evidence":"新学：防抖语义与场景","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"js.throttle","delta":1,"evidence":"新学：节流与 rAF 节流","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"network.request.race","delta":1,"evidence":"新学：abort/序号治理乱序","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"dom.event.propagation","delta":1,"evidence":"新学：捕获/冒泡与排障路径","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"dom.event.delegate","delta":1,"evidence":"新学：closest 委托写法与边界","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"git.merge.rebase","delta":1,"evidence":"新学：选择规则与协作风险","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"git.stash","delta":1,"evidence":"新学：refs/stash 与跨分支 apply 风险","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"react.hooks.rules","delta":1,"evidence":"新学：Rules of Hooks 与替代写法","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"react.hooks.internal","delta":1,"evidence":"待复习：hook 链表/游标口述","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"vue.reactivity.proxy","delta":1,"evidence":"新学：Proxy trap 覆盖面","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"vue.reactivity.defineproperty","delta":1,"evidence":"新学：defineProperty 边界","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"vdom.diff.key","delta":1,"evidence":"新学：index key 状态错位","session":"2026-03-06-第1次-字节跳动-一面"}
-{"date":"2026-03-06","tag":"career.stack.choice","delta":1,"evidence":"新学：技术栈偏好表达 SOP","session":"2026-03-06-第1次-字节跳动-一面"}
+{"date":"2026-03-06","tag":"browser.api.intersection-observer","delta":1,"evidence":"新学：完成满分回答与验证路径","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"browser.performance.lazyload","delta":1,"evidence":"新学：补齐兼容兜底与排障","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"css.overflow.ellipsis","delta":1,"evidence":"新学：单行/多行与 flex 生效条件","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"security.sop","delta":1,"evidence":"新学：同源策略攻击模型口述","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"security.cors","delta":1,"evidence":"新学：CORS 头/预检/凭证配置","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"js.closure","delta":1,"evidence":"新学：闭包与泄漏排查思路","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"js.debounce","delta":1,"evidence":"新学：防抖语义与场景","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"js.throttle","delta":1,"evidence":"新学：节流与 rAF 节流","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"network.request.race","delta":1,"evidence":"新学：abort/序号治理乱序","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"dom.event.propagation","delta":1,"evidence":"新学：捕获/冒泡与排障路径","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"dom.event.delegate","delta":1,"evidence":"新学：closest 委托写法与边界","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"git.merge.rebase","delta":1,"evidence":"新学：选择规则与协作风险","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"git.stash","delta":1,"evidence":"新学：refs/stash 与跨分支 apply 风险","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"react.hooks.rules","delta":1,"evidence":"新学：Rules of Hooks 与替代写法","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"react.hooks.internal","delta":1,"evidence":"待复习：hook 链表/游标口述","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"vue.reactivity.proxy","delta":1,"evidence":"新学：Proxy trap 覆盖面","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"vue.reactivity.defineproperty","delta":1,"evidence":"新学：defineProperty 边界","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"vdom.diff.key","delta":1,"evidence":"新学：index key 状态错位","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}
+{"date":"2026-03-06","tag":"career.stack.choice","delta":1,"evidence":"新学：技术栈偏好表达 SOP","session":"2026-03-06-第1次-字节跳动-交易与广告-一面"}

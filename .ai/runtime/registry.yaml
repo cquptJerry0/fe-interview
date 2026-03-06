@@ -9,6 +9,14 @@ capabilities:
     templates:
       - .ai/templates/01-标准回答.template.md
       - .ai/templates/02-追问脚本.template.md
+    strategy_references:
+      - .ai/references/answer-strategies/01-八股题攻略.md
+      - .ai/references/answer-strategies/02-场景题攻略.md
+      - .ai/references/answer-strategies/03-开放题攻略.md
+      - .ai/references/answer-strategies/04-手写题攻略.md
+      - .ai/references/answer-strategies/05-项目复盘攻略.md
+    routing:
+      by_question_type: true
     policy: .ai/policies/02-评分标准与维度.md
   coding-exercise:
     path: .ai/capabilities/coding-exercise.capability.md
