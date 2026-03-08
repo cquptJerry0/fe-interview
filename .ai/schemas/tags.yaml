@@ -102,3 +102,21 @@ tags:
   vue.ecosystem:
     name: Vue 生态与工程实践
     keywords: ["Vue", "响应式", "组件", "生态"]
+  network.http.cache:
+    name: HTTP 缓存
+    keywords: ["强缓存", "协商缓存", "ETag", "Cache-Control", "Last-Modified"]
+  react.effect.dependencies:
+    name: useEffect 依赖比较与重跑
+    keywords: ["useEffect", "依赖数组", "浅比较", "Object.is", "重跑"]
+  react.effect.layout:
+    name: useEffect 与 useLayoutEffect 时机
+    keywords: ["useLayoutEffect", "useEffect", "执行时机", "同步", "异步"]
+  react.effect.timer:
+    name: React 定时器副作用
+    keywords: ["定时器", "setInterval", "cleanup", "effect", "倒计时"]
+  algo.hashmap:
+    name: 哈希表题型
+    keywords: ["哈希表", "Map", "补数", "两数之和"]
+  ui.component.countdown:
+    name: 倒计时组件
+    keywords: ["倒计时", "组件题", "onFinish", "targetMs"]

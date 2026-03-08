@@ -1,9 +1,14 @@
-version: 1
+version: 2
 paths:
-  content_raw: 01-内容库/01-原始题单
-  content_knowledge: 01-内容库/02-知识条目
-  content_code_demo: 01-内容库/03-编程与Demo
-  records_profile: 02-训练记录/01-熟练度画像/profile.yaml
-  records_sessions: 02-训练记录/02-训练会话
-  records_logs: 02-训练记录/03-归档日志（可统计）/mastery-history.jsonl
-  nav_root: 03-导航
+  raw_input: 01-面经输入
+  raw_company: 01-面经输入/01-公司面经
+  raw_topics: 01-面经输入/02-专题题单
+  sessions_active: 02-训练会话/01-进行中
+  sessions_archive: 02-训练会话/02-已归档
+  knowledge_root: 03-题库
+  answer_cards: 03-题库/02-标准答案
+  coding_cards: 03-题库/03-编程题
+  demos: 03-题库/04-实践Demo
+  profile: 04-画像与复习/01-熟练度画像/profile.yaml
+  review_index: 04-画像与复习/02-复习索引
+  archive_log: 04-画像与复习/03-归档日志/mastery-history.jsonl

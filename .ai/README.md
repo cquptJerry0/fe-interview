@@ -1,19 +1,26 @@
 # .ai
 
-`.ai/` 是仓库的 AI 运行时配置目录，包含编排、能力、策略、模板与 schema。
+这里不再放一堆 playbook / capability / policy。
 
-内容约束：
-- 只放运行时资产（playbooks/capabilities/policies/templates/schemas/runtime）
-- 不放题库、知识条目、训练记录等业务数据
+`.ai/` 现在只保留 4 类东西：
 
-目录说明：
-- `playbooks/`：场景编排（训练主流程、归档复盘）
-- `capabilities/`：原子能力（解析路由、回答训练、编程题、归档同步）
-- `policies/`：统一规范（风格/命名/评分）
-- `templates/`：输出模板
-- `schemas/`：结构化 schema 与 tag 词表
-- `runtime/`：工作流、能力注册、路径别名（单一真相源）
+- 流程：怎么从面经输入走到训练、建档、归档
+- 规则：单题回答、编程题、归档和统一质量门槛
+- 模板：真正会被复用的少量模板
+- 路径与 tag：路径别名、tag 词表
 
-维护建议：
-- 优先在 `runtime/` 与 `policies/` 做收敛，减少重复规则
-- 修改后使用仓库根目录 `验收用例.md` 回归
+## 建议阅读顺序
+
+1. `01-训练总流程.md`
+2. `02-单题SOP.md`
+3. `03-编程题SOP.md`
+4. `04-归档与画像SOP.md`
+5. `05-统一规则.md`
+
+## 目录说明
+
+- `runtime/paths.yaml`：仓库路径别名
+- `schemas/tags.yaml`：统一 tag 词表
+- `templates/`：少量高频模板
+
+原则：少文件、少跳转、少重复。
