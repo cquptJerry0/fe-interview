@@ -45,6 +45,12 @@ tags:
   js.memory.leak:
     name: 前端内存泄漏（常见路径）
     keywords: ["内存泄漏", "事件监听", "定时器", "引用链", "heap snapshot"]
+  js.this.binding:
+    name: this 绑定与调用方式
+    keywords: ["this", "箭头函数", "普通函数", "call", "apply", "bind"]
+  js.execution.context:
+    name: 执行上下文与词法环境
+    keywords: ["执行上下文", "词法环境", "变量环境", "LexicalEnvironment", "VariableEnvironment"]
   js.debounce:
     name: 防抖（debounce）
     keywords: ["debounce", "输入框", "延迟", "timer"]
