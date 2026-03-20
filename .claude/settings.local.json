@@ -1,0 +1,9 @@
+{
+  "enabledMcpjsonServers": [
+    "byted-context7",
+    "lynx-docs",
+    "lynx-devtool",
+    "playwright",
+    "capcut_devops_mr_context"
+  ]
+}
