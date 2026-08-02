@@ -27,23 +27,23 @@ description: 回答单道面试题，按题型生成可背答案稿，并判断�
 
 简单题：
 
-- `[simple-question.md](/Users/bytedance/Projects/personal/面试/.ai/skills/02-answer-question/references/simple-question.md)`
+- `[simple-question.md](references/simple-question.md)`
 
 代码输出题：
 
-- `[code-output.md](/Users/bytedance/Projects/personal/面试/.ai/skills/02-answer-question/references/code-output.md)`
+- `[code-output.md](references/code-output.md)`
 
 系统专题题：
 
-- `[deep-topic.md](/Users/bytedance/Projects/personal/面试/.ai/skills/02-answer-question/references/deep-topic.md)`
+- `[deep-topic.md](references/deep-topic.md)`
 
 项目题：
 
-- `[project-story.md](/Users/bytedance/Projects/personal/面试/.ai/skills/02-answer-question/references/project-story.md)`
+- `[project-story.md](references/project-story.md)`
 
 编程题：
 
-- `[coding-question.md](/Users/bytedance/Projects/personal/面试/.ai/skills/02-answer-question/references/coding-question.md)`
+- `[coding-question.md](references/coding-question.md)`
 
 ## 统一输出要求
 

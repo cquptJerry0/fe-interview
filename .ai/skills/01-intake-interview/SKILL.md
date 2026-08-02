@@ -35,11 +35,11 @@ description: 读取一篇面经，抽取题目清单，判断哪些题直接写�
 
 只在需要判断题目归档位置时，读取：
 
-- `[routing-rules.md](/Users/bytedance/Projects/personal/面试/.ai/skills/01-intake-interview/references/routing-rules.md)`
+- `[routing-rules.md](references/routing-rules.md)`
 
 只在需要落盘或重写面经正文时，读取：
 
-- `[archive-format.md](/Users/bytedance/Projects/personal/面试/.ai/skills/01-intake-interview/references/archive-format.md)`
+- `[archive-format.md](references/archive-format.md)`
 
 ## 输出要求
 
