@@ -1,0 +1,4 @@
+interface:
+  display_name: "简历项目描述定稿"
+  short_description: "将已成立的项目故事生产为可直接落盘、投递和支撑追问的最终简历描述"
+  default_prompt: "使用 $finalize-resume-entry 冻结项目主张与贡献结构，完成信息取舍，并生产可直接投递的中文简历项目描述。"

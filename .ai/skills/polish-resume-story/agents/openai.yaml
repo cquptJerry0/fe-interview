@@ -1,4 +1,0 @@
-interface:
-  display_name: "简历技术故事编排"
-  short_description: "从项目主语到技术钩子，编排架构难点、设计心智与结果证据"
-  default_prompt: "使用 $polish-resume-story 将项目素材编排成逻辑清晰、有架构深度和面试钩子的中文简历描述。"
