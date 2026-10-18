@@ -1,0 +1,188 @@
+[
+  {
+    "tag": "h1",
+    "id": null,
+    "text": "2. VIMO 开放能力建设",
+    "xml": "<h1>2. VIMO 开放能力建设</h1>\n"
+  },
+  {
+    "tag": "h2",
+    "id": null,
+    "text": "2.1 背景",
+    "xml": "<h2>2.1 背景</h2>\n"
+  },
+  {
+    "tag": "p",
+    "id": null,
+    "text": "VIMO 素材管理平台承接剪映、醒图等业务的素材入库、管理与分发。运营需要批量查询和配置，特效生产服务需要程序化入库；随着 Agent 进入运营场景，已有页面能力也需要提供程序入口。",
+    "xml": "<p>VIMO 素材管理平台承接剪映、醒图等业务的素材入库、管理与分发。运营需要批量查询和配置，特效生产服务需要程序化入库；随着 Agent 进入运营场景，已有页面能力也需要提供程序入口。</p>\n"
+  },
+  {
+    "tag": "table",
+    "id": null,
+    "text": "业务诉求已有基础建设方向任务经常改变对象、数量与操作组合，逐项操作耗时，专用入口和脚本需反复开发。已有业务服务和部分 OpenAPI，但覆盖不足，调用需自行签名、人工授权。开放存量功能，面向 Agent 补充批量操作，配套权限、CLI 与 Skill，支持后续运营工作流。",
+    "xml": "<table><colgroup><col width=\"325\" /><col width=\"325\" /><col width=\"330\" /></colgroup><thead><tr><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">业务诉求</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">已有基础</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">建设方向</span></b></p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p>任务经常改变对象、数量与操作组合，逐项操作耗时，专用入口和脚本需反复开发。</p></td><td vertical-align=\"top\"><p>已有业务服务和部分 OpenAPI，但覆盖不足，调用需自行签名、人工授权。</p></td><td vertical-align=\"top\"><p>开放存量功能，面向 Agent 补充批量操作，配套权限、CLI 与 Skill，支持后续运营工作流。</p></td></tr></tbody></table>\n"
+  },
+  {
+    "tag": "p",
+    "id": null,
+    "text": "本人负责能力扩展、授权组件、客户端完善及交付配套，复用团队已有 OpenAPI、初始 CLI、接口生成与审批基础。",
+    "xml": "<p>本人负责能力扩展、授权组件、客户端完善及交付配套，复用团队已有 OpenAPI、初始 CLI、接口生成与审批基础。</p>\n"
+  },
+  {
+    "tag": "h2",
+    "id": null,
+    "text": "2.2 产出",
+    "xml": "<h2>2.2 产出</h2>\n"
+  },
+  {
+    "tag": "callout",
+    "id": null,
+    "text": "开放覆盖：素材契约覆盖 8 类业务、61 个方法；vimocli 承接 VIMO、CCC、MIS、QA 等系统。业务采用：支持运营批处理、特效生产及 Agent 接入，万级分类整理由人工 1 天缩短至 AI 15 分钟。公共复用：鉴权包接入 5 个模块，凭证工具复用于自测、BPM 与云端 Agent。持续交付：沉淀 6 阶段研发 Skill，配套安装包、用户 Skill、国内外镜像发布与自更新。",
+    "xml": "<callout background-color=\"light-blue\" border-color=\"blue\"><ul><li>开放覆盖：素材契约覆盖 <b><span text-color=\"rgb(36,91,219)\">8 类业务、61 个方法</span></b>；vimocli 承接 VIMO、CCC、MIS、QA 等系统。</li><li>业务采用：支持运营批处理、特效生产及 Agent 接入，万级分类整理由<b><span text-color=\"rgb(36,91,219)\">人工 1 天缩短至 AI 15 分钟</span></b>。</li><li>公共复用：鉴权包接入 <b><span text-color=\"rgb(36,91,219)\">5 个模块</span></b>，凭证工具复用于自测、BPM 与云端 Agent。</li><li>持续交付：沉淀 <b><span text-color=\"rgb(36,91,219)\">6 阶段研发 Skill</span></b>，配套安装包、用户 Skill、国内外镜像发布与自更新。</li></ul></callout>\n"
+  },
+  {
+    "tag": "p",
+    "id": null,
+    "text": "61 为契约总覆盖，含权限辅助方法。【数据待考证：本轮新增／改造数及公开命令数】",
+    "xml": "<p>61 为契约总覆盖，含权限辅助方法。【数据待考证：本轮新增／改造数及公开命令数】</p>\n"
+  },
+  {
+    "tag": "p",
+    "id": null,
+    "text": "业务支持",
+    "xml": "<p><b>业务支持</b></p>\n"
+  },
+  {
+    "tag": "table",
+    "id": null,
+    "text": "批量查询分类整理特效生产分级维护类型配置Agent 核查约 150 个老特效 key 的上下线状态，无需新增批量搜索入口。批量移除各区域 love 分类中一万多个素材关联，保留素材实体；该次任务由人工 1 天缩短至 AI 15 分钟。AIGLE 将上传、创建、编辑及面板配置接入生产。Q3 活跃 83 天，素材创建 360 次调用。批量维护近 200 条海外主题色配置，替代单条约 15–20 秒的页面操作。自定义参数配置能力支持脚本和 Agent 维护素材类型配置，减少逐项页面设置。",
+    "xml": "<table><colgroup><col width=\"240\" /><col width=\"240\" /><col width=\"240\" /><col width=\"240\" /><col width=\"240\" /></colgroup><thead><tr><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">批量查询</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">分类整理</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">特效生产</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">分级维护</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">类型配置</span></b></p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p>Agent 核查约 <b><span text-color=\"rgb(36,91,219)\">150 个老特效 key</span></b> 的上下线状态，无需新增批量搜索入口。</p><asset key=\"图片-01.png\" alt=\"批量查询需求\" /><asset key=\"图片-02.png\" alt=\"查询结果\" /></td><td vertical-align=\"top\"><p>批量移除各区域 love 分类中一万多个素材关联，保留素材实体；该次任务由人工 1 天缩短至 AI 15 分钟。</p><asset key=\"图片-03.png\" alt=\"分类整理结果\" /></td><td vertical-align=\"top\"><p>AIGLE 将上传、创建、编辑及面板配置接入生产。Q3 活跃 <b><span text-color=\"rgb(36,91,219)\">83 天</span></b>，素材创建 <b><span text-color=\"rgb(36,91,219)\">360 次调用</span></b>。</p><asset key=\"图片-04.png\" alt=\"AIGLE 调用分布\" /></td><td vertical-align=\"top\"><p>批量维护近 200 条海外主题色配置，替代单条约 15–20 秒的页面操作。</p><asset key=\"图片-05.png\" alt=\"分级配置与查询\" /></td><td vertical-align=\"top\"><p>自定义参数配置能力支持脚本和 Agent 维护素材类型配置，减少逐项页面设置。</p></td></tr></tbody></table>\n"
+  },
+  {
+    "tag": "p",
+    "id": null,
+    "text": "横向复用",
+    "xml": "<p><b>横向复用</b></p>\n"
+  },
+  {
+    "tag": "table",
+    "id": null,
+    "text": "VIMO Agent／Capcut 运营 AgentQ&A Agent商业化后验证GrowAIVIMO 页面内的运营入口，接入业务命令与 Skill；共用 JWT 换取、沙箱注入和生产网适配方案。面向商业化 RD／QA，通过 MCP 调用策略预览接口，配置和查询测试态。接入授权与 vimocli，使用资源位、活动和人群策略能力。通过活动 MCP 获取运营信息，辅助告警归因与 Oncall 排查。",
+    "xml": "<table><colgroup><col width=\"300\" /><col width=\"300\" /><col width=\"300\" /><col width=\"300\" /></colgroup><thead><tr><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">VIMO Agent／Capcut 运营 Agent</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">Q&amp;A Agent</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">商业化后验证</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">GrowAI</span></b></p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p>VIMO 页面内的运营入口，接入业务命令与 Skill；共用 JWT 换取、沙箱注入和生产网适配方案。</p><asset key=\"图片-06.png\" alt=\"VIMO Agent\" /><asset key=\"图片-07.png\" alt=\"Capcut 运营 Agent\" /></td><td vertical-align=\"top\"><p>面向商业化 RD／QA，通过 MCP 调用策略预览接口，配置和查询测试态。</p><asset key=\"图片-09.png\" alt=\"策略预览工具\" /></td><td vertical-align=\"top\"><p>接入授权与 vimocli，使用资源位、活动和人群策略能力。</p><asset key=\"图片-10.png\" alt=\"后验证授权入口\" /></td><td vertical-align=\"top\"><p>通过活动 MCP 获取运营信息，辅助告警归因与 Oncall 排查。</p></td></tr></tbody></table>\n"
+  },
+  {
+    "tag": "p",
+    "id": null,
+    "text": "使用情况",
+    "xml": "<p><b>使用情况</b></p>\n"
+  },
+  {
+    "tag": "table",
+    "id": null,
+    "text": "调用规模用户规模重复与持续使用【数据待考证：Q3 调用次数】【数据待考证：Q3 使用／新增用户数，个人与服务账号分列】【数据待考证：调用≥100次、活跃≥10天／30天人数】",
+    "xml": "<table><colgroup><col width=\"325\" /><col width=\"325\" /><col width=\"330\" /></colgroup><thead><tr><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">调用规模</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">用户规模</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">重复与持续使用</span></b></p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p>【数据待考证：Q3 调用次数】</p></td><td vertical-align=\"top\"><p>【数据待考证：Q3 使用／新增用户数，个人与服务账号分列】</p></td><td vertical-align=\"top\"><p>【数据待考证：调用≥100次、活跃≥10天／30天人数】</p></td></tr></tbody></table>\n"
+  },
+  {
+    "tag": "asset",
+    "id": null,
+    "text": "",
+    "xml": "<asset key=\"图片-11.png\" alt=\"服务调用分布\" />\n"
+  },
+  {
+    "tag": "p",
+    "id": null,
+    "text": "【数据待考证：统计窗口与人群口径】",
+    "xml": "<p>【数据待考证：统计窗口与人群口径】</p>\n"
+  },
+  {
+    "tag": "grid",
+    "id": null,
+    "text": "推广使用\n编写运营操作指南，通过宣贯演示任务执行与结果核对。响应反馈\n维护使用群，处理权限、调用问题，依据真实任务完善能力。\n",
+    "xml": "<grid><column width-ratio=\"0.5\"><p><b>推广使用</b></p>\n<p>编写<a href=\"https://bytedance.larkoffice.com/wiki/UBSLwhpbFi67eekQUkqcca9bnXe\">运营操作指南</a>，通过宣贯演示任务执行与结果核对。</p></column><column width-ratio=\"0.5\"><p><b>响应反馈</b></p>\n<p>维护使用群，处理权限、调用问题，依据真实任务完善能力。</p>\n<asset key=\"图片-12.png\" alt=\"使用群\" /></column></grid>\n"
+  },
+  {
+    "tag": "h2",
+    "id": null,
+    "text": "2.3 技术建设",
+    "xml": "<h2>2.3 技术建设</h2>\n"
+  },
+  {
+    "tag": "asset",
+    "id": null,
+    "text": "",
+    "xml": "<asset key=\"建设路径.jpg\" alt=\"VIMO 开放能力建设路径\" />\n"
+  },
+  {
+    "tag": "asset",
+    "id": null,
+    "text": "",
+    "xml": "<asset key=\"画板-01.jpg\" alt=\"开放能力架构\" />\n"
+  },
+  {
+    "tag": "h3",
+    "id": null,
+    "text": "2.3.1 建设开放基础设施",
+    "xml": "<h3>2.3.1 建设开放基础设施</h3>\n"
+  },
+  {
+    "tag": "table",
+    "id": null,
+    "text": "开放业务操作演进鉴权体系发布任务通常指定素材或分类，页面发布接口却依赖选中的变更记录。扩展接口：覆盖素材基础操作、分级、屏蔽、面板分类、实验、发布、下发控制和配置运维。封装目标发布：服务端解析目标对应的变更与版本，复用发布规则；分类归属不符或无变更时返回明确原因。提供批量操作：开放分类配置与关系维护，供 Agent、脚本及生产服务组合使用。【待截图：目标输入与发布记录】降低接入成本：早期 HMAC 需要自行签名、人工授权；接入字节云网关后，复用身份、路由与运维能力，业务侧统一管理个人及服务账号权限。复用已有授权：商业化需快速接入，页面与 CLI 操作差异小，已有 Kani 权限可用。因此增加个人 JWT 直连；服务账号及独立开放授权继续走网关。",
+    "xml": "<table><colgroup><col width=\"600\" /><col width=\"600\" /></colgroup><thead><tr><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">开放业务操作</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">演进鉴权体系</span></b></p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p>发布任务通常指定素材或分类，页面发布接口却依赖选中的变更记录。</p><ol><li seq=\"auto\"><b>扩展接口：</b>覆盖素材基础操作、分级、屏蔽、面板分类、实验、发布、下发控制和配置运维。</li><li seq=\"auto\"><b>封装目标发布：</b>服务端解析目标对应的变更与版本，复用发布规则；分类归属不符或无变更时返回明确原因。</li><li seq=\"auto\"><b>提供批量操作：</b>开放分类配置与关系维护，供 Agent、脚本及生产服务组合使用。</li></ol><p>【待截图：目标输入与发布记录】</p></td><td vertical-align=\"top\"><p><b>降低接入成本：</b>早期 HMAC 需要自行签名、人工授权；接入字节云网关后，复用身份、路由与运维能力，业务侧统一管理个人及服务账号权限。</p><p><b>复用已有授权：</b>商业化需快速接入，页面与 CLI 操作差异小，已有 Kani 权限可用。因此增加个人 JWT 直连；服务账号及独立开放授权继续走网关。</p><grid><column width-ratio=\"0.5\"><asset key=\"图片-13.png\" alt=\"网关接口配置\" /><asset key=\"图片-14.png\" alt=\"商业化接入诉求\" /></column><column width-ratio=\"0.5\"><asset key=\"画板-02.jpg\" alt=\"接口请求与鉴权链路\" /></column></grid></td></tr></tbody></table>\n"
+  },
+  {
+    "tag": "table",
+    "id": null,
+    "text": "细化素材权限封装开放组件接口权无法区分具体资源，逐素材授权又需频繁维护。因此按面板／素材类型＋操作授权，新增、修改、发布分别控制。封装鉴权服务创建校验目标类型；编辑回查实体，按真实类型校验修改权。批量发布核对存在性、业务线及全部类型权限，通过后再执行。分类关联、面板发布分别检查目标面板的修改、发布权。配套申请自测缺权提示附申请入口；个人 P2 自动开通，服务账号及高风险操作审批，混合申请从高处理。自测页验证当前身份的真实调用。统一服务接入：中间件共用验签、身份注入、业务线识别与调用上报，适配国内外框架；无效 JWT 拒绝执行，普通无 JWT 请求沿用会话，业务继续执行原有授权。封装凭证工具：自测页利用登录态向 ByteCloud 换取 JWT，抽取站点缓存、到期刷新及 401 单次重试，复用于素材同步、BPM 和页面 Agent。适配云端执行：页面随任务传递 JWT，沙箱逐次注入凭证与业务线，不写入 CLI 登录配置，避免复用沙箱时沿用旧身份。",
+    "xml": "<table><colgroup><col width=\"600\" /><col width=\"600\" /></colgroup><thead><tr><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">细化素材权限</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">封装开放组件</span></b></p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p>接口权无法区分具体资源，逐素材授权又需频繁维护。因此按<b><span text-color=\"rgb(36,91,219)\">面板／素材类型＋操作</span></b>授权，新增、修改、发布分别控制。</p><grid><column width-ratio=\"0.5\"><asset key=\"图片-15.png\" alt=\"资源权限配置\" /></column><column width-ratio=\"0.5\"><p><b>封装鉴权服务</b></p><ol><li seq=\"auto\">创建校验目标类型；编辑回查实体，按真实类型校验修改权。</li><li seq=\"auto\">批量发布核对存在性、业务线及全部类型权限，通过后再执行。</li><li seq=\"auto\">分类关联、面板发布分别检查目标面板的修改、发布权。</li></ol><p><b>配套申请自测</b></p><p>缺权提示附申请入口；个人 P2 自动开通，服务账号及高风险操作审批，混合申请从高处理。自测页验证当前身份的真实调用。</p><asset key=\"画板-03.jpg\" alt=\"授权申请与校验链路\" /></column></grid></td><td vertical-align=\"top\"><p><b>统一服务接入：</b>中间件共用验签、身份注入、业务线识别与调用上报，适配国内外框架；无效 JWT 拒绝执行，普通无 JWT 请求沿用会话，业务继续执行原有授权。</p><p><b>封装凭证工具：</b>自测页利用登录态向 ByteCloud 换取 JWT，抽取站点缓存、到期刷新及 401 单次重试，复用于素材同步、BPM 和页面 Agent。</p><grid><column width-ratio=\"0.5\"><asset key=\"图片-17.png\" alt=\"凭证工具复用\" /></column><column width-ratio=\"0.5\"><asset key=\"图片-16.png\" alt=\"个人 JWT 签发链路\" /></column></grid><p><b>适配云端执行：</b>页面随任务传递 JWT，沙箱逐次注入凭证与业务线，不写入 CLI 登录配置，避免复用沙箱时沿用旧身份。</p><grid><column width-ratio=\"0.5\"><asset key=\"图片-08.png\" alt=\"云端方案复用\" /></column><column width-ratio=\"0.5\"><asset key=\"画板-04.jpg\" alt=\"页面到沙箱的凭证传递链路\" /></column></grid></td></tr></tbody></table>\n"
+  },
+  {
+    "tag": "h3",
+    "id": null,
+    "text": "2.3.2 构建统一客户端",
+    "xml": "<h3>2.3.2 构建统一客户端</h3>\n"
+  },
+  {
+    "tag": "p",
+    "id": null,
+    "text": "vimocli 统一承接业务操作，Skill 提供任务方法，支持人工、脚本与 Agent 共用。",
+    "xml": "<p>vimocli 统一承接业务操作，Skill 提供任务方法，支持人工、脚本与 Agent 共用。</p>\n"
+  },
+  {
+    "tag": "table",
+    "id": null,
+    "text": "设计整体架构优化使用体验建设调用观测业务层：组织素材、面板、活动、资源位、商品等命令，适配各系统路由和数据格式。契约层：依据 IDL 生成调用代码与隐藏命令，手写命令维护业务语义，接口更新不覆盖用户入口。公共层：复用身份、请求、环境与输出；显式确定站点、业务线和对象，64 位 ID 保留字符串。任务层：单 Skill 入口按需加载领域说明，共用认证排障，写操作明确确认、执行与回读要求。结果层：提供表格、JSON、Raw；日志独立输出，参数、认证和权限错误分别给出处理入口。适配运行环境复用环境注入、bytedcli 或 SDK 身份；按服务、站点、网络选择地址，支持 PPE，失败不跨身份、网络回退。管理服务账号提供发现、激活、切换及分站点管理，支撑无人值守任务；个人直连仍用个人身份。实现自更新CLI、Skill 独立检查更新；由新包运行新版同步器并核验结果，新进程补偿失败同步。升级后重跑命令，更新失败不阻断业务；临时运行不改全局安装。服务端埋点无法覆盖外部系统，也无法定位业务命令，因此在客户端公共请求入口统一采集。关联调用信息记录命令、业务、身份、站点、响应及 LogID，多次请求分别记录；公共入口检查纳入质量校验。隔离采集影响随业务读取响应采集，限制副本、队列和退出等待，上报失败不改变执行结果。客户端、服务端分别统计；认证、文件传输及外部 CLI 内部请求不计入客户端范围。",
+    "xml": "<table><colgroup><col width=\"480\" /><col width=\"480\" /><col width=\"400\" /></colgroup><thead><tr><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">设计整体架构</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">优化使用体验</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">建设调用观测</span></b></p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><grid><column width-ratio=\"0.5\"><asset key=\"画板-05.jpg\" alt=\"CLI 整体架构\" /></column><column width-ratio=\"0.5\"><asset key=\"Skill架构.jpg\" alt=\"Skill 架构\" /></column></grid><ol><li seq=\"auto\"><b>业务层：</b>组织素材、面板、活动、资源位、商品等命令，适配各系统路由和数据格式。</li><li seq=\"auto\"><b>契约层：</b>依据 IDL 生成调用代码与隐藏命令，手写命令维护业务语义，接口更新不覆盖用户入口。</li><li seq=\"auto\"><b>公共层：</b>复用身份、请求、环境与输出；显式确定站点、业务线和对象，64 位 ID 保留字符串。</li><li seq=\"auto\"><b>任务层：</b>单 Skill 入口按需加载领域说明，共用认证排障，写操作明确确认、执行与回读要求。</li></ol><asset key=\"图片-18.png\" alt=\"Skill 目录\" /><ol><li seq=\"auto\"><b>结果层：</b>提供表格、JSON、Raw；日志独立输出，参数、认证和权限错误分别给出处理入口。</li></ol></td><td vertical-align=\"top\"><p><b>适配运行环境</b></p><p>复用环境注入、bytedcli 或 SDK 身份；按服务、站点、网络选择地址，支持 PPE，失败不跨身份、网络回退。</p><grid><column width-ratio=\"0.5\"><asset key=\"图片-19.png\" alt=\"Aime 调用\" /></column><column width-ratio=\"0.5\"><asset key=\"图片-20.png\" alt=\"网络与站点配置\" /></column></grid><p><b>管理服务账号</b></p><p>提供发现、激活、切换及分站点管理，支撑无人值守任务；个人直连仍用个人身份。</p><asset key=\"图片-21.png\" alt=\"服务账号管理\" /><p><b>实现自更新</b></p><p>CLI、Skill 独立检查更新；由新包运行新版同步器并核验结果，新进程补偿失败同步。升级后重跑命令，更新失败不阻断业务；临时运行不改全局安装。</p><grid><column width-ratio=\"0.5\"><asset key=\"图片-22.png\" alt=\"CLI 升级与 Skill 同步提示\" /></column><column width-ratio=\"0.5\"><asset key=\"画板-06.jpg\" alt=\"CLI 与 Skill 自更新链路\" /></column></grid></td><td vertical-align=\"top\"><p>服务端埋点无法覆盖外部系统，也无法定位业务命令，因此在客户端公共请求入口统一采集。</p><grid><column width-ratio=\"0.5\"><asset key=\"图片-23.png\" alt=\"客户端与服务端调用看板\" /></column><column width-ratio=\"0.5\"><p><b>关联调用信息</b></p><p>记录命令、业务、身份、站点、响应及 LogID，多次请求分别记录；公共入口检查纳入质量校验。</p><asset key=\"画板-07.jpg\" alt=\"调用采集与上报链路\" /></column></grid><p><b>隔离采集影响</b></p><p>随业务读取响应采集，限制副本、队列和退出等待，上报失败不改变执行结果。</p><p>客户端、服务端分别统计；认证、文件传输及外部 CLI 内部请求不计入客户端范围。</p></td></tr></tbody></table>\n"
+  },
+  {
+    "tag": "h3",
+    "id": null,
+    "text": "2.3.3 完善交付协作",
+    "xml": "<h3>2.3.3 完善交付协作</h3>\n"
+  },
+  {
+    "tag": "p",
+    "id": null,
+    "text": "开放能力涉及多仓库、多平台，研发 Skill 检查接入完整性，发布流水线保证版本送达。",
+    "xml": "<p>开放能力涉及多仓库、多平台，研发 Skill 检查接入完整性，发布流水线保证版本送达。</p>\n"
+  },
+  {
+    "tag": "table",
+    "id": null,
+    "text": "沉淀研发方法建设发布流水线改善协作效率规范开发流程：需求、环境、接口与定义、命令与说明、测试发布、归档六阶段明确交付物；新服务核对运行服务、契约、路由和权限。关联交付记录：汇总两端 MR、环境与验证结果，定位未完成环节。【待截图：研发 Skill 与交付记录】统一发布产物：Release MR 确认后，完成校验、发包、Skill 增量发布及国内外镜像构建。固定发布版本：全流程使用同一 Tag，镜像安装指定 CLI 版本，避免发布期间合入代码造成错配；逐项回读定位失败产物。【待截图：包、Skill、镜像发布结果】维护接入知识：流水线生成知识库补丁，校验范围与可应用性，经审核更新。【待截图：知识库更新】管理并行任务：Mira 汇总进度、待确认事项与产物，各需求保留独立会话、分支和环境。Mira 工作台录屏",
+    "xml": "<table><colgroup><col width=\"325\" /><col width=\"325\" /><col width=\"330\" /></colgroup><thead><tr><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">沉淀研发方法</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">建设发布流水线</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">改善协作效率</span></b></p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p><b>规范开发流程：</b>需求、环境、接口与定义、命令与说明、测试发布、归档六阶段明确交付物；新服务核对运行服务、契约、路由和权限。</p><p><b>关联交付记录：</b>汇总两端 MR、环境与验证结果，定位未完成环节。</p><p>【待截图：研发 Skill 与交付记录】</p></td><td vertical-align=\"top\"><p><b>统一发布产物：</b>Release MR 确认后，完成校验、发包、Skill 增量发布及国内外镜像构建。</p><p><b>固定发布版本：</b>全流程使用同一 Tag，镜像安装指定 CLI 版本，避免发布期间合入代码造成错配；逐项回读定位失败产物。</p><grid><column width-ratio=\"0.5\"><p>【待截图：包、Skill、镜像发布结果】</p></column><column width-ratio=\"0.5\"><asset key=\"画板-08.jpg\" alt=\"多产物发布链路\" /></column></grid></td><td vertical-align=\"top\"><p><b>维护接入知识：</b>流水线生成知识库补丁，校验范围与可应用性，经审核更新。</p><p>【待截图：知识库更新】</p><p><b>管理并行任务：</b>Mira 汇总进度、待确认事项与产物，各需求保留独立会话、分支和环境。</p><p><a href=\"https://bytedance.larkoffice.com/docx/LQ4Od0Od6ooDUZxdpX1cmo45nNf#AwmRdLcuXoxqF3x5FwscxTsrnBd\">Mira 工作台录屏</a></p></td></tr></tbody></table>\n"
+  },
+  {
+    "tag": "h2",
+    "id": null,
+    "text": "2.4 未来规划",
+    "xml": "<h2>2.4 未来规划</h2>\n"
+  },
+  {
+    "tag": "table",
+    "id": null,
+    "text": "优化 Skill沉淀运营工作流扩展素材接口结合调用数据与失败案例完善任务说明、参数示例和结果校验，回归验证高频任务。与运营梳理查询、配置、发布流程，组合已有操作，沉淀含确认与回读的可复用任务。按真实需求补齐素材操作，优先覆盖批量维护与流程缺口，复用已有授权和客户端能力。",
+    "xml": "<table><colgroup><col width=\"325\" /><col width=\"325\" /><col width=\"330\" /></colgroup><thead><tr><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">优化 Skill</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">沉淀运营工作流</span></b></p></th><th background-color=\"rgb(240,244,255)\" vertical-align=\"top\"><p><b><span text-color=\"rgb(36,91,219)\">扩展素材接口</span></b></p></th></tr></thead><tbody><tr><td vertical-align=\"top\"><p>结合调用数据与失败案例完善任务说明、参数示例和结果校验，回归验证高频任务。</p></td><td vertical-align=\"top\"><p>与运营梳理查询、配置、发布流程，组合已有操作，沉淀含确认与回读的可复用任务。</p></td><td vertical-align=\"top\"><p>按真实需求补齐素材操作，优先覆盖批量维护与流程缺口，复用已有授权和客户端能力。</p></td></tr></tbody></table>"
+  }
+]

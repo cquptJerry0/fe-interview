@@ -1,0 +1,474 @@
+{
+  "W": 1420,
+  "H": 1950,
+  "specs": {
+    "v_header": {
+      "kind": "platform",
+      "x": 65,
+      "y": 140,
+      "w": 290,
+      "h": 95,
+      "text": "引用替换服务"
+    },
+    "v_bottom": {
+      "kind": "pin",
+      "x": 208,
+      "y": 1870,
+      "w": 4,
+      "h": 4,
+      "text": ""
+    },
+    "db_header": {
+      "kind": "platform",
+      "x": 515,
+      "y": 140,
+      "w": 290,
+      "h": 95,
+      "text": "任务／面板数据库"
+    },
+    "db_bottom": {
+      "kind": "pin",
+      "x": 658,
+      "y": 1870,
+      "w": 4,
+      "h": 4,
+      "text": ""
+    },
+    "pub_header": {
+      "kind": "platform",
+      "x": 1015,
+      "y": 140,
+      "w": 290,
+      "h": 95,
+      "text": "构建与发布服务"
+    },
+    "pub_bottom": {
+      "kind": "pin",
+      "x": 1158,
+      "y": 1870,
+      "w": 4,
+      "h": 4,
+      "text": ""
+    },
+    "title": {
+      "kind": "text",
+      "x": 40,
+      "y": 20,
+      "w": 1340,
+      "h": 59,
+      "text": "⑦ 替换已有面板引用"
+    },
+    "subtitle": {
+      "kind": "text",
+      "x": 40,
+      "y": 82,
+      "w": 1340,
+      "h": 42,
+      "text": "只更新指定引用，不把其他草稿编辑一起发布"
+    },
+    "scope": {
+      "kind": "action",
+      "x": 65,
+      "y": 250,
+      "w": 1290,
+      "h": 70,
+      "text": "前提：已确认面板范围，并取得成功搬运的旧 → 新素材映射"
+    },
+    "v_385": {
+      "kind": "activation",
+      "x": 204,
+      "y": 373,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_385": {
+      "kind": "activation",
+      "x": 654,
+      "y": 373,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_455": {
+      "kind": "activation",
+      "x": 654,
+      "y": 443,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_455": {
+      "kind": "activation",
+      "x": 204,
+      "y": 443,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_510": {
+      "kind": "activation",
+      "x": 204,
+      "y": 498,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_566": {
+      "kind": "activation",
+      "x": 204,
+      "y": 554,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "tx": {
+      "kind": "container",
+      "x": 32,
+      "y": 635,
+      "w": 1356,
+      "h": 205
+    },
+    "tx_name": {
+      "kind": "text",
+      "x": 48,
+      "y": 647,
+      "w": 1324,
+      "h": 48,
+      "text": "同一事务：内容变化则不提交替换"
+    },
+    "v_730": {
+      "kind": "activation",
+      "x": 204,
+      "y": 718,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_730": {
+      "kind": "activation",
+      "x": 654,
+      "y": 718,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_795": {
+      "kind": "activation",
+      "x": 654,
+      "y": 783,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_795": {
+      "kind": "activation",
+      "x": 204,
+      "y": 783,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_925": {
+      "kind": "activation",
+      "x": 204,
+      "y": 913,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "pub_925": {
+      "kind": "activation",
+      "x": 1154,
+      "y": 913,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "pub_990": {
+      "kind": "activation",
+      "x": 1154,
+      "y": 978,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_990": {
+      "kind": "activation",
+      "x": 204,
+      "y": 978,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "draft_only": {
+      "kind": "container",
+      "x": 32,
+      "y": 1045,
+      "w": 1356,
+      "h": 110
+    },
+    "draft_only_name": {
+      "kind": "text",
+      "x": 48,
+      "y": 1057,
+      "w": 1324,
+      "h": 48,
+      "text": "只有草稿引用：完成替换，不发正式版"
+    },
+    "prod": {
+      "kind": "container",
+      "x": 32,
+      "y": 1190,
+      "w": 1356,
+      "h": 400
+    },
+    "prod_name": {
+      "kind": "text",
+      "x": 48,
+      "y": 1202,
+      "w": 1324,
+      "h": 48,
+      "text": "正式版也有旧引用：只发布替换差异"
+    },
+    "v_1285": {
+      "kind": "activation",
+      "x": 204,
+      "y": 1273,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "pub_1285": {
+      "kind": "activation",
+      "x": 1154,
+      "y": 1273,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "pub_1355": {
+      "kind": "activation",
+      "x": 1154,
+      "y": 1343,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_1355": {
+      "kind": "activation",
+      "x": 204,
+      "y": 1343,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_1410": {
+      "kind": "activation",
+      "x": 204,
+      "y": 1398,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_1466": {
+      "kind": "activation",
+      "x": 204,
+      "y": 1454,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_1515": {
+      "kind": "activation",
+      "x": 204,
+      "y": 1503,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_1515": {
+      "kind": "activation",
+      "x": 654,
+      "y": 1503,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_1625": {
+      "kind": "activation",
+      "x": 204,
+      "y": 1613,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "pub_1625": {
+      "kind": "activation",
+      "x": 1154,
+      "y": 1613,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_1700": {
+      "kind": "activation",
+      "x": 204,
+      "y": 1688,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_1700": {
+      "kind": "activation",
+      "x": 654,
+      "y": 1688,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_1765": {
+      "kind": "activation",
+      "x": 654,
+      "y": 1753,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_1765": {
+      "kind": "activation",
+      "x": 204,
+      "y": 1753,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "stop": {
+      "kind": "text",
+      "x": 60,
+      "y": 1820,
+      "w": 1300,
+      "h": 42,
+      "text": "差异无法分离：保留草稿，停止自动发布"
+    },
+    "foot": {
+      "kind": "text",
+      "x": 60,
+      "y": 1880,
+      "w": 1300,
+      "h": 42,
+      "text": "发布响应未知先回读，不盲目重发；草稿是未发布编辑，正式版供客户端使用"
+    }
+  },
+  "routes": {
+    "v_life": {
+      "dash": true,
+      "noArrow": true,
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "db_life": {
+      "dash": true,
+      "noArrow": true,
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "pub_life": {
+      "dash": true,
+      "noArrow": true,
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "read": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "panel": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "verify": {
+      "points": [
+        {
+          "x": 390,
+          "y": 510
+        },
+        {
+          "x": 390,
+          "y": 566
+        }
+      ],
+      "pos": 0.3,
+      "fa": "right",
+      "ta": "right"
+    },
+    "replace": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "tx_ok": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "build": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "build_ok": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "diff": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "merged": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "compare": {
+      "points": [
+        {
+          "x": 390,
+          "y": 1410
+        },
+        {
+          "x": 390,
+          "y": 1466
+        }
+      ],
+      "pos": 0.3,
+      "fa": "right",
+      "ta": "right"
+    },
+    "mark_unknown": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "publish": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "reread": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "actual": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    }
+  },
+  "sourceCommit": "9d157f466590a5e8678956f76c6ba0e7169bef80"
+}

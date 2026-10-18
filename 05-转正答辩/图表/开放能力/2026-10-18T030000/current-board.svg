@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="2600"
+     height="1480"
+     viewBox="-20 -20 2600 1480">
+  <defs>
+<marker id="connector-arrow-0" markerUnits="userSpaceOnUse" markerWidth="40" markerHeight="40" refX="45.033320996790806" refY="0" orient="auto" overflow="visible"><path fill="#2f7d50" stroke="none" d="M 45.033320996790806 0 L 0 -26 L 0 26 Z"/></marker>
+<linearGradient id="grad-l-o1:6" x1="0" y1="0" x2="0.9999999658098973" y2="0.9999999625052063" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f7faff"/><stop offset="1" stop-color="#eef4ff"/></linearGradient>
+<filter id="shadow-o1-6-2" filterUnits="userSpaceOnUse" x="-49" y="-64" width="528" height="373">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="24.5" result="drop_blur"/>
+  <feOffset in="drop_blur" dx="0" dy="14.7" result="drop_off"/>
+  <feFlood flood-color="#182230" flood-opacity="0.1" result="drop_color"/>
+  <feComposite in="drop_color" in2="drop_off" operator="in" result="drop_shadow"/>
+  <feMerge>
+    <feMergeNode in="drop_shadow"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<linearGradient id="grad-l-o1:7" x1="0" y1="0" x2="1.0000000120735513" y2="1.000000078929586" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f7fcf8"/><stop offset="1" stop-color="#ecf7ef"/></linearGradient>
+<linearGradient id="grad-l-o1:10" x1="0" y1="0" x2="1.0000000205137909" y2="1.0000000628720085" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f7faff"/><stop offset="1" stop-color="#eef4ff"/></linearGradient>
+<filter id="shadow-o1-10-5" filterUnits="userSpaceOnUse" x="-62" y="-81" width="554" height="472">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="31" result="drop_blur"/>
+  <feOffset in="drop_blur" dx="0" dy="18.6" result="drop_off"/>
+  <feFlood flood-color="#182230" flood-opacity="0.1" result="drop_color"/>
+  <feComposite in="drop_color" in2="drop_off" operator="in" result="drop_shadow"/>
+  <feMerge>
+    <feMergeNode in="drop_shadow"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<linearGradient id="grad-l-o1:11" x1="0" y1="0" x2="1.0000000155570565" y2="1.0000000827506184" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f7fcf8"/><stop offset="1" stop-color="#ecf7ef"/></linearGradient>
+<linearGradient id="grad-l-o1:14" x1="0" y1="0" x2="0.9999999785951865" y2="0.9999999573894071" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f7faff"/><stop offset="1" stop-color="#eef4ff"/></linearGradient>
+<filter id="shadow-o1-14-8" filterUnits="userSpaceOnUse" x="-71" y="-93" width="572" height="541">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="35.5" result="drop_blur"/>
+  <feOffset in="drop_blur" dx="0" dy="21.3" result="drop_off"/>
+  <feFlood flood-color="#182230" flood-opacity="0.1" result="drop_color"/>
+  <feComposite in="drop_color" in2="drop_off" operator="in" result="drop_shadow"/>
+  <feMerge>
+    <feMergeNode in="drop_shadow"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<linearGradient id="grad-l-o1:15" x1="0" y1="0" x2="1.000000037858297" y2="0.9999998964497085" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f7fcf8"/><stop offset="1" stop-color="#ecf7ef"/></linearGradient>
+<linearGradient id="grad-l-o1:18" x1="0" y1="0" x2="1.0000000224283394" y2="0.9999999986682524" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f7faff"/><stop offset="1" stop-color="#eef4ff"/></linearGradient>
+<filter id="shadow-o1-18-11" filterUnits="userSpaceOnUse" x="-58" y="-76" width="546" height="442">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="29" result="drop_blur"/>
+  <feOffset in="drop_blur" dx="0" dy="17.4" result="drop_off"/>
+  <feFlood flood-color="#182230" flood-opacity="0.1" result="drop_color"/>
+  <feComposite in="drop_color" in2="drop_off" operator="in" result="drop_shadow"/>
+  <feMerge>
+    <feMergeNode in="drop_shadow"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<linearGradient id="grad-l-o1:19" x1="0" y1="0" x2="0.9999999474851268" y2="0.9999999660899652" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f7fcf8"/><stop offset="1" stop-color="#ecf7ef"/></linearGradient>
+<linearGradient id="grad-l-o1:22" x1="0" y1="0" x2="1.0000000123039459" y2="0.9999999335281248" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f7faff"/><stop offset="1" stop-color="#eef4ff"/></linearGradient>
+<filter id="shadow-o1-22-14" filterUnits="userSpaceOnUse" x="-37" y="-49" width="504" height="283">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="18.5" result="drop_blur"/>
+  <feOffset in="drop_blur" dx="0" dy="11.1" result="drop_off"/>
+  <feFlood flood-color="#182230" flood-opacity="0.1" result="drop_color"/>
+  <feComposite in="drop_color" in2="drop_off" operator="in" result="drop_shadow"/>
+  <feMerge>
+    <feMergeNode in="drop_shadow"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<linearGradient id="grad-l-o1:23" x1="0" y1="0" x2="0.9999999474851268" y2="0.9999999660899652" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f7fcf8"/><stop offset="1" stop-color="#ecf7ef"/></linearGradient>
+  </defs>
+<g id="o1:1" transform="translate(0, 0)"><rect x="0" y="0" width="2560" height="1440" fill="#ffffff" stroke="none" stroke-width="0" rx="0" ry="0"/></g>
+<g id="a1:1" transform="translate(120, 48.528)"><text font-size="48" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="56.472"><tspan x="0" text-anchor="start">VIMO 开放能力建设路径</tspan></tspan></text></g>
+<g id="a1:2" transform="translate(120, 124.117)"><text font-size="22" font-family="Noto Sans SC" font-weight="normal" fill="#667085" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="25.883"><tspan x="0" text-anchor="start">从页面能力程序化，到多业务复用与持续交付</tspan></tspan></text></g>
+<g id="o1:2" transform="translate(1900, 82)"><rect x="0" y="0" width="138" height="44" fill="#f4f7fc" stroke="#2f5fb3" stroke-width="2" rx="22" ry="22"/></g>
+<g id="a1:3" transform="translate(1920.5, 88.6465)"><text font-size="19" font-family="Noto Sans SC" font-weight="bold" fill="#2f5fb3" text-anchor="middle" dominant-baseline="alphabetic" x="48.5"><tspan x="48.5" y="22.354"><tspan x="10.5" text-anchor="start">技术建设</tspan></tspan></text></g>
+<g id="o1:3" transform="translate(2055, 82)"><rect x="0" y="0" width="138" height="44" fill="#f2f9f4" stroke="#2f7d50" stroke-width="2" rx="22" ry="22"/></g>
+<g id="a1:4" transform="translate(2075.5, 88.6465)"><text font-size="19" font-family="Noto Sans SC" font-weight="bold" fill="#2f7d50" text-anchor="middle" dominant-baseline="alphabetic" x="48.5"><tspan x="48.5" y="22.354"><tspan x="10.5" text-anchor="start">业务变化</tspan></tspan></text></g>
+<g id="c1:1" transform="translate(120, 1280)"><path fill="none" stroke="#182230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M 0 0 L 2320 0"/></g>
+<g id="c1:2" transform="translate(120, 220)"><path fill="none" stroke="#182230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M 0 1060 L 0 0"/></g>
+<g id="d1:1" transform="translate(2413.5, 1265.5)"><defs><symbol id="svgicon-d1-1" viewBox="0 0 29 29"><g transform="translate(-2413.5 -1265.5)"><polygon points="2440,1280 2416,1268 2416,1292" fill="#182230" /></g></symbol></defs><use href="#svgicon-d1-1" x="0" y="0" width="29" height="29"/></g>
+<g id="d1:2" transform="translate(105.5, 217.5)"><defs><symbol id="svgicon-d1-2" viewBox="0 0 29 29"><g transform="translate(-105.5 -217.5)"><polygon points="120,220 108,244 132,244" fill="#182230" /></g></symbol></defs><use href="#svgicon-d1-2" x="0" y="0" width="29" height="29"/></g>
+<g id="a1:5" transform="translate(2400, 1301.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#667085" text-anchor="end" dominant-baseline="alphabetic" x="40"><tspan x="40" y="23.53"><tspan x="0" text-anchor="start">时间</tspan></tspan></text></g>
+<g id="a1:6" transform="translate(30, 246.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#667085" text-anchor="middle" dominant-baseline="alphabetic" x="40"><tspan x="40" y="23.53"><tspan x="0" text-anchor="start">开放程度</tspan></tspan></text></g>
+<g id="a1:7" transform="translate(30, 274.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#667085" text-anchor="middle" dominant-baseline="alphabetic" x="40"><tspan x="40" y="23.53"><tspan x="0" text-anchor="start">业务价值</tspan></tspan></text></g>
+<g id="c1:3" transform="translate(260, 245)"><path fill="none" stroke="#2f7d50" stroke-width="8" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#connector-arrow-0)" stroke-dasharray="0 0 2280.1778873288317 45.033320996790806" d="M 0 945 C 170 920 265 845 395 790 C 555 720 680 675 830 575 C 990 470 1115 420 1270 345 C 1450 255 1585 210 1755 120 C 1890 50 1990 25 2115 0"/></g>
+<g id="c1:4" transform="translate(390, 1125)"><path fill="none" stroke="#d0d5dd" stroke-width="2" stroke-dasharray="8 10" d="M 0 155 L 0 0"/></g>
+<g id="o1:4" transform="translate(378, 1268)"><ellipse fill="#ffffff" stroke="#2f7d50" stroke-width="5" cx="12" cy="12" rx="12" ry="12"/></g>
+<g id="a1:8" transform="translate(311, 1317.058)"><text font-size="28" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="middle" dominant-baseline="alphabetic" x="79"><tspan x="79" y="32.942"><tspan x="16.07" text-anchor="start">04—05 月</tspan></tspan></text></g>
+<g id="o1:5" transform="translate(190, 1015)"><rect x="0" y="0" width="400" height="56" fill="#f2f4f7" stroke="none" stroke-width="0" rx="28" ry="28"/></g>
+<g id="a1:9" transform="translate(272.5, 1026.2935)"><text font-size="21" font-family="Noto Sans SC" font-weight="bold" fill="#344054" text-anchor="middle" dominant-baseline="alphabetic" x="117.5"><tspan x="117.5" y="24.707"><tspan x="23" text-anchor="start">开放入口与权限基础</tspan></tspan></text></g>
+<g id="o1:6" transform="translate(175, 735)"><rect x="0" y="0" width="430" height="245" fill="url(#grad-l-o1:6)" stroke="#2f5fb3" stroke-width="3" rx="18" ry="18" filter="url(#shadow-o1-6-2)"/></g>
+<g id="a1:10" transform="translate(205, 753.823)"><text font-size="18" font-family="Noto Sans SC" font-weight="bold" fill="#2f5fb3" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="21.177"><tspan x="0" text-anchor="start">技术建设</tspan></tspan></text></g>
+<g id="a1:11" transform="translate(205, 792.058)"><text font-size="28" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="32.942"><tspan x="0" text-anchor="start">搭建程序调用入口</tspan></tspan></text></g>
+<g id="a1:12" transform="translate(205, 851.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">OpenAPI 与 CLI 基础能力</tspan></tspan></text></g>
+<g id="a1:13" transform="translate(205, 888.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">JWT 身份认证</tspan></tspan></text></g>
+<g id="a1:14" transform="translate(205, 925.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">权限申请与审批链路</tspan></tspan></text></g>
+<g id="o1:7" transform="translate(175, 1085)"><rect x="0" y="0" width="430" height="92" fill="url(#grad-l-o1:7)" stroke="#2f7d50" stroke-width="3" rx="18" ry="18"/></g>
+<g id="a1:15" transform="translate(205, 1100.823)"><text font-size="18" font-family="Noto Sans SC" font-weight="bold" fill="#2f7d50" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="21.177"><tspan x="0" text-anchor="start">业务变化</tspan></tspan></text></g>
+<g id="a1:16" transform="translate(205, 1131.2935)"><text font-size="21" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="24.707"><tspan x="0" text-anchor="start">页面操作开始支持程序调用</tspan></tspan></text></g>
+<g id="c1:5" transform="translate(840, 960)"><path fill="none" stroke="#d0d5dd" stroke-width="2" stroke-dasharray="8 10" d="M 0 320 L 0 0"/></g>
+<g id="o1:8" transform="translate(828, 1268)"><ellipse fill="#ffffff" stroke="#2f7d50" stroke-width="5" cx="12" cy="12" rx="12" ry="12"/></g>
+<g id="a1:17" transform="translate(761, 1317.058)"><text font-size="28" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="middle" dominant-baseline="alphabetic" x="79"><tspan x="79" y="32.942"><tspan x="16.07" text-anchor="start">05—06 月</tspan></tspan></text></g>
+<g id="o1:9" transform="translate(640, 850)"><rect x="0" y="0" width="400" height="56" fill="#f2f4f7" stroke="none" stroke-width="0" rx="28" ry="28"/></g>
+<g id="a1:18" transform="translate(709.5, 861.2935)"><text font-size="21" font-family="Noto Sans SC" font-weight="bold" fill="#344054" text-anchor="middle" dominant-baseline="alphabetic" x="130.5"><tspan x="130.5" y="24.707"><tspan x="25.5" text-anchor="start">从接口调用到业务任务</tspan></tspan></text></g>
+<g id="o1:10" transform="translate(625, 505)"><rect x="0" y="0" width="430" height="310" fill="url(#grad-l-o1:10)" stroke="#2f5fb3" stroke-width="3" rx="18" ry="18" filter="url(#shadow-o1-10-5)"/></g>
+<g id="a1:19" transform="translate(655, 523.823)"><text font-size="18" font-family="Noto Sans SC" font-weight="bold" fill="#2f5fb3" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="21.177"><tspan x="0" text-anchor="start">技术建设</tspan></tspan></text></g>
+<g id="a1:20" transform="translate(655, 562.058)"><text font-size="28" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="32.942"><tspan x="0" text-anchor="start">开放核心业务操作</tspan></tspan></text></g>
+<g id="a1:21" transform="translate(655, 621.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">查询、配置与分类批量操作</tspan></tspan></text></g>
+<g id="a1:22" transform="translate(655, 658.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">素材与面板发布</tspan></tspan></text></g>
+<g id="a1:23" transform="translate(655, 695.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">接口权限之外增加资源范围控制</tspan></tspan></text></g>
+<g id="a1:24" transform="translate(655, 732.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">业务命令、Skill 与版本更新配套</tspan></tspan></text></g>
+<g id="o1:11" transform="translate(625, 925)"><rect x="0" y="0" width="430" height="225" fill="url(#grad-l-o1:11)" stroke="#2f7d50" stroke-width="3" rx="18" ry="18"/></g>
+<g id="a1:25" transform="translate(655, 943.823)"><text font-size="18" font-family="Noto Sans SC" font-weight="bold" fill="#2f7d50" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="21.177"><tspan x="0" text-anchor="start">业务变化</tspan></tspan></text></g>
+<g id="a1:26" transform="translate(655, 982.9405)"><text font-size="23" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="27.06"><tspan x="0" text-anchor="start">程序可以完成完整业务任务</tspan></tspan></text></g>
+<g id="a1:27" transform="translate(655, 1032.6465)"><text font-size="19" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="22.354"><tspan x="0" text-anchor="start">核查约 150 个老特效状态</tspan></tspan></text></g>
+<g id="a1:28" transform="translate(655, 1069.6465)"><text font-size="19" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="22.354"><tspan x="0" text-anchor="start">一次移除万余素材分类关联</tspan></tspan></text></g>
+<g id="a1:29" transform="translate(655, 1106.9995)"><text font-size="17" font-family="Noto Sans SC" font-weight="normal" fill="#667085" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="20.001"><tspan x="0" text-anchor="start">单次案例：人工约 1 天，AI 约 15 分钟</tspan></tspan></text></g>
+<g id="c1:6" transform="translate(1290, 800)"><path fill="none" stroke="#d0d5dd" stroke-width="2" stroke-dasharray="8 10" d="M 0 480 L 0 0"/></g>
+<g id="o1:12" transform="translate(1278, 1268)"><ellipse fill="#ffffff" stroke="#2f7d50" stroke-width="5" cx="12" cy="12" rx="12" ry="12"/></g>
+<g id="a1:30" transform="translate(1211, 1317.058)"><text font-size="28" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="middle" dominant-baseline="alphabetic" x="79"><tspan x="79" y="32.942"><tspan x="16.07" text-anchor="start">07—08 月</tspan></tspan></text></g>
+<g id="o1:13" transform="translate(1090, 690)"><rect x="0" y="0" width="400" height="56" fill="#f2f4f7" stroke="none" stroke-width="0" rx="28" ry="28"/></g>
+<g id="a1:31" transform="translate(1146.5, 701.2935)"><text font-size="21" font-family="Noto Sans SC" font-weight="bold" fill="#344054" text-anchor="middle" dominant-baseline="alphabetic" x="143.5"><tspan x="143.5" y="24.707"><tspan x="23.23" text-anchor="start">多环境复用 · 多业务接入</tspan></tspan></text></g>
+<g id="o1:14" transform="translate(1075, 300)"><rect x="0" y="0" width="430" height="355" fill="url(#grad-l-o1:14)" stroke="#2f5fb3" stroke-width="3" rx="18" ry="18" filter="url(#shadow-o1-14-8)"/></g>
+<g id="a1:32" transform="translate(1105, 318.823)"><text font-size="18" font-family="Noto Sans SC" font-weight="bold" fill="#2f5fb3" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="21.177"><tspan x="0" text-anchor="start">技术建设</tspan></tspan></text></g>
+<g id="a1:33" transform="translate(1105, 357.058)"><text font-size="28" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="32.942"><tspan x="0" text-anchor="start">收敛环境与接入差异</tspan></tspan></text></g>
+<g id="a1:34" transform="translate(1105, 416.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">统一国内、海外站点适配</tspan></tspan></text></g>
+<g id="a1:35" transform="translate(1105, 453.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">兼容个人账号与服务账号</tspan></tspan></text></g>
+<g id="a1:36" transform="translate(1105, 490.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">适配本地脚本与云端 Agent</tspan></tspan></text></g>
+<g id="a1:37" transform="translate(1105, 527.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">统一身份、网络和协议处理</tspan></tspan></text></g>
+<g id="a1:38" transform="translate(1105, 564.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">按调用主体和风险等级治理权限</tspan></tspan></text></g>
+<g id="o1:15" transform="translate(1075, 765)"><rect x="0" y="0" width="430" height="260" fill="url(#grad-l-o1:15)" stroke="#2f7d50" stroke-width="3" rx="18" ry="18"/></g>
+<g id="a1:39" transform="translate(1105, 783.823)"><text font-size="18" font-family="Noto Sans SC" font-weight="bold" fill="#2f7d50" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="21.177"><tspan x="0" text-anchor="start">业务变化</tspan></tspan></text></g>
+<g id="a1:40" transform="translate(1105, 822.9405)"><text font-size="23" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="27.06"><tspan x="0" text-anchor="start">非素材业务快速接入</tspan></tspan></text></g>
+<g id="a1:41" transform="translate(1105, 872.6465)"><text font-size="19" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="22.354"><tspan x="0" text-anchor="start">商业化、模板、活动、资源位等</tspan></tspan></text></g>
+<g id="a1:42" transform="translate(1105, 909.6465)"><text font-size="19" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="22.354"><tspan x="0" text-anchor="start">复用统一的身份和调用链路</tspan></tspan></text></g>
+<g id="a1:43" transform="translate(1105, 946.6465)"><text font-size="19" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="22.354"><tspan x="0" text-anchor="start">新增业务不再重复处理环境差异</tspan></tspan></text></g>
+<g id="c1:7" transform="translate(1740, 640)"><path fill="none" stroke="#d0d5dd" stroke-width="2" stroke-dasharray="8 10" d="M 0 640 L 0 0"/></g>
+<g id="o1:16" transform="translate(1728, 1268)"><ellipse fill="#ffffff" stroke="#2f7d50" stroke-width="5" cx="12" cy="12" rx="12" ry="12"/></g>
+<g id="a1:44" transform="translate(1696, 1317.058)"><text font-size="28" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="middle" dominant-baseline="alphabetic" x="44"><tspan x="44" y="32.942"><tspan x="10.3" text-anchor="start">09 月</tspan></tspan></text></g>
+<g id="o1:17" transform="translate(1540, 530)"><rect x="0" y="0" width="400" height="56" fill="#f2f4f7" stroke="none" stroke-width="0" rx="28" ry="28"/></g>
+<g id="a1:45" transform="translate(1648, 541.2935)"><text font-size="21" font-family="Noto Sans SC" font-weight="bold" fill="#344054" text-anchor="middle" dominant-baseline="alphabetic" x="92"><tspan x="92" y="24.707"><tspan x="18.5" text-anchor="start">交付与维护闭环</tspan></tspan></text></g>
+<g id="o1:18" transform="translate(1525, 205)"><rect x="0" y="0" width="430" height="290" fill="url(#grad-l-o1:18)" stroke="#2f5fb3" stroke-width="3" rx="18" ry="18" filter="url(#shadow-o1-18-11)"/></g>
+<g id="a1:46" transform="translate(1555, 223.823)"><text font-size="18" font-family="Noto Sans SC" font-weight="bold" fill="#2f5fb3" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="21.177"><tspan x="0" text-anchor="start">技术建设</tspan></tspan></text></g>
+<g id="a1:47" transform="translate(1555, 262.058)"><text font-size="28" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="32.942"><tspan x="0" text-anchor="start">建立工程化交付体系</tspan></tspan></text></g>
+<g id="a1:48" transform="translate(1555, 321.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">自动准备和合入 Release MR</tspan></tspan></text></g>
+<g id="a1:49" transform="translate(1555, 358.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">发布 CLI、增量 Skill 与双站沙箱</tspan></tspan></text></g>
+<g id="a1:50" transform="translate(1555, 395.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">补齐客户端调用观测与 LogID</tspan></tspan></text></g>
+<g id="a1:51" transform="translate(1555, 432.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">发布结果分阶段通知和定位</tspan></tspan></text></g>
+<g id="o1:19" transform="translate(1525, 605)"><rect x="0" y="0" width="430" height="170" fill="url(#grad-l-o1:19)" stroke="#2f7d50" stroke-width="3" rx="18" ry="18"/></g>
+<g id="a1:52" transform="translate(1555, 623.823)"><text font-size="18" font-family="Noto Sans SC" font-weight="bold" fill="#2f7d50" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="21.177"><tspan x="0" text-anchor="start">业务变化</tspan></tspan></text></g>
+<g id="a1:53" transform="translate(1555, 662.9405)"><text font-size="23" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="27.06"><tspan x="0" text-anchor="start">新能力可以持续交付和维护</tspan></tspan></text></g>
+<g id="a1:54" transform="translate(1555, 712.6465)"><text font-size="19" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="22.354"><tspan x="0" text-anchor="start">版本对应关系清楚，调用问题可定位</tspan></tspan></text></g>
+<g id="c1:8" transform="translate(2190, 475)"><path fill="none" stroke="#d0d5dd" stroke-width="2" stroke-dasharray="8 10" d="M 0 805 L 0 0"/></g>
+<g id="o1:20" transform="translate(2178, 1268)"><ellipse fill="#ffffff" stroke="#2f7d50" stroke-width="5" cx="12" cy="12" rx="12" ry="12"/></g>
+<g id="a1:55" transform="translate(2112, 1317.058)"><text font-size="28" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="middle" dominant-baseline="alphabetic" x="78"><tspan x="78" y="32.942"><tspan x="16.3" text-anchor="start">10 月至今</tspan></tspan></text></g>
+<g id="o1:21" transform="translate(1990, 365)"><rect x="0" y="0" width="400" height="56" fill="#f2f4f7" stroke="none" stroke-width="0" rx="28" ry="28"/></g>
+<g id="a1:56" transform="translate(2098, 376.2935)"><text font-size="21" font-family="Noto Sans SC" font-weight="bold" fill="#344054" text-anchor="middle" dominant-baseline="alphabetic" x="92"><tspan x="92" y="24.707"><tspan x="18.5" text-anchor="start">进入常态化迭代</tspan></tspan></text></g>
+<g id="o1:22" transform="translate(1975, 145)"><rect x="0" y="0" width="430" height="185" fill="url(#grad-l-o1:22)" stroke="#2f5fb3" stroke-width="3" rx="18" ry="18" filter="url(#shadow-o1-22-14)"/></g>
+<g id="a1:57" transform="translate(2005, 163.823)"><text font-size="18" font-family="Noto Sans SC" font-weight="bold" fill="#2f5fb3" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="21.177"><tspan x="0" text-anchor="start">技术建设</tspan></tspan></text></g>
+<g id="a1:58" transform="translate(2005, 202.058)"><text font-size="28" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="32.942"><tspan x="0" text-anchor="start">持续完善开放体系</tspan></tspan></text></g>
+<g id="a1:59" transform="translate(2005, 256.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">补充业务命令，修正运行边界</tspan></tspan></text></g>
+<g id="a1:60" transform="translate(2005, 290.47)"><text font-size="20" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="23.53"><tspan x="0" text-anchor="start">持续优化发布和使用体验</tspan></tspan></text></g>
+<g id="o1:23" transform="translate(1975, 440)"><rect x="0" y="0" width="430" height="170" fill="url(#grad-l-o1:23)" stroke="#2f7d50" stroke-width="3" rx="18" ry="18"/></g>
+<g id="a1:61" transform="translate(2005, 458.823)"><text font-size="18" font-family="Noto Sans SC" font-weight="bold" fill="#2f7d50" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="21.177"><tspan x="0" text-anchor="start">业务变化</tspan></tspan></text></g>
+<g id="a1:62" transform="translate(2005, 497.9405)"><text font-size="23" font-family="Noto Sans SC" font-weight="bold" fill="#182230" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="27.06"><tspan x="0" text-anchor="start">开放能力承接日常业务需求</tspan></tspan></text></g>
+<g id="a1:63" transform="translate(2005, 547.6465)"><text font-size="19" font-family="Noto Sans SC" font-weight="normal" fill="#344054" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="22.354"><tspan x="0" text-anchor="start">新操作沿既有接入与发布链路持续交付</tspan></tspan></text></g>
+<g id="a1:64" transform="translate(120, 1381.176)"><text font-size="16" font-family="Noto Sans SC" font-weight="normal" fill="#98a2b3" text-anchor="start" dominant-baseline="alphabetic" x="0"><tspan x="0" y="18.824"><tspan x="0" text-anchor="start">注：案例数据仅对应已核实任务，不外推为平均提效。</tspan></tspan></text></g>
+</svg>

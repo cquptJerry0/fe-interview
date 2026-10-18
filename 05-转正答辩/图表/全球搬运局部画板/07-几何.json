@@ -1,0 +1,1357 @@
+{
+  "nodes": {
+    "v_header": {
+      "id": "o001:1",
+      "type": "composite_shape",
+      "x": 65,
+      "y": 140,
+      "width": 290,
+      "height": 95,
+      "text": {
+        "text": "引用替换服务",
+        "font_weight": "regular",
+        "font_size": 30,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#5178c6",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "predefined_process"
+      },
+      "z_index": 3
+    },
+    "v_bottom": {
+      "id": "o001:2",
+      "type": "composite_shape",
+      "x": 208,
+      "y": 1870,
+      "width": 4,
+      "height": 4,
+      "style": {
+        "border_style": "none",
+        "fill_opacity": 0
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 4
+    },
+    "db_header": {
+      "id": "o001:3",
+      "type": "composite_shape",
+      "x": 515,
+      "y": 140,
+      "width": 290,
+      "height": 95,
+      "text": {
+        "text": "任务／面板数据库",
+        "font_weight": "regular",
+        "font_size": 30,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#8895a7",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#f0f0f0",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "predefined_process"
+      },
+      "z_index": 5
+    },
+    "db_bottom": {
+      "id": "o001:4",
+      "type": "composite_shape",
+      "x": 658,
+      "y": 1870,
+      "width": 4,
+      "height": 4,
+      "style": {
+        "border_style": "none",
+        "fill_opacity": 0
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 6
+    },
+    "pub_header": {
+      "id": "o001:5",
+      "type": "composite_shape",
+      "x": 1015,
+      "y": 140,
+      "width": 290,
+      "height": 95,
+      "text": {
+        "text": "构建与发布服务",
+        "font_weight": "regular",
+        "font_size": 30,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#509863",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#dff5e5",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "predefined_process"
+      },
+      "z_index": 7
+    },
+    "pub_bottom": {
+      "id": "o001:6",
+      "type": "composite_shape",
+      "x": 1158,
+      "y": 1870,
+      "width": 4,
+      "height": 4,
+      "style": {
+        "border_style": "none",
+        "fill_opacity": 0
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 8
+    },
+    "title": {
+      "id": "a001:1",
+      "type": "text_shape",
+      "x": 40,
+      "y": 20,
+      "width": 1340,
+      "height": 61,
+      "text": {
+        "text": "⑦ 替换已有面板引用",
+        "font_weight": "bold",
+        "font_size": 42,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 9
+    },
+    "subtitle": {
+      "id": "a001:2",
+      "type": "text_shape",
+      "x": 40,
+      "y": 82,
+      "width": 1340,
+      "height": 44,
+      "text": {
+        "text": "只更新指定引用，不把其他草稿编辑一起发布",
+        "font_weight": "regular",
+        "font_size": 30,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#646a73",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 10
+    },
+    "scope": {
+      "id": "o001:7",
+      "type": "composite_shape",
+      "x": 65,
+      "y": 250,
+      "width": 1290,
+      "height": 70,
+      "text": {
+        "text": "前提：已确认面板范围，并取得成功搬运的旧 → 新素材映射",
+        "font_weight": "regular",
+        "font_size": 30,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#d4b45b",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#f0f0f0",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 11
+    },
+    "v_385": {
+      "id": "o001:8",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 373,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 12
+    },
+    "db_385": {
+      "id": "o001:9",
+      "type": "composite_shape",
+      "x": 654,
+      "y": 373,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 13
+    },
+    "db_455": {
+      "id": "o001:10",
+      "type": "composite_shape",
+      "x": 654,
+      "y": 443,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 14
+    },
+    "v_455": {
+      "id": "o001:11",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 443,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 15
+    },
+    "v_510": {
+      "id": "o001:12",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 498,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 16
+    },
+    "v_566": {
+      "id": "o001:13",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 554,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 17
+    },
+    "tx": {
+      "id": "o001:14",
+      "type": "composite_shape",
+      "x": 32,
+      "y": 635,
+      "width": 1356,
+      "height": 205,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "extra_narrow",
+        "border_color": "#8895a7",
+        "border_color_type": 1,
+        "border_style": "dash",
+        "fill_opacity": 100,
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 0
+    },
+    "tx_name": {
+      "id": "a001:3",
+      "type": "text_shape",
+      "x": 48,
+      "y": 647,
+      "width": 1324,
+      "height": 50,
+      "text": {
+        "text": "同一事务：内容变化则不提交替换",
+        "font_weight": "bold",
+        "font_size": 34,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 18
+    },
+    "v_730": {
+      "id": "o001:15",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 718,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 19
+    },
+    "db_730": {
+      "id": "o001:16",
+      "type": "composite_shape",
+      "x": 654,
+      "y": 718,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 20
+    },
+    "db_795": {
+      "id": "o001:17",
+      "type": "composite_shape",
+      "x": 654,
+      "y": 783,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 21
+    },
+    "v_795": {
+      "id": "o001:18",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 783,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 22
+    },
+    "v_925": {
+      "id": "o001:19",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 913,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 23
+    },
+    "pub_925": {
+      "id": "o001:20",
+      "type": "composite_shape",
+      "x": 1154,
+      "y": 913,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 24
+    },
+    "pub_990": {
+      "id": "o001:21",
+      "type": "composite_shape",
+      "x": 1154,
+      "y": 978,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 25
+    },
+    "v_990": {
+      "id": "o001:22",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 978,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 26
+    },
+    "draft_only": {
+      "id": "o001:23",
+      "type": "composite_shape",
+      "x": 32,
+      "y": 1045,
+      "width": 1356,
+      "height": 110,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "extra_narrow",
+        "border_color": "#8895a7",
+        "border_color_type": 1,
+        "border_style": "dash",
+        "fill_opacity": 100,
+        "fill_color": "#f0f0f0",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 1
+    },
+    "draft_only_name": {
+      "id": "a001:4",
+      "type": "text_shape",
+      "x": 48,
+      "y": 1057,
+      "width": 1324,
+      "height": 50,
+      "text": {
+        "text": "只有草稿引用：完成替换，不发正式版",
+        "font_weight": "bold",
+        "font_size": 34,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 27
+    },
+    "prod": {
+      "id": "o001:24",
+      "type": "composite_shape",
+      "x": 32,
+      "y": 1190,
+      "width": 1356,
+      "height": 400,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "extra_narrow",
+        "border_color": "#8895a7",
+        "border_color_type": 1,
+        "border_style": "dash",
+        "fill_opacity": 100,
+        "fill_color": "#dff5e5",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 2
+    },
+    "prod_name": {
+      "id": "a001:5",
+      "type": "text_shape",
+      "x": 48,
+      "y": 1202,
+      "width": 1324,
+      "height": 50,
+      "text": {
+        "text": "正式版也有旧引用：只发布替换差异",
+        "font_weight": "bold",
+        "font_size": 34,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 28
+    },
+    "v_1285": {
+      "id": "o001:25",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 1273,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 29
+    },
+    "pub_1285": {
+      "id": "o001:26",
+      "type": "composite_shape",
+      "x": 1154,
+      "y": 1273,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 30
+    },
+    "pub_1355": {
+      "id": "o001:27",
+      "type": "composite_shape",
+      "x": 1154,
+      "y": 1343,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 31
+    },
+    "v_1355": {
+      "id": "o001:28",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 1343,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 32
+    },
+    "v_1410": {
+      "id": "o001:29",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 1398,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 33
+    },
+    "v_1466": {
+      "id": "o001:30",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 1454,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 34
+    },
+    "v_1515": {
+      "id": "o001:31",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 1503,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 35
+    },
+    "db_1515": {
+      "id": "o001:32",
+      "type": "composite_shape",
+      "x": 654,
+      "y": 1503,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 36
+    },
+    "v_1625": {
+      "id": "o001:33",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 1613,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 37
+    },
+    "pub_1625": {
+      "id": "o001:34",
+      "type": "composite_shape",
+      "x": 1154,
+      "y": 1613,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 38
+    },
+    "v_1700": {
+      "id": "o001:35",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 1688,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 39
+    },
+    "db_1700": {
+      "id": "o001:36",
+      "type": "composite_shape",
+      "x": 654,
+      "y": 1688,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 40
+    },
+    "db_1765": {
+      "id": "o001:37",
+      "type": "composite_shape",
+      "x": 654,
+      "y": 1753,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 41
+    },
+    "v_1765": {
+      "id": "o001:38",
+      "type": "composite_shape",
+      "x": 204,
+      "y": 1753,
+      "width": 12,
+      "height": 24,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#718bae",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "rect"
+      },
+      "z_index": 42
+    },
+    "stop": {
+      "id": "a001:6",
+      "type": "text_shape",
+      "x": 60,
+      "y": 1820,
+      "width": 1300,
+      "height": 44,
+      "text": {
+        "text": "差异无法分离：保留草稿，停止自动发布",
+        "font_weight": "regular",
+        "font_size": 30,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#646a73",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 43
+    },
+    "foot": {
+      "id": "a001:7",
+      "type": "text_shape",
+      "x": 60,
+      "y": 1880,
+      "width": 1300,
+      "height": 44,
+      "text": {
+        "text": "发布响应未知先回读，不盲目重发；草稿是未发布编辑，正式版供客户端使用",
+        "font_weight": "regular",
+        "font_size": 30,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#646a73",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 44
+    }
+  },
+  "edges": [
+    {
+      "id": "v_life",
+      "from": "v_header",
+      "to": "v_bottom",
+      "points": [
+        {
+          "x": 210,
+          "y": 235
+        },
+        {
+          "x": 210,
+          "y": 1870
+        }
+      ],
+      "label": "",
+      "noArrow": true
+    },
+    {
+      "id": "db_life",
+      "from": "db_header",
+      "to": "db_bottom",
+      "points": [
+        {
+          "x": 660,
+          "y": 235
+        },
+        {
+          "x": 660,
+          "y": 1870
+        }
+      ],
+      "label": "",
+      "noArrow": true
+    },
+    {
+      "id": "pub_life",
+      "from": "pub_header",
+      "to": "pub_bottom",
+      "points": [
+        {
+          "x": 1160,
+          "y": 235
+        },
+        {
+          "x": 1160,
+          "y": 1870
+        }
+      ],
+      "label": "",
+      "noArrow": true
+    },
+    {
+      "id": "read",
+      "from": "v_385",
+      "to": "db_385",
+      "points": [
+        {
+          "x": 216,
+          "y": 385
+        },
+        {
+          "x": 654,
+          "y": 385
+        }
+      ],
+      "label": "读取草稿、正式版及确认记录",
+      "noArrow": false
+    },
+    {
+      "id": "panel",
+      "from": "db_455",
+      "to": "v_455",
+      "points": [
+        {
+          "x": 654,
+          "y": 455
+        },
+        {
+          "x": 216,
+          "y": 455
+        }
+      ],
+      "label": "返回最新内容与指纹",
+      "noArrow": false
+    },
+    {
+      "id": "verify",
+      "from": "v_510",
+      "to": "v_566",
+      "points": [
+        {
+          "x": 216,
+          "y": 510
+        },
+        {
+          "x": 390,
+          "y": 510
+        },
+        {
+          "x": 390,
+          "y": 566
+        },
+        {
+          "x": 216,
+          "y": 566
+        }
+      ],
+      "label": "核对确认后未变化",
+      "noArrow": false
+    },
+    {
+      "id": "replace",
+      "from": "v_730",
+      "to": "db_730",
+      "points": [
+        {
+          "x": 216,
+          "y": 730
+        },
+        {
+          "x": 654,
+          "y": 730
+        }
+      ],
+      "label": "替换草稿引用＋操作记录＋回执",
+      "noArrow": false
+    },
+    {
+      "id": "tx_ok",
+      "from": "db_795",
+      "to": "v_795",
+      "points": [
+        {
+          "x": 654,
+          "y": 795
+        },
+        {
+          "x": 216,
+          "y": 795
+        }
+      ],
+      "label": "事务提交完成",
+      "noArrow": false
+    },
+    {
+      "id": "build",
+      "from": "v_925",
+      "to": "pub_925",
+      "points": [
+        {
+          "x": 216,
+          "y": 925
+        },
+        {
+          "x": 1154,
+          "y": 925
+        }
+      ],
+      "label": "构建并更新内测快照",
+      "noArrow": false
+    },
+    {
+      "id": "build_ok",
+      "from": "pub_990",
+      "to": "v_990",
+      "points": [
+        {
+          "x": 1154,
+          "y": 990
+        },
+        {
+          "x": 216,
+          "y": 990
+        }
+      ],
+      "label": "快照已更新",
+      "noArrow": false
+    },
+    {
+      "id": "diff",
+      "from": "v_1285",
+      "to": "pub_1285",
+      "points": [
+        {
+          "x": 216,
+          "y": 1285
+        },
+        {
+          "x": 1154,
+          "y": 1285
+        }
+      ],
+      "label": "选择替换差异并试合并",
+      "noArrow": false
+    },
+    {
+      "id": "merged",
+      "from": "pub_1355",
+      "to": "v_1355",
+      "points": [
+        {
+          "x": 1154,
+          "y": 1355
+        },
+        {
+          "x": 216,
+          "y": 1355
+        }
+      ],
+      "label": "返回试合并后的完整内容",
+      "noArrow": false
+    },
+    {
+      "id": "compare",
+      "from": "v_1410",
+      "to": "v_1466",
+      "points": [
+        {
+          "x": 216,
+          "y": 1410
+        },
+        {
+          "x": 390,
+          "y": 1410
+        },
+        {
+          "x": 390,
+          "y": 1466
+        },
+        {
+          "x": 216,
+          "y": 1466
+        }
+      ],
+      "label": "等于原正式版仅替换引用？",
+      "noArrow": false
+    },
+    {
+      "id": "mark_unknown",
+      "from": "v_1515",
+      "to": "db_1515",
+      "points": [
+        {
+          "x": 216,
+          "y": 1515
+        },
+        {
+          "x": 654,
+          "y": 1515
+        }
+      ],
+      "label": "可分离：先记录发布待确认",
+      "noArrow": false
+    },
+    {
+      "id": "publish",
+      "from": "v_1625",
+      "to": "pub_1625",
+      "points": [
+        {
+          "x": 216,
+          "y": 1625
+        },
+        {
+          "x": 1154,
+          "y": 1625
+        }
+      ],
+      "label": "按既有发布规则提交所选差异",
+      "noArrow": false
+    },
+    {
+      "id": "reread",
+      "from": "v_1700",
+      "to": "db_1700",
+      "points": [
+        {
+          "x": 216,
+          "y": 1700
+        },
+        {
+          "x": 654,
+          "y": 1700
+        }
+      ],
+      "label": "回读实际版本／审批结果",
+      "noArrow": false
+    },
+    {
+      "id": "actual",
+      "from": "db_1765",
+      "to": "v_1765",
+      "points": [
+        {
+          "x": 654,
+          "y": 1765
+        },
+        {
+          "x": 216,
+          "y": 1765
+        }
+      ],
+      "label": "记录成功、待审批或待确认",
+      "noArrow": false
+    }
+  ]
+}

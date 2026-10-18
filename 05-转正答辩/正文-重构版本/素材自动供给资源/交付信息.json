@@ -1,0 +1,146 @@
+{
+  "document_id": "LR29dz9fmobFvexzqeNcmqIVnjb",
+  "url": "https://bytedance.larkoffice.com/wiki/GMEcwktLQip6NhkoYmHcL02Tnqg",
+  "revision_id": 4620,
+  "status": "已写入并回读，正文待用户审阅",
+  "staging_blocks_cleaned": true,
+  "images": {
+    "面板操作记录.png": {
+      "token": "Lx7WbSjfFof2UKxUsbYcvrAInKb",
+      "block_id": "CzRodVC2AoJSdbx0xEAcZuSDn8f",
+      "width": 730,
+      "height": 748,
+      "scale": "1.000000",
+      "caption": "面板操作记录"
+    },
+    "批次执行记录.png": {
+      "token": "XUesbMjhlo2hcUxzSb5cVcs3ncc",
+      "block_id": "GDIsdk5Gao67hZxMdrucdbW9nch",
+      "width": 730,
+      "height": 316,
+      "scale": "1.000000",
+      "caption": "批次执行耗时"
+    },
+    "任务积压变化.png": {
+      "token": "Qb04bgddmoHd7AxrCUPc0n6Mnih",
+      "block_id": "DnSldrE0do7n7sxlh0Jc1T2rnpg",
+      "width": 730,
+      "height": 286,
+      "scale": "1.000000",
+      "caption": "任务积压变化"
+    },
+    "分类同步配置.png": {
+      "token": "LwM1be4cKoihZSxLQDdcixDPnze",
+      "block_id": "HtK6dsCvdojDZJxhE6ocCsxenve",
+      "width": 730,
+      "height": 730,
+      "scale": "1.000000",
+      "caption": "分类同步配置"
+    },
+    "自动分发统计.png": {
+      "token": "UUSXb4r5aoV7qlxbpf7cg2WJnlg",
+      "block_id": "H6Pndpqy3oVO2axQqYMcZrYznyd",
+      "width": 730,
+      "height": 530,
+      "scale": "1.000000",
+      "caption": "自动供给统计"
+    },
+    "自动发布成功通知.png": {
+      "token": "CmFqbd6qloshHgxXaEzccdpfn7e",
+      "block_id": "RZ2JdPcJWoOcZFxifVMcV8FTn5f",
+      "width": 730,
+      "height": 919,
+      "scale": "1.000000",
+      "caption": "自动发布通知"
+    }
+  },
+  "boards": [
+    {
+      "title": "图片模板供给流程",
+      "token": "EklEwMtnkh8cC7bMPaBcmuB1nph",
+      "block_id": "WvSBdp9QfobF2jxxIolcbmuNnOb",
+      "preview": "供给链路-当前预览.jpg",
+      "caption": "上游提供转静产物与审核结果；VIMO 判断整体供给条件，再完成目标分类匹配、内容同步和正式发布。"
+    },
+    {
+      "title": "正式发布改造前后对照",
+      "token": "AKslwayrYhuO7TbL7ntcaknSnNb",
+      "block_id": "Q3DWdXBlqoosw4x1BnocqtXankg",
+      "preview": "发布对照-当前预览.jpg",
+      "caption": "上方展示原有分发、同步路径；下方展示两类内容更新如何登记发布需求，再由发布定时器聚合面板并调用已有正式发布服务。"
+    },
+    {
+      "title": "批量执行优化对照",
+      "token": "FYXCw2tErhKMuFbr0HYcgmOXnAf",
+      "block_id": "I41hdQO2YoLoq4xBB3cchgnkndh",
+      "preview": "批量对照-当前预览.jpg",
+      "caption": "上方展示多个任务重复读取、解析和提交；下方展示公共数据在批次内复用，同分类动作保序归并，再按面板提交并关联回原任务。任务入口补充批量建单后回读主库的说明。",
+      "entry_note_node_id": "o8:52"
+    }
+  ],
+  "verification": {
+    "tables": 1,
+    "whiteboards": 3,
+    "images": 6,
+    "grids": 3,
+    "blue_bold_spans": 9,
+    "screenshot_slots": 0,
+    "ordered_solution_lists": 3,
+    "markdown_text_matches_remote": true,
+    "image_captions": "六张截图使用短图名，通过原生 image.caption.content 写入并逐张回读，无额外正文图注",
+    "native_captions_verified": true,
+    "whiteboard_captions": "当前公开接口不支持画板原生描述，未写入；已有画板保留",
+    "browser_visual_review": false,
+    "related_document_titles_verified": 7,
+    "table_rows": 1,
+    "table_columns": 3,
+    "column_widths": [
+      543,
+      543,
+      512
+    ],
+    "all_media_inside_table": true,
+    "user_layout_preserved": true,
+    "image_display_sizes_preserved": true,
+    "screenshots_before_solution": true,
+    "whiteboards_after_solution": true,
+    "planning_format": "可靠性治理单点，覆盖素材同步、入面板和正式发布全过程",
+    "ambiguous_placeholders": false,
+    "other_sections_unchanged": true,
+    "batch_board_entry_note": "正式文档画板仅追加入口说明；原有流程节点与连线保留，兼容同期标题精简与副标题删除，已回读"
+  },
+  "evidence_notes": [
+    "按用户确认合计现有记录：9月第四周存量26400条 + 7月增量约4500条 = 约30900条。正文写为补充模板约3.09万条，保留周报与群聊来源，不扩写为截至今天的去重累计量。",
+    "前后批次耗时约1188秒和11.856秒；展开动作976/499、分类143/111、面板16/8不同。本轮保留各自耗时，移除直接推导的100倍提速，不写平均耗时或同负载验证结论。",
+    "性能产出明确对应素材入面板的内容处理阶段，不包含正式发布等待；原截图保留50条任务成功及服务端11.856秒，原生描述缩为批次执行耗时。",
+    "单轮任务量20条到300条由用户确认，15倍仅对应单次处理量；以缓解排队造成的上线延迟描述效果，不宣称15倍单位时间吞吐或积压永久清零。",
+    "积压原图终值为3723，不是历史alt中的3729；4762-3723=1039。没有同期新增量，不能作为总消费量。",
+    "批次执行记录和积压趋势均裁切自原图，不修改原图内数字；完整来源图同目录保留。",
+    "三张画板复用此前已认可的原生结构；第一张把审核通过事件改为素材变更事件，并将判断改为供给条件变为满足。",
+    "新增统计截图统计成功新增至待发布分类的素材，不代表完成正式发布；图注未将其解释为已上线供给量。",
+    "自动供给可视化描述区分新增素材数量及去向与任务状态查询，不将待发布分类新增量当作正式发布量。"
+  ],
+  "table_id": "GpK8djZUNobBUVxZynXcVeKtn3e",
+  "layout": "保留用户调整：主表543/543/512px；各列截图双栏在方案前，画板在方案后；规划单列成节",
+  "planning_source": {
+    "title": "自动化链路技术优化",
+    "token": "M01hdOxyboo5mQxW0POcOPOsn8d",
+    "revision_id": 35
+  },
+  "planning_style_reference": {
+    "title": "工作总结-7.31",
+    "token": "JEPIdbbfIovvu2xARc7cDAHhnBc",
+    "revision_id": 1
+  },
+  "review_focus": [
+    "总背景交代业务目标，各列背景解释对应技术问题",
+    "删除重复引导短语，产出直接陈述结果",
+    "发布方案按登记需求、保存依据、执行与恢复组织",
+    "性能方案按任务入口、批量执行、结果组织；主库回读放入图中入口说明",
+    "保留技术约束",
+    "内部术语改为具体操作",
+    "规划聚焦可靠性治理"
+  ],
+  "module_heading_id": "AQZedfwGRoqIApxkrHCcrRDtnnk",
+  "delivery_scope": "仅正式文档第4章；独立正文与画板文档不再作为同步目标"
+}

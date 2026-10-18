@@ -1,0 +1,24 @@
+{
+  "code": 0,
+  "data": {
+    "to": "image",
+    "metadata": {
+      "width": 2950,
+      "height": 1282,
+      "nodeCount": 89,
+      "connectorCount": 18
+    },
+    "quality": {
+      "connectorRefs": 0.3499999999999999,
+      "anchorDirection": 1,
+      "connectorStyle": 0,
+      "sizeConsistency": 1,
+      "bounds": 1,
+      "spacing": 0.5,
+      "fontSizeCheck": 1,
+      "contrast": 1
+    },
+    "outputPath": "/Users/bytedance/Projects/personal/面试/05-转正答辩/图表/素材搬运系统全景/排版优化本地.png"
+  },
+  "error": ""
+}

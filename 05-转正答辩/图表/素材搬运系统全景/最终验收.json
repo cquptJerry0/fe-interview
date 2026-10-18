@@ -1,0 +1,13 @@
+{
+  "document_revision": 58,
+  "node_count": 90,
+  "types": {
+    "text_shape": 38,
+    "connector": 18,
+    "composite_shape": 34
+  },
+  "connector_count": 18,
+  "dashed_connectors": 3,
+  "missing_text": [],
+  "image_nodes": 0
+}

@@ -1,0 +1,351 @@
+{
+  "W": 1280,
+  "H": 1540,
+  "specs": {
+    "ui_header": {
+      "kind": "platform",
+      "x": 40,
+      "y": 140,
+      "w": 290,
+      "h": 95,
+      "text": "操作界面"
+    },
+    "ui_bottom": {
+      "kind": "pin",
+      "x": 183,
+      "y": 1460,
+      "w": 4,
+      "h": 4,
+      "text": ""
+    },
+    "v_header": {
+      "kind": "platform",
+      "x": 415,
+      "y": 140,
+      "w": 290,
+      "h": 95,
+      "text": "归属确认服务"
+    },
+    "v_bottom": {
+      "kind": "pin",
+      "x": 558,
+      "y": 1460,
+      "w": 4,
+      "h": 4,
+      "text": ""
+    },
+    "feed_header": {
+      "kind": "platform",
+      "x": 850,
+      "y": 140,
+      "w": 290,
+      "h": 95,
+      "text": "Feed 素材服务"
+    },
+    "feed_bottom": {
+      "kind": "pin",
+      "x": 993,
+      "y": 1460,
+      "w": 4,
+      "h": 4,
+      "text": ""
+    },
+    "title": {
+      "kind": "text",
+      "x": 40,
+      "y": 20,
+      "w": 1200,
+      "h": 59,
+      "text": "⑥ 补齐历史素材归属"
+    },
+    "subtitle": {
+      "kind": "text",
+      "x": 40,
+      "y": 82,
+      "w": 1200,
+      "h": 42,
+      "text": "只补空归属，保护其他人已经确认的结果"
+    },
+    "ui_290": {
+      "kind": "activation",
+      "x": 179,
+      "y": 278,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_290": {
+      "kind": "activation",
+      "x": 554,
+      "y": 278,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_340": {
+      "kind": "activation",
+      "x": 554,
+      "y": 328,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_396": {
+      "kind": "activation",
+      "x": 554,
+      "y": 384,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_450": {
+      "kind": "activation",
+      "x": 554,
+      "y": 438,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "feed_450": {
+      "kind": "activation",
+      "x": 989,
+      "y": 438,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "feed_515": {
+      "kind": "activation",
+      "x": 989,
+      "y": 503,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_515": {
+      "kind": "activation",
+      "x": 554,
+      "y": 503,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "same": {
+      "kind": "container",
+      "x": 32,
+      "y": 575,
+      "w": 1216,
+      "h": 140
+    },
+    "same_name": {
+      "kind": "text",
+      "x": 48,
+      "y": 587,
+      "w": 1184,
+      "h": 48,
+      "text": "已有归属与本次选择相同"
+    },
+    "v_670": {
+      "kind": "activation",
+      "x": 554,
+      "y": 658,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "ui_670": {
+      "kind": "activation",
+      "x": 179,
+      "y": 658,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "different": {
+      "kind": "container",
+      "x": 32,
+      "y": 750,
+      "w": 1216,
+      "h": 140
+    },
+    "different_name": {
+      "kind": "text",
+      "x": 48,
+      "y": 762,
+      "w": 1184,
+      "h": 48,
+      "text": "已有归属与本次选择不同"
+    },
+    "v_845": {
+      "kind": "activation",
+      "x": 554,
+      "y": 833,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "ui_845": {
+      "kind": "activation",
+      "x": 179,
+      "y": 833,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "empty": {
+      "kind": "container",
+      "x": 32,
+      "y": 925,
+      "w": 1216,
+      "h": 340
+    },
+    "empty_name": {
+      "kind": "text",
+      "x": 48,
+      "y": 937,
+      "w": 1184,
+      "h": 48,
+      "text": "归属仍为空，且有更新时间"
+    },
+    "v_1020": {
+      "kind": "activation",
+      "x": 554,
+      "y": 1008,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "feed_1020": {
+      "kind": "activation",
+      "x": 989,
+      "y": 1008,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "feed_1100": {
+      "kind": "activation",
+      "x": 989,
+      "y": 1088,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_1100": {
+      "kind": "activation",
+      "x": 554,
+      "y": 1088,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_1190": {
+      "kind": "activation",
+      "x": 554,
+      "y": 1178,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "ui_1190": {
+      "kind": "activation",
+      "x": 179,
+      "y": 1178,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "batch": {
+      "kind": "action",
+      "x": 100,
+      "y": 1310,
+      "w": 1080,
+      "h": 70,
+      "text": "批量逐项处理：成功项完成，失败项保留供重试"
+    },
+    "foot": {
+      "kind": "text",
+      "x": 60,
+      "y": 1440,
+      "w": 1160,
+      "h": 42,
+      "text": "无更新时间或读取失败：停止写入；确认后由用户重提原操作"
+    }
+  },
+  "routes": {
+    "ui_life": {
+      "dash": true,
+      "noArrow": true,
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "v_life": {
+      "dash": true,
+      "noArrow": true,
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "feed_life": {
+      "dash": true,
+      "noArrow": true,
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "submit": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "candidate": {
+      "points": [
+        {
+          "x": 740,
+          "y": 340
+        },
+        {
+          "x": 740,
+          "y": 396
+        }
+      ],
+      "pos": 0.3,
+      "fa": "right",
+      "ta": "right"
+    },
+    "read": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "snapshot": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "same_ok": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "different_stop": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "write": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "write_result": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "item_result": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    }
+  },
+  "sourceCommit": "9d157f466590a5e8678956f76c6ba0e7169bef80"
+}

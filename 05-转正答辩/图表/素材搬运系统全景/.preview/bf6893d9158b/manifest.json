@@ -1,0 +1,39 @@
+{
+  "schema_version": "1",
+  "source_path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/图表/素材搬运系统全景/排版优化实际导图.jpg",
+  "source_filename": "排版优化实际导图.jpg",
+  "source_hash": "bf6893d9158b",
+  "source_size_bytes": 222154,
+  "kind": "image",
+  "rendered_at_utc": "2026-10-18T10:22:07+00:00",
+  "output_dir": "/Users/bytedance/Projects/personal/面试/05-转正答辩/图表/素材搬运系统全景/.preview/bf6893d9158b",
+  "page_count": 1,
+  "rendered_page_count": 1,
+  "collage_count": 0,
+  "extracted_text_chars": 0,
+  "text_relpath": null,
+  "thumbnail_relpath": "thumb.jpg",
+  "pages": [
+    {
+      "page": 1,
+      "relpath": "pages/p001.jpg",
+      "size_bytes": 222154,
+      "width": 2560,
+      "height": 2560
+    }
+  ],
+  "collages": [],
+  "warnings": [],
+  "options": {
+    "max_pages": 12,
+    "collage": true,
+    "page_range": null,
+    "thumbnail": true,
+    "text_only": false,
+    "jpeg_quality": 85,
+    "out_max_dim": 2048
+  },
+  "summary": {
+    "dimensions": "2560x2560"
+  }
+}

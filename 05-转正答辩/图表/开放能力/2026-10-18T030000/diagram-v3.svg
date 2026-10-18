@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2600 1460">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F7F3"/>
+      <stop offset="1" stop-color="#F1F3F2"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F9FAF9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#142A34" flood-opacity="0.10"/>
+    </filter>
+    <marker id="curveArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#C46A2D"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="2600" height="1460" fill="url(#bg)"/>
+
+  <!-- 标题 -->
+  <text x="130" y="105" font-family="Noto Sans SC, sans-serif" font-size="50" font-weight="700" fill="#152B36">VIMO 开放能力建设路径</text>
+  <text x="130" y="152" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#62727A">从统一程序入口，演进为多业务复用、持续交付的开放体系</text>
+  <rect x="2070" y="76" width="400" height="58" rx="29" fill="#E4E9E8"/>
+  <text x="2270" y="113" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="19" font-weight="600" fill="#28444E">OpenAPI · vimocli · Skill</text>
+
+  <!-- 坐标轴 -->
+  <line x1="130" y1="1290" x2="2470" y2="1290" stroke="#152B36" stroke-width="4"/>
+  <line x1="130" y1="1290" x2="130" y2="220" stroke="#152B36" stroke-width="4"/>
+  <polygon points="2470,1290 2443,1276 2443,1304" fill="#152B36"/>
+  <polygon points="130,220 116,247 144,247" fill="#152B36"/>
+  <text x="2468" y="1332" text-anchor="end" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#62727A">时间</text>
+  <text x="72" y="276" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#62727A">开放能力</text>
+  <text x="72" y="304" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#62727A">复用范围</text>
+
+  <!-- 能力曲线 -->
+  <path d="M270 1200 C430 1165, 520 1090, 650 1030 C810 955, 930 880, 1080 795 C1250 698, 1375 620, 1530 535 C1700 442, 1840 390, 2015 310 C2160 244, 2270 220, 2395 205" fill="none" stroke="#C46A2D" stroke-width="8" stroke-linecap="round" marker-end="url(#curveArrow)"/>
+
+  <!-- 阶段 1 -->
+  <line x1="370" y1="1290" x2="370" y2="1120" stroke="#C8D0D0" stroke-width="2" stroke-dasharray="8 10"/>
+  <circle cx="370" cy="1290" r="12" fill="#F8F7F3" stroke="#C46A2D" stroke-width="5"/>
+  <text x="370" y="1350" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="27" font-weight="700" fill="#152B36">04—05 月</text>
+  <g filter="url(#shadow)">
+    <rect x="175" y="785" width="390" height="292" rx="19" fill="url(#card)" stroke="#AEBBBB" stroke-width="2"/>
+  </g>
+  <rect x="175" y="785" width="9" height="292" rx="5" fill="#C46A2D"/>
+  <text x="210" y="828" font-family="Noto Sans SC, sans-serif" font-size="17" font-weight="700" fill="#C46A2D">统一调用入口</text>
+  <text x="210" y="874" font-family="Noto Sans SC, sans-serif" font-size="26" font-weight="700" fill="#152B36">建立程序调用基础</text>
+  <line x1="210" y1="898" x2="530" y2="898" stroke="#D8DEDD" stroke-width="2"/>
+  <text x="210" y="937" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 将素材、面板、实验能力整理为接口</text>
+  <text x="210" y="974" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 接入 JWT 身份认证与结构化命令</text>
+  <text x="210" y="1011" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 打通接口权限申请和审批链路</text>
+  <rect x="175" y="1090" width="390" height="105" rx="17" fill="#203D48"/>
+  <text x="203" y="1122" font-family="Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#F6C39D">阶段结果</text>
+  <text x="203" y="1158" font-family="Noto Sans SC, sans-serif" font-size="19" font-weight="600" fill="#FFFFFF">形成面向个人、脚本和服务账号的</text>
+  <text x="203" y="1185" font-family="Noto Sans SC, sans-serif" font-size="19" font-weight="600" fill="#FFFFFF">统一程序调用入口</text>
+
+  <!-- 阶段 2 -->
+  <line x1="825" y1="1290" x2="825" y2="960" stroke="#C8D0D0" stroke-width="2" stroke-dasharray="8 10"/>
+  <circle cx="825" cy="1290" r="12" fill="#F8F7F3" stroke="#C46A2D" stroke-width="5"/>
+  <text x="825" y="1350" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="27" font-weight="700" fill="#152B36">05—06 月</text>
+  <g filter="url(#shadow)">
+    <rect x="630" y="570" width="390" height="330" rx="19" fill="url(#card)" stroke="#AEBBBB" stroke-width="2"/>
+  </g>
+  <rect x="630" y="570" width="9" height="330" rx="5" fill="#C46A2D"/>
+  <text x="665" y="613" font-family="Noto Sans SC, sans-serif" font-size="17" font-weight="700" fill="#C46A2D">业务操作闭环</text>
+  <text x="665" y="659" font-family="Noto Sans SC, sans-serif" font-size="26" font-weight="700" fill="#152B36">完整承接素材业务操作</text>
+  <line x1="665" y1="683" x2="985" y2="683" stroke="#D8DEDD" stroke-width="2"/>
+  <text x="665" y="722" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 开放查询、配置、分类关系和发布</text>
+  <text x="665" y="759" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 服务端按业务目标计算发布变更</text>
+  <text x="665" y="796" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 按面板、素材类型和动作限制范围</text>
+  <text x="665" y="833" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• CLI、Skill 与版本更新配套交付</text>
+  <rect x="630" y="918" width="390" height="145" rx="17" fill="#203D48"/>
+  <text x="658" y="950" font-family="Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#F6C39D">阶段结果</text>
+  <text x="658" y="985" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">约 150 个老特效状态批量核查</text>
+  <text x="658" y="1017" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">一次任务移除万余素材分类关联</text>
+  <text x="658" y="1048" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#C9D5D8">单次案例：人工约 1 天，AI 约 15 分钟</text>
+
+  <!-- 阶段 3 -->
+  <line x1="1280" y1="1290" x2="1280" y2="790" stroke="#C8D0D0" stroke-width="2" stroke-dasharray="8 10"/>
+  <circle cx="1280" cy="1290" r="12" fill="#F8F7F3" stroke="#C46A2D" stroke-width="5"/>
+  <text x="1280" y="1350" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="27" font-weight="700" fill="#152B36">07—08 月</text>
+  <g filter="url(#shadow)">
+    <rect x="1085" y="335" width="390" height="360" rx="19" fill="url(#card)" stroke="#AEBBBB" stroke-width="2"/>
+  </g>
+  <rect x="1085" y="335" width="9" height="360" rx="5" fill="#C46A2D"/>
+  <text x="1120" y="378" font-family="Noto Sans SC, sans-serif" font-size="17" font-weight="700" fill="#C46A2D">多环境与多业务接入</text>
+  <text x="1120" y="424" font-family="Noto Sans SC, sans-serif" font-size="26" font-weight="700" fill="#152B36">收敛环境与协议差异</text>
+  <line x1="1120" y1="448" x2="1440" y2="448" stroke="#D8DEDD" stroke-width="2"/>
+  <text x="1120" y="487" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 统一国内与海外站点适配</text>
+  <text x="1120" y="524" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 兼容个人账号与服务账号</text>
+  <text x="1120" y="561" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 覆盖本地脚本与云端 Agent</text>
+  <text x="1120" y="598" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 按 P0 / P1 / P2 治理开放风险</text>
+  <text x="1120" y="635" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 身份、网络、协议统一由公共层承接</text>
+  <rect x="1085" y="713" width="390" height="155" rx="17" fill="#203D48"/>
+  <text x="1113" y="745" font-family="Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#F6C39D">阶段结果</text>
+  <text x="1113" y="780" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">公共身份组件复用至 5 个业务模块</text>
+  <text x="1113" y="812" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">2 个云端 Agent 复用免登录执行链路</text>
+  <text x="1113" y="844" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#C9D5D8">商业化、模板等非素材业务快速接入</text>
+
+  <!-- 阶段 4 -->
+  <line x1="1735" y1="1290" x2="1735" y2="620" stroke="#C8D0D0" stroke-width="2" stroke-dasharray="8 10"/>
+  <circle cx="1735" cy="1290" r="12" fill="#F8F7F3" stroke="#C46A2D" stroke-width="5"/>
+  <text x="1735" y="1350" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="27" font-weight="700" fill="#152B36">09 月</text>
+  <g filter="url(#shadow)">
+    <rect x="1540" y="180" width="390" height="345" rx="19" fill="url(#card)" stroke="#AEBBBB" stroke-width="2"/>
+  </g>
+  <rect x="1540" y="180" width="9" height="345" rx="5" fill="#C46A2D"/>
+  <text x="1575" y="223" font-family="Noto Sans SC, sans-serif" font-size="17" font-weight="700" fill="#C46A2D">持续交付与可观测</text>
+  <text x="1575" y="269" font-family="Noto Sans SC, sans-serif" font-size="26" font-weight="700" fill="#152B36">建立交付与观测闭环</text>
+  <line x1="1575" y1="293" x2="1895" y2="293" stroke="#D8DEDD" stroke-width="2"/>
+  <text x="1575" y="332" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 由 Tag 和 Release MR 驱动发布</text>
+  <text x="1575" y="369" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 分发 CLI、增量 Skill 与双站沙箱</text>
+  <text x="1575" y="406" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 校验制品、镜像与运行版本一致性</text>
+  <text x="1575" y="443" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 关联命令、请求、结果与 LogID</text>
+  <rect x="1540" y="543" width="390" height="155" rx="17" fill="#203D48"/>
+  <text x="1568" y="575" font-family="Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#F6C39D">阶段结果</text>
+  <text x="1568" y="610" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Q3 记录 313 个调用账号</text>
+  <text x="1568" y="642" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">累计 608,126 次调用</text>
+  <text x="1568" y="674" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#C9D5D8">109 个账号调用不少于 100 次</text>
+
+  <!-- 阶段 5 -->
+  <line x1="2190" y1="1290" x2="2190" y2="460" stroke="#C8D0D0" stroke-width="2" stroke-dasharray="8 10"/>
+  <circle cx="2190" cy="1290" r="12" fill="#F8F7F3" stroke="#C46A2D" stroke-width="5"/>
+  <text x="2190" y="1350" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="27" font-weight="700" fill="#152B36">10 月至今</text>
+  <g filter="url(#shadow)">
+    <rect x="1995" y="165" width="390" height="245" rx="19" fill="url(#card)" stroke="#AEBBBB" stroke-width="2"/>
+  </g>
+  <rect x="1995" y="165" width="9" height="245" rx="5" fill="#C46A2D"/>
+  <text x="2030" y="208" font-family="Noto Sans SC, sans-serif" font-size="17" font-weight="700" fill="#C46A2D">常态化演进</text>
+  <text x="2030" y="254" font-family="Noto Sans SC, sans-serif" font-size="26" font-weight="700" fill="#152B36">按统一链路持续扩展</text>
+  <line x1="2030" y1="278" x2="2350" y2="278" stroke="#D8DEDD" stroke-width="2"/>
+  <text x="2030" y="317" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 新增业务命令与素材操作</text>
+  <text x="2030" y="354" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 持续修正运行边界与交付问题</text>
+  <text x="2030" y="391" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#455A63">• 依据调用记录完善命令与 Skill</text>
+  <rect x="1995" y="428" width="390" height="122" rx="17" fill="#203D48"/>
+  <text x="2023" y="460" font-family="Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#F6C39D">阶段结果</text>
+  <text x="2023" y="496" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">持续承接素材编辑、数据查询与</text>
+  <text x="2023" y="525" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">自动化验证等新增需求</text>
+
+  <!-- 底部总结 -->
+  <rect x="360" y="1390" width="1880" height="44" rx="22" fill="#DDE4E3"/>
+  <text x="1300" y="1419" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#28444E">统一入口　→　业务操作闭环　→　多环境与多业务复用　→　持续交付与观测　→　常态化扩展</text>
+</svg>

@@ -1,0 +1,1100 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "text",
+      "id": "title",
+      "x": 30,
+      "y": 28,
+      "width": 3276,
+      "height": "fit-content",
+      "text": [
+        {
+          "content": "素材搬运系统全景",
+          "bold": true,
+          "fontSize": 40,
+          "color": "#1F2329"
+        }
+      ],
+      "fontSize": 40,
+      "textColor": "#1F2329",
+      "textAlign": "center"
+    },
+    {
+      "type": "rect",
+      "id": "stage_0",
+      "x": 390,
+      "y": 138,
+      "width": 276,
+      "height": 62,
+      "text": "1  申请预检",
+      "fontSize": 22,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#F1F3F5",
+      "borderColor": "#556376",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "stage_1",
+      "x": 744,
+      "y": 138,
+      "width": 276,
+      "height": 62,
+      "text": "2  提交审批",
+      "fontSize": 22,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#F1F3F5",
+      "borderColor": "#556376",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "stage_2",
+      "x": 1098,
+      "y": 138,
+      "width": 276,
+      "height": 62,
+      "text": "3  准备执行",
+      "fontSize": 22,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#F1F3F5",
+      "borderColor": "#556376",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "stage_3",
+      "x": 1452,
+      "y": 138,
+      "width": 276,
+      "height": 62,
+      "text": "4  创建搬运",
+      "fontSize": 22,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#F1F3F5",
+      "borderColor": "#556376",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "stage_4",
+      "x": 1806,
+      "y": 138,
+      "width": 276,
+      "height": 62,
+      "text": "5  查询结果",
+      "fontSize": 22,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#F1F3F5",
+      "borderColor": "#556376",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "stage_5",
+      "x": 2160,
+      "y": 138,
+      "width": 276,
+      "height": 62,
+      "text": "6  后续处理",
+      "fontSize": 22,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#F1F3F5",
+      "borderColor": "#556376",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "stage_6",
+      "x": 2514,
+      "y": 138,
+      "width": 276,
+      "height": 62,
+      "text": "7  汇总通知",
+      "fontSize": 22,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#F1F3F5",
+      "borderColor": "#556376",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "text",
+      "id": "storage_heading",
+      "x": 2906,
+      "y": 156,
+      "width": 400,
+      "height": "fit-content",
+      "text": [
+        {
+          "content": "存储",
+          "bold": true,
+          "fontSize": 28,
+          "color": "#1F2329"
+        }
+      ],
+      "fontSize": 28,
+      "textColor": "#1F2329",
+      "textAlign": "center"
+    },
+    {
+      "type": "frame",
+      "id": "vimo_lane",
+      "x": 30,
+      "y": 250,
+      "width": 2802,
+      "height": 200,
+      "layout": "none",
+      "gap": 0,
+      "padding": 0,
+      "fillColor": "#F4F6FA",
+      "borderColor": "#DCE1E8",
+      "borderWidth": 1,
+      "borderRadius": 14,
+      "children": []
+    },
+    {
+      "type": "frame",
+      "id": "vimo_header",
+      "x": 48,
+      "y": 258,
+      "width": 316,
+      "height": 184,
+      "layout": "vertical",
+      "gap": 8,
+      "padding": [
+        14,
+        12
+      ],
+      "alignItems": "center",
+      "justifyContent": "center",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#436299",
+      "borderWidth": 2,
+      "borderRadius": 12,
+      "children": [
+        {
+          "type": "text",
+          "id": "vimo_name",
+          "x": 0,
+          "y": 0,
+          "width": 292,
+          "height": "fit-content",
+          "text": [
+            {
+              "content": "VIMO 业务任务",
+              "bold": true,
+              "fontSize": 28,
+              "color": "#1F2329"
+            }
+          ],
+          "fontSize": 28,
+          "textColor": "#1F2329",
+          "textAlign": "center"
+        },
+        {
+          "type": "text",
+          "id": "vimo_psm",
+          "x": 0,
+          "y": 0,
+          "width": 292,
+          "height": "fit-content",
+          "text": "PSM\nies.vimo.material_web",
+          "fontSize": 22,
+          "textColor": "#4E5969",
+          "textAlign": "center"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "bpm_lane",
+      "x": 30,
+      "y": 510,
+      "width": 2802,
+      "height": 200,
+      "layout": "none",
+      "gap": 0,
+      "padding": 0,
+      "fillColor": "#F7F5FB",
+      "borderColor": "#DCE1E8",
+      "borderWidth": 1,
+      "borderRadius": 14,
+      "children": []
+    },
+    {
+      "type": "frame",
+      "id": "bpm_header",
+      "x": 48,
+      "y": 518,
+      "width": 316,
+      "height": 184,
+      "layout": "vertical",
+      "gap": 8,
+      "padding": [
+        14,
+        12
+      ],
+      "alignItems": "center",
+      "justifyContent": "center",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#644E9F",
+      "borderWidth": 2,
+      "borderRadius": 12,
+      "children": [
+        {
+          "type": "text",
+          "id": "bpm_name",
+          "x": 0,
+          "y": 0,
+          "width": 292,
+          "height": "fit-content",
+          "text": [
+            {
+              "content": "BPM 审批与编排",
+              "bold": true,
+              "fontSize": 28,
+              "color": "#1F2329"
+            }
+          ],
+          "fontSize": 28,
+          "textColor": "#1F2329",
+          "textAlign": "center"
+        },
+        {
+          "type": "text",
+          "id": "bpm_psm",
+          "x": 0,
+          "y": 0,
+          "width": 292,
+          "height": "fit-content",
+          "text": "流程 key\nvimo_material_transfer",
+          "fontSize": 22,
+          "textColor": "#4E5969",
+          "textAlign": "center"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "material_lane",
+      "x": 30,
+      "y": 770,
+      "width": 2802,
+      "height": 200,
+      "layout": "none",
+      "gap": 0,
+      "padding": 0,
+      "fillColor": "#F4F8F8",
+      "borderColor": "#DCE1E8",
+      "borderWidth": 1,
+      "borderRadius": 14,
+      "children": []
+    },
+    {
+      "type": "frame",
+      "id": "material_header",
+      "x": 48,
+      "y": 778,
+      "width": 316,
+      "height": 184,
+      "layout": "vertical",
+      "gap": 8,
+      "padding": [
+        14,
+        12
+      ],
+      "alignItems": "center",
+      "justifyContent": "center",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#467175",
+      "borderWidth": 2,
+      "borderRadius": 12,
+      "children": [
+        {
+          "type": "text",
+          "id": "material_name",
+          "x": 0,
+          "y": 0,
+          "width": 292,
+          "height": "fit-content",
+          "text": [
+            {
+              "content": "素材服务",
+              "bold": true,
+              "fontSize": 28,
+              "color": "#1F2329"
+            }
+          ],
+          "fontSize": 28,
+          "textColor": "#1F2329",
+          "textAlign": "center"
+        },
+        {
+          "type": "text",
+          "id": "material_psm",
+          "x": 0,
+          "y": 0,
+          "width": 292,
+          "height": "fit-content",
+          "text": "PSM\nfaceu.artist.op_server\nfaceu.artist.feed",
+          "fontSize": 22,
+          "textColor": "#4E5969",
+          "textAlign": "center"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "target_lane",
+      "x": 30,
+      "y": 1030,
+      "width": 2802,
+      "height": 200,
+      "layout": "none",
+      "gap": 0,
+      "padding": 0,
+      "fillColor": "#F4F8F5",
+      "borderColor": "#DCE1E8",
+      "borderWidth": 1,
+      "borderRadius": 14,
+      "children": []
+    },
+    {
+      "type": "frame",
+      "id": "target_header",
+      "x": 48,
+      "y": 1038,
+      "width": 316,
+      "height": 184,
+      "layout": "vertical",
+      "gap": 8,
+      "padding": [
+        14,
+        12
+      ],
+      "alignItems": "center",
+      "justifyContent": "center",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#4B7E5A",
+      "borderWidth": 2,
+      "borderRadius": 12,
+      "children": [
+        {
+          "type": "text",
+          "id": "target_name",
+          "x": 0,
+          "y": 0,
+          "width": 292,
+          "height": "fit-content",
+          "text": [
+            {
+              "content": "目标业务",
+              "bold": true,
+              "fontSize": 28,
+              "color": "#1F2329"
+            }
+          ],
+          "fontSize": 28,
+          "textColor": "#1F2329",
+          "textAlign": "center"
+        },
+        {
+          "type": "text",
+          "id": "target_psm",
+          "x": 0,
+          "y": 0,
+          "width": 292,
+          "height": "fit-content",
+          "text": "PSM\nies.vimo.material_web\n（目标站点）",
+          "fontSize": 22,
+          "textColor": "#4E5969",
+          "textAlign": "center"
+        }
+      ]
+    },
+    {
+      "type": "rect",
+      "id": "v_apply",
+      "x": 390,
+      "y": 287,
+      "width": 276,
+      "height": 126,
+      "text": "发起申请\n执行双层预检",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#436299",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "v_freeze",
+      "x": 744,
+      "y": 287,
+      "width": 276,
+      "height": 126,
+      "text": "固定通过素材\n创建业务任务",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#436299",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "v_merge",
+      "x": 1806,
+      "y": 287,
+      "width": 276,
+      "height": 126,
+      "text": "合并逐素材结果\n保留失败原因",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#436299",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "v_summary",
+      "x": 2514,
+      "y": 287,
+      "width": 276,
+      "height": 126,
+      "text": "汇总任务详情\n搬运与后续操作分开",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#436299",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "b_approve",
+      "x": 744,
+      "y": 547,
+      "width": 276,
+      "height": 126,
+      "text": "来源业务审批",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#644E9F",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "b_field",
+      "x": 1098,
+      "y": 547,
+      "width": 276,
+      "height": 126,
+      "text": "准备目标字段",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#644E9F",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "b_create",
+      "x": 1452,
+      "y": 547,
+      "width": 276,
+      "height": 126,
+      "text": "触发搬运创建",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#644E9F",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "b_query",
+      "x": 1806,
+      "y": 547,
+      "width": 276,
+      "height": 126,
+      "text": "轮询执行结果",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#644E9F",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "b_post",
+      "x": 2160,
+      "y": 547,
+      "width": 276,
+      "height": 126,
+      "text": "触发后续处理",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#644E9F",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "b_notify",
+      "x": 2514,
+      "y": 547,
+      "width": 276,
+      "height": 126,
+      "text": "通知申请人",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#644E9F",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "m_check",
+      "x": 390,
+      "y": 807,
+      "width": 276,
+      "height": 126,
+      "text": "校验归属、版权\n与搬运关系",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#467175",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "m_execute",
+      "x": 1452,
+      "y": 807,
+      "width": 276,
+      "height": 126,
+      "text": "复制素材\n维护血缘关系",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#467175",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "m_result",
+      "x": 1806,
+      "y": 807,
+      "width": 276,
+      "height": 126,
+      "text": "返回逐素材状态\n与目标素材 ID",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#467175",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "t_field",
+      "x": 1098,
+      "y": 1067,
+      "width": 276,
+      "height": 126,
+      "text": "创建或复用\n目标业务字段",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#4B7E5A",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "t_post",
+      "x": 2160,
+      "y": 1067,
+      "width": 276,
+      "height": 126,
+      "text": "替换旧引用\n加入面板 · 创建测试",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#4B7E5A",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "rect",
+      "id": "t_result",
+      "x": 2514,
+      "y": 1067,
+      "width": 276,
+      "height": 126,
+      "text": "返回后续操作结果",
+      "fontSize": 26,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#4B7E5A",
+      "borderWidth": 2,
+      "borderRadius": 12
+    },
+    {
+      "type": "cylinder",
+      "id": "db_vimo",
+      "x": 2906,
+      "y": 262,
+      "width": 400,
+      "height": 176,
+      "text": "material_transfer_task\n申请快照 · 逐素材结果\n后续步骤",
+      "fontSize": 22,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#F4F6FA",
+      "borderColor": "#436299",
+      "borderWidth": 2
+    },
+    {
+      "type": "cylinder",
+      "id": "db_bpm",
+      "x": 2906,
+      "y": 522,
+      "width": 400,
+      "height": 176,
+      "text": "BPM 流程记录\n审批实例 · 节点进度",
+      "fontSize": 22,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#F7F5FB",
+      "borderColor": "#644E9F",
+      "borderWidth": 2
+    },
+    {
+      "type": "cylinder",
+      "id": "db_material",
+      "x": 2906,
+      "y": 782,
+      "width": 400,
+      "height": 176,
+      "text": "material_transfer_execution\n受理 · 执行结果\n目标素材 ID",
+      "fontSize": 22,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#F4F8F8",
+      "borderColor": "#467175",
+      "borderWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "legend",
+      "x": 390,
+      "y": 1278,
+      "width": 2886,
+      "height": "fit-content",
+      "text": "实线：执行与调用    虚线：该系统保存的信息",
+      "fontSize": 22,
+      "textColor": "#4E5969",
+      "textAlign": "center"
+    },
+    {
+      "type": "connector",
+      "id": "e1",
+      "connector": {
+        "from": "v_apply",
+        "to": "m_check",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "triangle",
+        "endArrow": "triangle"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e2",
+      "connector": {
+        "from": "v_apply",
+        "to": "v_freeze",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle",
+        "label": "通过项",
+        "labelPosition": 0.5
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e3",
+      "connector": {
+        "from": "v_freeze",
+        "to": "b_approve",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle",
+        "label": "taskId",
+        "labelPosition": 0.5
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e4",
+      "connector": {
+        "from": "b_approve",
+        "to": "b_field",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e6",
+      "connector": {
+        "from": "b_field",
+        "to": "b_create",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e8",
+      "connector": {
+        "from": "b_create",
+        "to": "b_query",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e5",
+      "connector": {
+        "from": "b_field",
+        "to": "t_field",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "triangle",
+        "endArrow": "triangle"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e7",
+      "connector": {
+        "from": "b_create",
+        "to": "m_execute",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "triangle",
+        "endArrow": "triangle"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e9",
+      "connector": {
+        "from": "b_query",
+        "to": "m_result",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "triangle",
+        "endArrow": "triangle"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e10",
+      "connector": {
+        "from": "m_result",
+        "to": "v_merge",
+        "fromAnchor": "left",
+        "toAnchor": "left",
+        "lineShape": "polyline",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle",
+        "label": "逐素材结果",
+        "labelPosition": 0.46,
+        "waypoints": [
+          {
+            "x": 1767,
+            "y": 870
+          },
+          {
+            "x": 1767,
+            "y": 350
+          }
+        ]
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e11",
+      "connector": {
+        "from": "v_merge",
+        "to": "b_post",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "polyline",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle",
+        "label": "成功素材",
+        "labelPosition": 0.82,
+        "waypoints": [
+          {
+            "x": 1944,
+            "y": 480
+          },
+          {
+            "x": 2298,
+            "y": 480
+          }
+        ]
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e12",
+      "connector": {
+        "from": "b_post",
+        "to": "t_post",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle",
+        "label": "目标素材 ID",
+        "labelPosition": 0.5
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e13",
+      "connector": {
+        "from": "t_post",
+        "to": "t_result",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e14",
+      "connector": {
+        "from": "t_result",
+        "to": "v_summary",
+        "fromAnchor": "right",
+        "toAnchor": "right",
+        "lineShape": "polyline",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle",
+        "label": "后续操作结果",
+        "labelPosition": 0.39,
+        "waypoints": [
+          {
+            "x": 2814,
+            "y": 1130
+          },
+          {
+            "x": 2814,
+            "y": 350
+          }
+        ]
+      }
+    },
+    {
+      "type": "connector",
+      "id": "e15",
+      "connector": {
+        "from": "v_summary",
+        "to": "b_notify",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "triangle"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "d_db_vimo",
+      "connector": {
+        "from": "vimo_lane",
+        "to": "db_vimo",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 2,
+        "lineStyle": "dashed",
+        "startArrow": "none",
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "d_db_bpm",
+      "connector": {
+        "from": "bpm_lane",
+        "to": "db_bpm",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 2,
+        "lineStyle": "dashed",
+        "startArrow": "none",
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "d_db_material",
+      "connector": {
+        "from": "material_lane",
+        "to": "db_material",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#798390",
+        "lineWidth": 2,
+        "lineStyle": "dashed",
+        "startArrow": "none",
+        "endArrow": "none"
+      }
+    }
+  ]
+}

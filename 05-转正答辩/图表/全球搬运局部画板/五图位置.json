@@ -1,0 +1,27 @@
+{
+  "03": {
+    "token": "Bc8iwWbHmh6jUmbJdv4cYMpPnDe",
+    "block_id": "doxcnY6GDj6KZT1azE2uVilkIzg",
+    "idempotent": "global-transfer-03-9d97b2ba-dbf0-4fd9-9799-9e1cc1a315e7"
+  },
+  "04": {
+    "token": "RvEswCkAwhQJBLbNiPdcHpcHntd",
+    "block_id": "doxcnbd73feBMgXSjuldUEI31Nc",
+    "idempotent": "global-transfer-04-24836e66-e712-42e5-ab07-8a42ba0d82c9"
+  },
+  "05": {
+    "token": "Nv8pwjXO0hRxxFbrdBycEuxFnwd",
+    "block_id": "doxcnnBCgM8zWOcumGKAERIOVIb",
+    "idempotent": "global-transfer-05-2ccf7d1c-0135-4348-8b0a-e75b62e91973"
+  },
+  "06": {
+    "token": "T1oZwpnzRhJFf4bwdANcOof6nsb",
+    "block_id": "doxcnsMHLZKRsWd3J6xjoUOQVvd",
+    "idempotent": "global-transfer-06-c1e4b064-867a-402b-b0c8-73d3378a8e9f"
+  },
+  "07": {
+    "token": "CjMawAMHThk5qTb0E8PcZbN2nm9",
+    "block_id": "doxcnwdc8387sVIKRMQm2cfz8Nc",
+    "idempotent": "global-transfer-07-04ce525c-5a30-4dd5-90f6-838a6cadd4f6"
+  }
+}

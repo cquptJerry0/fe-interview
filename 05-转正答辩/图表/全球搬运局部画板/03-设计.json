@@ -1,0 +1,311 @@
+{
+  "W": 1200,
+  "H": 1240,
+  "specs": {
+    "v_header": {
+      "kind": "platform",
+      "x": 65,
+      "y": 140,
+      "w": 290,
+      "h": 95,
+      "text": "VIMO 搬运服务"
+    },
+    "v_bottom": {
+      "kind": "pin",
+      "x": 208,
+      "y": 1160,
+      "w": 4,
+      "h": 4,
+      "text": ""
+    },
+    "db_header": {
+      "kind": "platform",
+      "x": 425,
+      "y": 140,
+      "w": 290,
+      "h": 95,
+      "text": "任务主库"
+    },
+    "db_bottom": {
+      "kind": "pin",
+      "x": 568,
+      "y": 1160,
+      "w": 4,
+      "h": 4,
+      "text": ""
+    },
+    "op_header": {
+      "kind": "platform",
+      "x": 825,
+      "y": 140,
+      "w": 290,
+      "h": 95,
+      "text": "素材执行服务"
+    },
+    "op_bottom": {
+      "kind": "pin",
+      "x": 968,
+      "y": 1160,
+      "w": 4,
+      "h": 4,
+      "text": ""
+    },
+    "title": {
+      "kind": "text",
+      "x": 40,
+      "y": 20,
+      "w": 1120,
+      "h": 59,
+      "text": "③ 执行恢复"
+    },
+    "subtitle": {
+      "kind": "text",
+      "x": 40,
+      "y": 82,
+      "w": 1120,
+      "h": 42,
+      "text": "调用前保存编号；再次处理时继续原执行"
+    },
+    "v_290": {
+      "kind": "activation",
+      "x": 204,
+      "y": 278,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_290": {
+      "kind": "activation",
+      "x": 564,
+      "y": 278,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_345": {
+      "kind": "activation",
+      "x": 564,
+      "y": 333,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_345": {
+      "kind": "activation",
+      "x": 204,
+      "y": 333,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_420": {
+      "kind": "activation",
+      "x": 204,
+      "y": 408,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "op_420": {
+      "kind": "activation",
+      "x": 964,
+      "y": 408,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "op_490": {
+      "kind": "activation",
+      "x": 964,
+      "y": 478,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_490": {
+      "kind": "activation",
+      "x": 204,
+      "y": 478,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_550": {
+      "kind": "activation",
+      "x": 204,
+      "y": 538,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_550": {
+      "kind": "activation",
+      "x": 564,
+      "y": 538,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "unknown": {
+      "kind": "action",
+      "x": 130,
+      "y": 600,
+      "w": 940,
+      "h": 70,
+      "text": "某批响应未知：该批及后续项保留“受理待确认”"
+    },
+    "resume": {
+      "kind": "container",
+      "x": 32,
+      "y": 700,
+      "w": 1136,
+      "h": 420
+    },
+    "resume_name": {
+      "kind": "text",
+      "x": 48,
+      "y": 712,
+      "w": 1104,
+      "h": 48,
+      "text": "中断后，再次处理同一任务"
+    },
+    "v_785": {
+      "kind": "activation",
+      "x": 204,
+      "y": 773,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_785": {
+      "kind": "activation",
+      "x": 564,
+      "y": 773,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "db_840": {
+      "kind": "activation",
+      "x": 564,
+      "y": 828,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_840": {
+      "kind": "activation",
+      "x": 204,
+      "y": 828,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_940": {
+      "kind": "activation",
+      "x": 204,
+      "y": 928,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "op_940": {
+      "kind": "activation",
+      "x": 964,
+      "y": 928,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "v_1040": {
+      "kind": "activation",
+      "x": 204,
+      "y": 1028,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "op_1040": {
+      "kind": "activation",
+      "x": 964,
+      "y": 1028,
+      "w": 12,
+      "h": 24,
+      "text": ""
+    },
+    "foot": {
+      "kind": "text",
+      "x": 60,
+      "y": 1160,
+      "w": 1080,
+      "h": 42,
+      "text": "已拒绝或已完成的素材不进入上述恢复分支"
+    }
+  },
+  "routes": {
+    "v_life": {
+      "dash": true,
+      "noArrow": true,
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "db_life": {
+      "dash": true,
+      "noArrow": true,
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "op_life": {
+      "dash": true,
+      "noArrow": true,
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "save": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "saved": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "create": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "partial": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "merge": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "load": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "return": {
+      "dash": true,
+      "fa": "left",
+      "ta": "right"
+    },
+    "resubmit": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    },
+    "query": {
+      "dash": false,
+      "fa": "right",
+      "ta": "left"
+    }
+  },
+  "sourceCommit": "9d157f466590a5e8678956f76c6ba0e7169bef80"
+}

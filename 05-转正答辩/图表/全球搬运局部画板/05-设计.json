@@ -1,0 +1,254 @@
+{
+  "W": 1280,
+  "H": 1150,
+  "specs": {
+    "title": {
+      "kind": "text",
+      "x": 40,
+      "y": 20,
+      "w": 1200,
+      "h": 59,
+      "text": "⑤ 素材访问控制"
+    },
+    "subtitle": {
+      "kind": "text",
+      "x": 40,
+      "y": 82,
+      "w": 1200,
+      "h": 42,
+      "text": "同一份素材事实，分别服务使用、维护和历史读取"
+    },
+    "vimo": {
+      "kind": "container",
+      "x": 32,
+      "y": 140,
+      "w": 1216,
+      "h": 670
+    },
+    "vimo_title": {
+      "kind": "text",
+      "x": 56,
+      "y": 156,
+      "w": 1160,
+      "h": 48,
+      "text": "VIMO · 页面与 OpenAPI 进入对应业务服务"
+    },
+    "search_entry": {
+      "kind": "action",
+      "x": 70,
+      "y": 240,
+      "w": 234,
+      "h": 84,
+      "text": "搜索素材"
+    },
+    "search_svc": {
+      "kind": "platform",
+      "x": 70,
+      "y": 400,
+      "w": 234,
+      "h": 120,
+      "text": "搜索服务"
+    },
+    "search_rule": {
+      "kind": "action",
+      "x": 70,
+      "y": 620,
+      "w": 234,
+      "h": 100,
+      "text": "过滤已替代\n旧素材"
+    },
+    "select_entry": {
+      "kind": "action",
+      "x": 372,
+      "y": 240,
+      "w": 234,
+      "h": 84,
+      "text": "新增选材"
+    },
+    "select_svc": {
+      "kind": "platform",
+      "x": 372,
+      "y": 400,
+      "w": 234,
+      "h": 120,
+      "text": "面板写服务\n提交前校验"
+    },
+    "select_rule": {
+      "kind": "action",
+      "x": 372,
+      "y": 620,
+      "w": 234,
+      "h": 100,
+      "text": "整批选材\n准入检查"
+    },
+    "edit_entry": {
+      "kind": "action",
+      "x": 674,
+      "y": 240,
+      "w": 234,
+      "h": 84,
+      "text": "编辑／上下线"
+    },
+    "edit_svc": {
+      "kind": "platform",
+      "x": 674,
+      "y": 400,
+      "w": 234,
+      "h": 120,
+      "text": "素材维护服务\n保存前校验"
+    },
+    "edit_rule": {
+      "kind": "action",
+      "x": 674,
+      "y": 620,
+      "w": 234,
+      "h": 100,
+      "text": "替代关系\n归属检查"
+    },
+    "history_entry": {
+      "kind": "action",
+      "x": 976,
+      "y": 240,
+      "w": 234,
+      "h": 84,
+      "text": "历史引用读取"
+    },
+    "history_svc": {
+      "kind": "platform",
+      "x": 976,
+      "y": 400,
+      "w": 234,
+      "h": 120,
+      "text": "历史素材读取"
+    },
+    "history_rule": {
+      "kind": "action",
+      "x": 976,
+      "y": 620,
+      "w": 234,
+      "h": 100,
+      "text": "按原 ID 读取"
+    },
+    "rules": {
+      "kind": "container",
+      "x": 48,
+      "y": 555,
+      "w": 906,
+      "h": 225
+    },
+    "rules_title": {
+      "kind": "text",
+      "x": 310,
+      "y": 562,
+      "w": 170,
+      "h": 42,
+      "text": "共用规则"
+    },
+    "feed": {
+      "kind": "container",
+      "x": 32,
+      "y": 855,
+      "w": 1216,
+      "h": 205
+    },
+    "feed_title": {
+      "kind": "text",
+      "x": 56,
+      "y": 873,
+      "w": 1100,
+      "h": 48,
+      "text": "Feed · 当前业务下的素材事实"
+    },
+    "owner": {
+      "kind": "action",
+      "x": 210,
+      "y": 936,
+      "w": 340,
+      "h": 115,
+      "text": "归属业务\n谁能维护"
+    },
+    "redirect": {
+      "kind": "action",
+      "x": 720,
+      "y": 936,
+      "w": 390,
+      "h": 115,
+      "text": "替代素材关系\n旧素材能否新增使用"
+    },
+    "foot": {
+      "kind": "text",
+      "x": 56,
+      "y": 1080,
+      "w": 1160,
+      "h": 42,
+      "text": "虚线：规则所需事实；前端提示不代替服务端写前校验"
+    }
+  },
+  "routes": {
+    "search_into": {
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "search_rule_use": {
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "select_into": {
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "select_rule_use": {
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "edit_into": {
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "edit_rule_use": {
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "history_into": {
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "history_rule_use": {
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "read_owner": {
+      "dash": true,
+      "noArrow": true,
+      "points": [
+        {
+          "x": 791,
+          "y": 833
+        },
+        {
+          "x": 380,
+          "y": 833
+        }
+      ],
+      "fa": "bottom",
+      "ta": "top"
+    },
+    "read_redirect": {
+      "dash": true,
+      "noArrow": true,
+      "points": [
+        {
+          "x": 489,
+          "y": 820
+        },
+        {
+          "x": 915,
+          "y": 820
+        }
+      ],
+      "fa": "bottom",
+      "ta": "top"
+    }
+  },
+  "sourceCommit": "9d157f466590a5e8678956f76c6ba0e7169bef80"
+}

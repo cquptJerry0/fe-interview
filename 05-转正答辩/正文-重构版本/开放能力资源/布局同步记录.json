@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "2.1 背景": {
+      "inserted": true,
+      "done": true,
+      "anchors": {}
+    },
+    "2.2 产出": {
+      "inserted": true,
+      "done": true,
+      "anchors": {
+        "图片-01.png": "doxcna3Fnrcjytp64uDy6KSqimd",
+        "图片-02.png": "doxcnkZ3hpjFYEgoKuDhMLZn0Kd",
+        "图片-03.png": "doxcnf5O7HsYsKX9tmEuyolAnyg",
+        "图片-04.png": "doxcns4gk4Auztme8XzTNX6DZ0d",
+        "图片-05.png": "doxcnwhruAde4iWS7ylm7jpB3Ph",
+        "图片-06.png": "doxcngYtrHlDXmXjWLsIch2BXTh",
+        "图片-07.png": "doxcn5gWwufy7ssrS1p5PYcxYnc",
+        "图片-09.png": "doxcnF1H60iM0nTYkiApwaoj7pb",
+        "图片-10.png": "doxcnZozo4z4zOKRHMKnCcbfiVb",
+        "图片-11.png": "doxcnlmx4WjxVOHbtLEI3AMWTOD",
+        "图片-12.png": "doxcnI1I7peM3IJEb7NjCItZUeg"
+      }
+    },
+    "2.3.1 建设开放基础设施": {
+      "inserted": true,
+      "done": true,
+      "anchors": {
+        "图片-13.png": "doxcn35PrtPGrn7gJVfIUtQYW8g",
+        "图片-14.png": "doxcn9mUST4hdpSsUlbpNv1vk1e",
+        "画板-02.jpg": "doxcnUywch8Vk9s4VLCh5vsYqyQ",
+        "图片-15.png": "doxcnVLqQDtoNyzY3Y91YuFVafc",
+        "画板-03.jpg": "doxcn3zGUsd7q7nO7hgtMPV9cph",
+        "图片-17.png": "doxcnsfvpobwrSube27OPOIMA1b",
+        "图片-16.png": "doxcnbYoDWm6MzLGC55cCvfxUEd",
+        "图片-08.png": "doxcnnMF6Xb6gOyWpihPcoBSWF5",
+        "画板-04.jpg": "doxcnZuyNVGsk6Gb51mIakdIbEc"
+      }
+    },
+    "2.3.2 构建统一客户端": {
+      "inserted": true,
+      "done": true,
+      "anchors": {
+        "画板-05.jpg": "doxcnKnzGvvJK3goKxNBhHtq92e",
+        "Skill架构.jpg": "doxcnALHuWPFWPxSdikVByWyxXg",
+        "图片-18.png": "doxcn2uMtkrSkS3lHzuKrgUJHEg",
+        "图片-19.png": "doxcnDaW3L3VSH9XYgLYqvz0Z1e",
+        "图片-20.png": "doxcnnotJ7pytssBP9YQOMjg8G0",
+        "图片-21.png": "doxcndrHfoAU0RdX4kLeNC23w4e",
+        "图片-22.png": "doxcni9hBfQ3BWYo9c7RVIHPVld",
+        "画板-06.jpg": "doxcnccYjgu2wJSTKJyIgBrGSec",
+        "图片-23.png": "doxcno5BlEdQiwaQR5bs4Fr8qJI",
+        "画板-07.jpg": "doxcnROLsI35tcsIVfDLEOCy1t2"
+      }
+    },
+    "2.3.3 完善交付协作": {
+      "inserted": true,
+      "done": true,
+      "anchors": {
+        "画板-08.jpg": "doxcnRQBg30qmX2xoNBHG2ApsUd"
+      }
+    },
+    "2.4 未来规划": {
+      "inserted": true,
+      "done": true,
+      "anchors": {}
+    }
+  },
+  "moved": [
+    "图片-01.png",
+    "图片-02.png",
+    "图片-03.png",
+    "图片-04.png",
+    "图片-05.png",
+    "图片-06.png",
+    "图片-07.png",
+    "图片-09.png",
+    "图片-10.png",
+    "图片-11.png",
+    "图片-12.png",
+    "图片-13.png",
+    "图片-14.png",
+    "画板-02.jpg",
+    "图片-15.png",
+    "画板-03.jpg",
+    "图片-17.png",
+    "图片-16.png",
+    "图片-08.png",
+    "画板-04.jpg",
+    "画板-05.jpg",
+    "Skill架构.jpg",
+    "图片-18.png",
+    "图片-19.png",
+    "图片-20.png",
+    "图片-21.png",
+    "图片-22.png",
+    "画板-06.jpg",
+    "图片-23.png",
+    "画板-07.jpg",
+    "画板-08.jpg"
+  ],
+  "skill": {
+    "id": "doxcnRoZkyjN7bWgemyaSXpRZyn",
+    "token": "CmHLbiJRxoXg9mxsrKictX0Xnld",
+    "tag": "img"
+  }
+}

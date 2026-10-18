@@ -1,0 +1,523 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "text",
+      "id": "title",
+      "x": 40,
+      "y": 20,
+      "width": 1240,
+      "height": "fit-content",
+      "text": "④ 流程、复制与后处理分开记录",
+      "fontSize": 42,
+      "textColor": "#1F2329",
+      "textAlign": "left"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "x": 40,
+      "y": 82,
+      "width": 1240,
+      "height": "fit-content",
+      "text": "流程停止等待，不等于所有素材已完成",
+      "fontSize": 30,
+      "textColor": "#646A73",
+      "textAlign": "left"
+    },
+    {
+      "type": "frame",
+      "id": "flow",
+      "x": 32,
+      "y": 140,
+      "width": 1256,
+      "height": 410,
+      "layout": "none",
+      "gap": 0,
+      "padding": 0,
+      "children": [],
+      "fillColor": "#F0F4FC",
+      "borderColor": "#F0F4FC",
+      "borderWidth": 0,
+      "borderDash": "solid",
+      "borderRadius": 12
+    },
+    {
+      "type": "text",
+      "id": "flow_title",
+      "x": 56,
+      "y": 156,
+      "width": 600,
+      "height": "fit-content",
+      "text": "流程阶段与等待",
+      "fontSize": 34,
+      "textColor": "#1F2329",
+      "textAlign": "left"
+    },
+    {
+      "type": "rect",
+      "id": "create",
+      "x": 80,
+      "y": 242,
+      "width": 225,
+      "height": "fit-content",
+      "text": "创建搬运",
+      "fontSize": 30,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#5178C6",
+      "borderWidth": 2,
+      "borderRadius": 10
+    },
+    {
+      "type": "rect",
+      "id": "poll",
+      "x": 390,
+      "y": 242,
+      "width": 235,
+      "height": "fit-content",
+      "text": "轮询等待",
+      "fontSize": 30,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#5178C6",
+      "borderWidth": 2,
+      "borderRadius": 10
+    },
+    {
+      "type": "rect",
+      "id": "end",
+      "x": 1000,
+      "y": 242,
+      "width": 230,
+      "height": "fit-content",
+      "text": "通知并结束",
+      "fontSize": 30,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#5178C6",
+      "borderWidth": 2,
+      "borderRadius": 10
+    },
+    {
+      "type": "rect",
+      "id": "budget",
+      "x": 410,
+      "y": 398,
+      "width": 205,
+      "height": "fit-content",
+      "text": "等待超时",
+      "fontSize": 30,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FEF1CE",
+      "borderColor": "#D4B45B",
+      "borderWidth": 2,
+      "borderRadius": 10
+    },
+    {
+      "type": "text",
+      "id": "flow_note",
+      "x": 65,
+      "y": 494,
+      "width": 1170,
+      "height": "fit-content",
+      "text": "正常完成可按需后处理；超时不把未完成素材判为失败",
+      "fontSize": 30,
+      "textColor": "#646A73",
+      "textAlign": "left"
+    },
+    {
+      "type": "frame",
+      "id": "items",
+      "x": 32,
+      "y": 590,
+      "width": 1256,
+      "height": 525,
+      "layout": "none",
+      "gap": 0,
+      "padding": 0,
+      "children": [],
+      "fillColor": "#DFF5E5",
+      "borderColor": "#DFF5E5",
+      "borderWidth": 0,
+      "borderDash": "solid",
+      "borderRadius": 12
+    },
+    {
+      "type": "text",
+      "id": "items_title",
+      "x": 56,
+      "y": 608,
+      "width": 800,
+      "height": "fit-content",
+      "text": "每份素材的复制结果",
+      "fontSize": 34,
+      "textColor": "#1F2329",
+      "textAlign": "left"
+    },
+    {
+      "type": "rect",
+      "id": "pending",
+      "x": 85,
+      "y": 710,
+      "width": 245,
+      "height": "fit-content",
+      "text": "受理待确认",
+      "fontSize": 30,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FEF1CE",
+      "borderColor": "#D4B45B",
+      "borderWidth": 2,
+      "borderRadius": 10
+    },
+    {
+      "type": "rect",
+      "id": "running",
+      "x": 480,
+      "y": 710,
+      "width": 240,
+      "height": "fit-content",
+      "text": "执行中",
+      "fontSize": 30,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#5178C6",
+      "borderWidth": 2,
+      "borderRadius": 10
+    },
+    {
+      "type": "rect",
+      "id": "ok",
+      "x": 955,
+      "y": 680,
+      "width": 245,
+      "height": "fit-content",
+      "text": "复制成功\n保存目标 ID",
+      "fontSize": 30,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#509863",
+      "borderWidth": 2,
+      "borderRadius": 10
+    },
+    {
+      "type": "rect",
+      "id": "fail",
+      "x": 955,
+      "y": 905,
+      "width": 245,
+      "height": "fit-content",
+      "text": "复制失败\n保存失败原因",
+      "fontSize": 30,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#D25D5A",
+      "borderWidth": 2,
+      "borderRadius": 10
+    },
+    {
+      "type": "text",
+      "id": "missing",
+      "x": 405,
+      "y": 833,
+      "width": 475,
+      "height": "fit-content",
+      "text": "查询缺项：仍保留执行中",
+      "fontSize": 30,
+      "textColor": "#646A73",
+      "textAlign": "left"
+    },
+    {
+      "type": "text",
+      "id": "terminal",
+      "x": 56,
+      "y": 1050,
+      "width": 1160,
+      "height": "fit-content",
+      "text": "成功／失败已确认后，迟到响应不改写终态",
+      "fontSize": 30,
+      "textColor": "#646A73",
+      "textAlign": "left"
+    },
+    {
+      "type": "frame",
+      "id": "post",
+      "x": 32,
+      "y": 1150,
+      "width": 1256,
+      "height": 290,
+      "layout": "none",
+      "gap": 0,
+      "padding": 0,
+      "children": [],
+      "fillColor": "#F0F0F0",
+      "borderColor": "#F0F0F0",
+      "borderWidth": 0,
+      "borderDash": "solid",
+      "borderRadius": 12
+    },
+    {
+      "type": "text",
+      "id": "post_title",
+      "x": 56,
+      "y": 1170,
+      "width": 1180,
+      "height": "fit-content",
+      "text": "后处理结果 · 仅针对复制成功且有目标 ID 的素材",
+      "fontSize": 34,
+      "textColor": "#1F2329",
+      "textAlign": "left"
+    },
+    {
+      "type": "rect",
+      "id": "panel",
+      "x": 285,
+      "y": 1270,
+      "width": 315,
+      "height": "fit-content",
+      "text": "加入面板\n单独记录结果",
+      "fontSize": 30,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#8895A7",
+      "borderWidth": 2,
+      "borderRadius": 10
+    },
+    {
+      "type": "rect",
+      "id": "test",
+      "x": 760,
+      "y": 1270,
+      "width": 315,
+      "height": "fit-content",
+      "text": "创建测试\n单独记录结果",
+      "fontSize": 30,
+      "textColor": "#1F2329",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fillColor": "#FFFFFF",
+      "borderColor": "#8895A7",
+      "borderWidth": 2,
+      "borderRadius": 10
+    },
+    {
+      "type": "text",
+      "id": "post_note",
+      "x": 65,
+      "y": 1465,
+      "width": 1180,
+      "height": "fit-content",
+      "text": "面板或测试失败，不修改复制成功及目标素材 ID",
+      "fontSize": 30,
+      "textColor": "#646A73",
+      "textAlign": "left"
+    },
+    {
+      "type": "text",
+      "id": "foot",
+      "x": 65,
+      "y": 1530,
+      "width": 1190,
+      "height": "fit-content",
+      "text": "结束后手动刷新未完成素材：更新结果，流程阶段保持结束",
+      "fontSize": 30,
+      "textColor": "#646A73",
+      "textAlign": "left"
+    },
+    {
+      "type": "connector",
+      "id": "flow1",
+      "connector": {
+        "from": "create",
+        "to": "poll",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#718BAE",
+        "lineWidth": 2,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "arrow",
+        "labelPosition": 0.5
+      }
+    },
+    {
+      "type": "connector",
+      "id": "flow2",
+      "connector": {
+        "from": "poll",
+        "to": "end",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#718BAE",
+        "lineWidth": 2,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "arrow",
+        "label": "等待正常结束",
+        "labelPosition": 0.5
+      }
+    },
+    {
+      "type": "connector",
+      "id": "timeout",
+      "connector": {
+        "from": "poll",
+        "to": "budget",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#718BAE",
+        "lineWidth": 2,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "arrow",
+        "labelPosition": 0.5
+      }
+    },
+    {
+      "type": "connector",
+      "id": "timeout_end",
+      "connector": {
+        "from": "budget",
+        "to": "end",
+        "fromAnchor": "right",
+        "toAnchor": "bottom",
+        "lineShape": "polyline",
+        "lineColor": "#718BAE",
+        "lineWidth": 2,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "arrow",
+        "labelPosition": 0.5,
+        "waypoints": [
+          {
+            "x": 1115,
+            "y": 440
+          }
+        ]
+      }
+    },
+    {
+      "type": "connector",
+      "id": "accepted",
+      "connector": {
+        "from": "pending",
+        "to": "running",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#718BAE",
+        "lineWidth": 2,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "arrow",
+        "label": "确认受理",
+        "labelPosition": 0.5
+      }
+    },
+    {
+      "type": "connector",
+      "id": "success",
+      "connector": {
+        "from": "running",
+        "to": "ok",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "polyline",
+        "lineColor": "#718BAE",
+        "lineWidth": 2,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "arrow",
+        "label": "明确成功",
+        "labelPosition": 0.5,
+        "waypoints": [
+          {
+            "x": 840,
+            "y": 755
+          },
+          {
+            "x": 840,
+            "y": 738
+          }
+        ]
+      }
+    },
+    {
+      "type": "connector",
+      "id": "reject",
+      "connector": {
+        "from": "pending",
+        "to": "fail",
+        "fromAnchor": "bottom",
+        "toAnchor": "left",
+        "lineShape": "polyline",
+        "lineColor": "#718BAE",
+        "lineWidth": 2,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "arrow",
+        "label": "明确拒绝",
+        "labelPosition": 0.57,
+        "waypoints": [
+          {
+            "x": 207,
+            "y": 1010
+          },
+          {
+            "x": 915,
+            "y": 1010
+          },
+          {
+            "x": 915,
+            "y": 967
+          }
+        ]
+      }
+    },
+    {
+      "type": "connector",
+      "id": "failed",
+      "connector": {
+        "from": "running",
+        "to": "fail",
+        "fromAnchor": "bottom",
+        "toAnchor": "left",
+        "lineShape": "polyline",
+        "lineColor": "#718BAE",
+        "lineWidth": 2,
+        "lineStyle": "solid",
+        "startArrow": "none",
+        "endArrow": "arrow",
+        "label": "明确失败",
+        "labelPosition": 0.5,
+        "waypoints": [
+          {
+            "x": 600,
+            "y": 967
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+[
+  {
+    "kind": "图片",
+    "index": 1,
+    "token": "SkpGbYWERos7rYxq5yIc9ijYn0g",
+    "block_id": "UOZidDte7oIgA2xM2uncrliAnDc",
+    "caption": "需求：批量核查老特效 key 的上下线状态\n",
+    "name": "test.jpg",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-01.png",
+    "size": [
+      1970,
+      1070
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 2,
+    "token": "VubUbBG7Do12AMxQnrwcvKL1nqg",
+    "block_id": "C1YsduJSMoOdLIxCn4tcIYjpnyh",
+    "caption": "结果：Agent 汇总查询结果\n",
+    "name": "test.jpg",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-02.png",
+    "size": [
+      1970,
+      1022
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 3,
+    "token": "AeLLb4SJoovptcx8rL3c3FJZntp",
+    "block_id": "A7npdW37Vo9BgvxDVNscQ9Grn3c",
+    "caption": "任务记录\n",
+    "name": "test.jpg",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-03.png",
+    "size": [
+      1704,
+      2462
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 4,
+    "token": "WFsWbtwDQoxkqNxmUI0caZI7npd",
+    "block_id": "ZhJhd1rKRo9KDnxA0dWcBBvznze",
+    "caption": "",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-04.png",
+    "size": [
+      2372,
+      306
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 5,
+    "token": "LCZ4bfa9ho4BzUxW1FXcX459nVg",
+    "block_id": "HgI7dBVqxoTLMAxBZ0ycdgxBn1b",
+    "caption": "\n",
+    "name": "test.jpg",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-05.png",
+    "size": [
+      1970,
+      1526
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 6,
+    "token": "DDQDbnMKqoY09pxkxBNc3GjvnQg",
+    "block_id": "YSjZdFRhcobrUXxz2VjcKD8bnEc",
+    "caption": "VIMO Agent\n",
+    "name": "test.jpg",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-06.png",
+    "size": [
+      2274,
+      1194
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 7,
+    "token": "I04nboPkooCxehxfe1ycrdvpnQe",
+    "block_id": "LjN0dfwf1ogeOpx7QI5cAmNonob",
+    "caption": "Capcut 运营 Agent\n",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-07.png",
+    "size": [
+      2258,
+      1880
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 8,
+    "token": "U9qobegaCoUcK2xYltucv5g8noc",
+    "block_id": "EJoedAPnIoVkTvxolbGcZ2arn1e",
+    "caption": "接入协作：复用 JWT 换取实现及沙箱凭证注入方案\n",
+    "name": "test.jpg",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-08.png",
+    "size": [
+      1970,
+      1852
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 9,
+    "token": "KjRgbm8proe0uVxYXGfc6GlZntg",
+    "block_id": "AluZdNMv5oEZtexDA2eczAOkn5c",
+    "caption": "Q&A 工具调用\n",
+    "name": "test.jpg",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-09.png",
+    "size": [
+      1148,
+      730
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 10,
+    "token": "W7JWb5Gh6osBoCxjIARcNaN2nse",
+    "block_id": "TaZQdnK2ZoUfd8xRGSycJ0NGn3d",
+    "caption": "\n",
+    "name": "test.jpg",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-10.png",
+    "size": [
+      2942,
+      1678
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 11,
+    "token": "CqvEbUOsvojYMvxzIUtczOYkn7e",
+    "block_id": "KzFTdAxd4ogEVhxco8ac5oBxnfh",
+    "caption": "各服务调用分布\n",
+    "name": "codex-clipboard-e5adfdef-aa62-47e3-9f6b-b7deb9b801ea.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-11.png",
+    "size": [
+      1400,
+      1040
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 12,
+    "token": "Tw4ybxbTvoDhGtxGwXpcHlYyn6b",
+    "block_id": "DJwgdUwjSoLbnZxK2XjcYMWqnjg",
+    "caption": "",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-12.png",
+    "size": [
+      1952,
+      1714
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 13,
+    "token": "PQ6GboAbdoebL5xrvlNc9Rznnlf",
+    "block_id": "DQXHdhppeox4qjxmF8vcGbMqnrh",
+    "caption": "",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-13.png",
+    "size": [
+      2824,
+      1790
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 14,
+    "token": "BT5abJnHiof4hWxvJIXcNsU6nhD",
+    "block_id": "LhV0d7dJ5omY6sxYJbicf92TnVe",
+    "caption": "",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-14.png",
+    "size": [
+      1832,
+      446
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 15,
+    "token": "WnnrbeY2uo1q0jxacuUcebfZnwO",
+    "block_id": "Zxu5dSiCzoQsSyxBDBMcNyi2nVg",
+    "caption": "VIMO OpenAPI权限管理页面\n",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-15.png",
+    "size": [
+      2642,
+      1742
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 16,
+    "token": "KHfjbxyZAozcP2xeHMJcsPlZnue",
+    "block_id": "D1z7dqWrNooex4xgXyscd3JBnPg",
+    "caption": "字节云个人 JWT 签发流程\n",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-16.png",
+    "size": [
+      867,
+      606
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 17,
+    "token": "GPkhbg5FIoF9HcxqQhXc8F6jnyI",
+    "block_id": "LDl0dRvjXoT9UlxDvlgcK3lOn5L",
+    "caption": "公共 JWT 工具复用咨询\n",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-17.png",
+    "size": [
+      2020,
+      1700
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 18,
+    "token": "AG49borkDoHdcOxr8I9cGa52nSH",
+    "block_id": "HwowdF544oGj0SxGIi9cMLs2n8e",
+    "caption": "Skill架构\n",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-18.png",
+    "size": [
+      2148,
+      1862
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 19,
+    "token": "UVPTbTm39o73HBxQhmxcEvK0nXc",
+    "block_id": "AfEMdURGCoPLWqxbUQbc09KvnNc",
+    "caption": "aime适配\n",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-19.png",
+    "size": [
+      1946,
+      2146
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 20,
+    "token": "W0Z9b0HFqof4P9x0M7wcpdJlnBl",
+    "block_id": "YYHQdEFeqoLg0jxoEtccVbLGntb",
+    "caption": "站点、网络环境相关命令\n",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-20.png",
+    "size": [
+      1476,
+      1128
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 21,
+    "token": "IlrhbFDYdonxNGxdpqLcSt41noh",
+    "block_id": "EFnHdhKcVo8gD1xjqDdct7DMncb",
+    "caption": "服务账号发现\n",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-21.png",
+    "size": [
+      1652,
+      338
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 22,
+    "token": "Ty6Dbm1IVole00xHOAXcktewnvO",
+    "block_id": "BxVddK5zJocYDfxDwi3ctEQFnUc",
+    "caption": "自更新效果\n",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-22.png",
+    "size": [
+      1170,
+      580
+    ]
+  },
+  {
+    "kind": "图片",
+    "index": 23,
+    "token": "ZPqMbDlrdoD7qdxe3Hxc73gKnHy",
+    "block_id": "KoOzdcHzhosNhyxuM8zc1NXdn4d",
+    "caption": "数据展示看板\n",
+    "name": "image.png",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/图片-23.png",
+    "size": [
+      2640,
+      1746
+    ]
+  },
+  {
+    "kind": "画板",
+    "index": 1,
+    "token": "BFeOwgpjrhosiAbmk4acahY7nCe",
+    "block_id": "NUaYdrCpboWrj2x8Mq7cDfFon4f",
+    "caption": "",
+    "name": "",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/画板-01.jpg",
+    "size": [
+      2560,
+      2560
+    ]
+  },
+  {
+    "kind": "画板",
+    "index": 2,
+    "token": "OhlgwmFxOhvEmqbEfWGcx7rynib",
+    "block_id": "YowqdFPdMoo4KgxKPW6cUqffnPc",
+    "caption": "",
+    "name": "",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/画板-02.jpg",
+    "size": [
+      2560,
+      2560
+    ]
+  },
+  {
+    "kind": "画板",
+    "index": 3,
+    "token": "XjwVwT5sth3SVAbv1DLcosfbnfd",
+    "block_id": "KEVldebnFo1B0zxLfjIc5vT9nrf",
+    "caption": "",
+    "name": "",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/画板-03.jpg",
+    "size": [
+      2560,
+      2560
+    ]
+  },
+  {
+    "kind": "画板",
+    "index": 4,
+    "token": "GbwQw5XhShk4l3b7nojcPtjhnxf",
+    "block_id": "Rswqd772joxjiQxoDhQcmjoanEb",
+    "caption": "",
+    "name": "",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/画板-04.jpg",
+    "size": [
+      2560,
+      2560
+    ]
+  },
+  {
+    "kind": "画板",
+    "index": 5,
+    "token": "LIBjwFvDkh84kSbrdhjciiCRnKQ",
+    "block_id": "FBMbdGymuokIijxuEL6czmpVnge",
+    "caption": "",
+    "name": "",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/画板-05.jpg",
+    "size": [
+      2560,
+      2560
+    ]
+  },
+  {
+    "kind": "画板",
+    "index": 6,
+    "token": "WgAqwzboEhv8Fjb2TNWcTtR6n24",
+    "block_id": "Oj3zdYuK6oc2PUxkyRYcs7BIn5g",
+    "caption": "",
+    "name": "",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/画板-06.jpg",
+    "size": [
+      2560,
+      2560
+    ]
+  },
+  {
+    "kind": "画板",
+    "index": 7,
+    "token": "ITBswhgMKhpqd6bHc3ucB4Ikn2f",
+    "block_id": "HHZPdnviYoQuyDx1Nntc59u3nAd",
+    "caption": "",
+    "name": "",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/画板-07.jpg",
+    "size": [
+      2560,
+      2560
+    ]
+  },
+  {
+    "kind": "画板",
+    "index": 8,
+    "token": "Sg06w1pIbh6nD7b2nOmcYSN5nZe",
+    "block_id": "CdRqd9840oDqcsx3cG2cZiFKn4f",
+    "caption": "",
+    "name": "",
+    "path": "/Users/bytedance/Projects/personal/面试/05-转正答辩/优化版本的细节/开放能力原稿资源/画板-08.jpg",
+    "size": [
+      2560,
+      2560
+    ]
+  }
+]

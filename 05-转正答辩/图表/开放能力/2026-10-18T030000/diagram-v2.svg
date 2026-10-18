@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2600 1460">
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FAF8F3"/>
+      <stop offset="1" stop-color="#F3EFE7"/>
+    </linearGradient>
+    <linearGradient id="stageFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FBF8F2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#332C27" flood-opacity="0.10"/>
+    </filter>
+    <marker id="trackArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#2D2926"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="2600" height="1460" fill="url(#canvas)"/>
+
+  <!-- Header -->
+  <text x="120" y="112" font-family="Noto Sans SC, sans-serif" font-size="52" font-weight="700" fill="#25211F">VIMO 开放能力演进</text>
+  <text x="120" y="162" font-family="Noto Sans SC, sans-serif" font-size="23" fill="#6F6862">把页面里的业务操作，逐步沉淀为可复用、可交付的程序入口</text>
+  <rect x="2070" y="78" width="390" height="66" rx="33" fill="#E8E2D8"/>
+  <text x="2265" y="120" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="21" font-weight="600" fill="#514A44">OPENAPI · VIMOCLI · SKILL</text>
+
+  <!-- Main track -->
+  <path d="M170 790 H2435" fill="none" stroke="#2D2926" stroke-width="9" stroke-linecap="round" marker-end="url(#trackArrow)"/>
+  <text x="170" y="842" font-family="Noto Sans SC, sans-serif" font-size="18" fill="#817971">统一能力主干</text>
+
+  <!-- Stage 1 upper -->
+  <line x1="370" y1="790" x2="370" y2="650" stroke="#A95032" stroke-width="4"/>
+  <circle cx="370" cy="790" r="24" fill="#FAF8F3" stroke="#A95032" stroke-width="7"/>
+  <text x="370" y="799" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#A95032">1</text>
+  <g filter="url(#shadow)">
+    <rect x="150" y="280" width="440" height="350" rx="22" fill="url(#stageFill)" stroke="#D6CEC3" stroke-width="2"/>
+  </g>
+  <rect x="150" y="280" width="12" height="350" rx="6" fill="#A95032"/>
+  <text x="190" y="326" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#A95032">04—05 月</text>
+  <text x="190" y="380" font-family="Noto Sans SC, sans-serif" font-size="30" font-weight="700" fill="#25211F">先把入口建起来</text>
+  <line x1="190" y1="407" x2="550" y2="407" stroke="#E5DED5" stroke-width="2"/>
+  <text x="190" y="452" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">搭建 OpenAPI 与 CLI 基础能力</text>
+  <text x="190" y="492" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">接入 JWT 身份认证</text>
+  <text x="190" y="532" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">打通权限申请和审批</text>
+  <rect x="188" y="562" width="352" height="44" rx="10" fill="#F3E6DF"/>
+  <text x="204" y="590" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#7F3D27">页面操作有了统一的程序入口</text>
+
+  <!-- Stage 2 lower -->
+  <line x1="815" y1="790" x2="815" y2="900" stroke="#C27C2C" stroke-width="4"/>
+  <circle cx="815" cy="790" r="24" fill="#FAF8F3" stroke="#C27C2C" stroke-width="7"/>
+  <text x="815" y="799" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#C27C2C">2</text>
+  <g filter="url(#shadow)">
+    <rect x="595" y="920" width="440" height="400" rx="22" fill="url(#stageFill)" stroke="#D6CEC3" stroke-width="2"/>
+  </g>
+  <rect x="595" y="920" width="12" height="400" rx="6" fill="#C27C2C"/>
+  <text x="635" y="966" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#A6641E">05—06 月</text>
+  <text x="635" y="1020" font-family="Noto Sans SC, sans-serif" font-size="30" font-weight="700" fill="#25211F">让程序真正完成任务</text>
+  <line x1="635" y1="1047" x2="995" y2="1047" stroke="#E5DED5" stroke-width="2"/>
+  <text x="635" y="1092" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">开放查询、配置、分类和发布操作</text>
+  <text x="635" y="1132" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">在接口权限之外限制资源范围</text>
+  <text x="635" y="1172" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">业务命令、Skill 和版本更新一起交付</text>
+  <rect x="633" y="1205" width="364" height="86" rx="12" fill="#F6ECD9"/>
+  <text x="651" y="1237" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#805018">约 150 个老特效状态核查</text>
+  <text x="651" y="1272" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#805018">一次批量移除万余素材分类关联</text>
+
+  <!-- Stage 3 upper -->
+  <line x1="1260" y1="790" x2="1260" y2="650" stroke="#7C6652" stroke-width="4"/>
+  <circle cx="1260" cy="790" r="24" fill="#FAF8F3" stroke="#7C6652" stroke-width="7"/>
+  <text x="1260" y="799" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#7C6652">3</text>
+  <g filter="url(#shadow)">
+    <rect x="1040" y="235" width="440" height="395" rx="22" fill="url(#stageFill)" stroke="#D6CEC3" stroke-width="2"/>
+  </g>
+  <rect x="1040" y="235" width="12" height="395" rx="6" fill="#7C6652"/>
+  <text x="1080" y="281" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#715C4A">07—08 月</text>
+  <text x="1080" y="335" font-family="Noto Sans SC, sans-serif" font-size="30" font-weight="700" fill="#25211F">接入一次，多个场景复用</text>
+  <line x1="1080" y1="362" x2="1440" y2="362" stroke="#E5DED5" stroke-width="2"/>
+  <text x="1080" y="407" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">统一国内和海外站点差异</text>
+  <text x="1080" y="447" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">兼容个人账号与服务账号</text>
+  <text x="1080" y="487" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">覆盖本地脚本和云端 Agent</text>
+  <text x="1080" y="527" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">把身份、网络和协议差异收进公共层</text>
+  <rect x="1078" y="556" width="364" height="48" rx="11" fill="#EBE4DC"/>
+  <text x="1096" y="587" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#5F4D3E">商业化、模板等非素材业务快速接入</text>
+
+  <!-- Stage 4 lower -->
+  <line x1="1705" y1="790" x2="1705" y2="900" stroke="#6A4D3B" stroke-width="4"/>
+  <circle cx="1705" cy="790" r="24" fill="#FAF8F3" stroke="#6A4D3B" stroke-width="7"/>
+  <text x="1705" y="799" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#6A4D3B">4</text>
+  <g filter="url(#shadow)">
+    <rect x="1485" y="920" width="440" height="350" rx="22" fill="url(#stageFill)" stroke="#D6CEC3" stroke-width="2"/>
+  </g>
+  <rect x="1485" y="920" width="12" height="350" rx="6" fill="#6A4D3B"/>
+  <text x="1525" y="966" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#6A4D3B">09 月</text>
+  <text x="1525" y="1020" font-family="Noto Sans SC, sans-serif" font-size="30" font-weight="700" fill="#25211F">把交付流程固定下来</text>
+  <line x1="1525" y1="1047" x2="1885" y2="1047" stroke="#E5DED5" stroke-width="2"/>
+  <text x="1525" y="1092" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">自动准备和合入 Release MR</text>
+  <text x="1525" y="1132" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">发布 CLI、Skill 与国内外沙箱</text>
+  <text x="1525" y="1172" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">用调用记录和 LogID 补齐问题定位</text>
+  <rect x="1523" y="1202" width="364" height="44" rx="10" fill="#EDE5E0"/>
+  <text x="1541" y="1230" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#644838">新能力不再靠人工逐项发布和排查</text>
+
+  <!-- Stage 5 upper -->
+  <line x1="2150" y1="790" x2="2150" y2="650" stroke="#904735" stroke-width="4"/>
+  <circle cx="2150" cy="790" r="24" fill="#FAF8F3" stroke="#904735" stroke-width="7"/>
+  <text x="2150" y="799" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#904735">5</text>
+  <g filter="url(#shadow)">
+    <rect x="1930" y="305" width="440" height="325" rx="22" fill="url(#stageFill)" stroke="#D6CEC3" stroke-width="2"/>
+  </g>
+  <rect x="1930" y="305" width="12" height="325" rx="6" fill="#904735"/>
+  <text x="1970" y="351" font-family="Noto Sans SC, sans-serif" font-size="18" font-weight="700" fill="#904735">10 月至今</text>
+  <text x="1970" y="405" font-family="Noto Sans SC, sans-serif" font-size="30" font-weight="700" fill="#25211F">按同一套链路持续扩展</text>
+  <line x1="1970" y1="432" x2="2330" y2="432" stroke="#E5DED5" stroke-width="2"/>
+  <text x="1970" y="477" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">新增业务命令和素材操作</text>
+  <text x="1970" y="517" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">持续修正运行边界和交付问题</text>
+  <text x="1970" y="557" font-family="Noto Sans SC, sans-serif" font-size="20" fill="#4D4742">让新需求直接复用接入与发布链路</text>
+  <rect x="1968" y="582" width="364" height="28" rx="10" fill="#F2E2DC"/>
+  <text x="1986" y="603" font-family="Noto Sans SC, sans-serif" font-size="16" font-weight="600" fill="#7F3D27">开放能力进入日常迭代</text>
+
+  <!-- Summary ribbon -->
+  <rect x="355" y="1360" width="1890" height="58" rx="29" fill="#2D2926"/>
+  <text x="1300" y="1397" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="21" font-weight="600" fill="#FFFFFF">程序可调用　→　任务可完成　→　多场景复用　→　稳定交付　→　持续扩展</text>
+</svg>
