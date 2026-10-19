@@ -1,0 +1,36 @@
+sequenceDiagram
+    participant E as BPM／补处理入口<br/>推进原搬运任务
+    participant V as VIMO 引用替换<br/>PanelReplacementService
+    participant D as 面板与任务数据库<br/>lv_artist_op<br/>toutiao.mysql.lv_artist_op_write
+    participant C as 面板构建与差异<br/>BuildService / DiffService
+    participant P as 面板发布<br/>PublishService
+
+    Note over E,P: ⑦ 只发布指定引用的替换，其他编辑留在草稿
+    Note over V,P: 替换、构建与发布为 VIMO 内部模块；PSM：ies.vimo.material_web
+    E->>V: 执行已确认范围内的引用替换<br/>replaceAndPublish()
+    alt 尚未发起本轮发布
+        critical 草稿、操作记录与回执同事务提交
+            V->>D: 重读并校验内容，替换成功素材映射<br/>replaceDraft()
+            D-->>V: 预期正式内容＝原正式版仅替换指定引用
+        end
+        V->>C: 更新内测快照，保留草稿全部编辑<br/>BuildService.deploy()
+        alt 只有草稿引用，正式内容无需变化
+            V-->>E: 草稿替换完成，无需正式发布
+        else 正式引用需要替换
+            V->>C: 仅试合并本次替换差异<br/>DiffService.mergeDiff()
+            C-->>V: 所选差异的完整合并内容
+            alt 完整合并结果不等于预期正式内容
+                V-->>E: 保留草稿，停止发布并交人工核对
+            else 完整合并结果等于预期正式内容
+                V->>D: 发布前保存尝试记录与未知状态<br/>savePanel()：UNKNOWN
+                V->>P: 只发布选中的替换差异<br/>publish(diffIds, md5)
+            end
+        end
+    else 上次已发起发布，结果尚未确认
+        Note over V,P: 跳过再次发布，直接回读实际版本
+    end
+    opt 已有发布尝试
+        V->>D: 回读正式内容与必要的审批版本<br/>reconcilePublication()
+        D-->>V: 正式成功／待审批／仍待核对
+        V-->>E: 保存并返回实际结果，不盲目重发
+    end

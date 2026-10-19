@@ -1,0 +1,27 @@
+{
+  "name": "four-lane-flow-starting-point",
+  "scope": "用户选择四通道流程与依赖图时的起点，不是全图型默认值",
+  "lanes": ["细节展开", "主流程", "平台", "认证"],
+  "palette": {
+    "text": "#1f2329",
+    "connector": "#738092",
+    "action": "#f0f4fc",
+    "decisionAndCredential": "#fef1ce",
+    "artifact": "#eae2fe",
+    "stageBackgrounds": ["#eef3ff", "#eff9f8", "#f0f8f1", "#f5f6f8"],
+    "stageTitles": ["#5b7fcb", "#168b91", "#509863", "#5e6672"]
+  },
+  "typography": {"title": 48, "stage": 40, "lane": 36, "body": 30, "detail": 28, "edgeLabel": 26},
+  "spacing": {"nodeGap": 80, "stageGap": 144, "stagePadding": 32},
+  "nativeShapeMap": {
+    "action": "round_rect", "personOrTerminal": "round_rect2", "decision": "diamond",
+    "platform": "predefined_process", "runner": "hexagon", "storage": "cylinder",
+    "credential": "parallelogram", "versionFile": "note_shape"
+  },
+  "requirements": [
+    "按当前文字与形状内接区重新测量，参数不可代替真实导图检查",
+    "阶段数量不由四条通道决定；平台和认证不要虚构",
+    "主流程不折行，子流程不能吞掉必要主步骤",
+    "背景置底、端点绑定、文字内嵌，写后回读"
+  ]
+}

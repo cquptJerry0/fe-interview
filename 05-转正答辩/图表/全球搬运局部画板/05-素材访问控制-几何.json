@@ -1,0 +1,1029 @@
+{
+  "W": 2460,
+  "H": 1500,
+  "nodes": {
+    "title": {
+      "id": "a001:1",
+      "type": "text_shape",
+      "x": 40,
+      "y": 30,
+      "width": 2380,
+      "height": 101,
+      "text": {
+        "text": "⑤ 素材使用准入与归属维护",
+        "font_weight": "bold",
+        "font_size": 64,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 5
+    },
+    "lane_page": {
+      "id": "o001:1",
+      "type": "composite_shape",
+      "x": 30,
+      "y": 160,
+      "width": 2400,
+      "height": 280,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#509863",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#dff5e5",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 0
+    },
+    "lane_server": {
+      "id": "o001:2",
+      "type": "composite_shape",
+      "x": 30,
+      "y": 560,
+      "width": 2400,
+      "height": 320,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#5178c6",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 1
+    },
+    "lane_feed": {
+      "id": "o001:3",
+      "type": "composite_shape",
+      "x": 30,
+      "y": 1000,
+      "width": 2400,
+      "height": 280,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#d4b45b",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#fef1ce",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 2
+    },
+    "page_label": {
+      "id": "a001:2",
+      "type": "text_shape",
+      "x": 70,
+      "y": 261,
+      "width": 480,
+      "height": 78,
+      "text": {
+        "text": "VIMO 页面",
+        "font_weight": "bold",
+        "font_size": 48,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 6
+    },
+    "server_label": {
+      "id": "a001:3",
+      "type": "text_shape",
+      "x": 70,
+      "y": 650,
+      "width": 480,
+      "height": 78,
+      "text": {
+        "text": "VIMO 服务端",
+        "font_weight": "bold",
+        "font_size": 48,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 7
+    },
+    "server_psm": {
+      "id": "a001:4",
+      "type": "text_shape",
+      "x": 70,
+      "y": 735,
+      "width": 500,
+      "height": 66,
+      "text": {
+        "text": "ies.vimo.material_web",
+        "font_weight": "regular",
+        "font_size": 40,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#646a73",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 8
+    },
+    "feed_label": {
+      "id": "a001:5",
+      "type": "text_shape",
+      "x": 70,
+      "y": 1070,
+      "width": 480,
+      "height": 78,
+      "text": {
+        "text": "Feed 素材服务",
+        "font_weight": "bold",
+        "font_size": 48,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 9
+    },
+    "feed_psm": {
+      "id": "a001:6",
+      "type": "text_shape",
+      "x": 70,
+      "y": 1155,
+      "width": 500,
+      "height": 66,
+      "text": {
+        "text": "faceu.artist.feed",
+        "font_weight": "regular",
+        "font_size": 40,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#646a73",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 10
+    },
+    "popup_redirect": {
+      "id": "o001:4",
+      "type": "composite_shape",
+      "x": 620,
+      "y": 215,
+      "width": 320,
+      "height": 170,
+      "text": {
+        "text": "转独立弹窗\n查看新素材",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#509863",
+        "border_color_type": 1,
+        "border_style": "dash",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 11
+    },
+    "search": {
+      "id": "o001:5",
+      "type": "composite_shape",
+      "x": 985,
+      "y": 215,
+      "width": 240,
+      "height": 170,
+      "text": {
+        "text": "搜索素材",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#509863",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 12
+    },
+    "select": {
+      "id": "o001:6",
+      "type": "composite_shape",
+      "x": 1270,
+      "y": 215,
+      "width": 360,
+      "height": 170,
+      "text": {
+        "text": "选材加入面板",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#509863",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 13
+    },
+    "edit": {
+      "id": "o001:7",
+      "type": "composite_shape",
+      "x": 1675,
+      "y": 215,
+      "width": 360,
+      "height": 170,
+      "text": {
+        "text": "编辑 / 上下线",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#509863",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 14
+    },
+    "popup_owner": {
+      "id": "o001:8",
+      "type": "composite_shape",
+      "x": 2080,
+      "y": 215,
+      "width": 320,
+      "height": 170,
+      "text": {
+        "text": "归属弹窗\n提示或确认",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#509863",
+        "border_color_type": 1,
+        "border_style": "dash",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 15
+    },
+    "usage": {
+      "id": "o001:9",
+      "type": "composite_shape",
+      "x": 620,
+      "y": 620,
+      "width": 1175,
+      "height": 200,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#5178c6",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 3
+    },
+    "usage_title": {
+      "id": "a001:7",
+      "type": "text_shape",
+      "x": 650,
+      "y": 640,
+      "width": 1115,
+      "height": 78,
+      "text": {
+        "text": "使用准入",
+        "font_weight": "bold",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 16
+    },
+    "usage_question": {
+      "id": "a001:8",
+      "type": "text_shape",
+      "x": 650,
+      "y": 728,
+      "width": 1115,
+      "height": 78,
+      "text": {
+        "text": "当前业务还能用吗？",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 17
+    },
+    "ownership": {
+      "id": "o001:10",
+      "type": "composite_shape",
+      "x": 1865,
+      "y": 620,
+      "width": 535,
+      "height": 200,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#5178c6",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 4
+    },
+    "ownership_title": {
+      "id": "a001:9",
+      "type": "text_shape",
+      "x": 1895,
+      "y": 640,
+      "width": 475,
+      "height": 78,
+      "text": {
+        "text": "归属维护",
+        "font_weight": "bold",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 18
+    },
+    "ownership_question": {
+      "id": "a001:10",
+      "type": "text_shape",
+      "x": 1895,
+      "y": 728,
+      "width": 475,
+      "height": 78,
+      "text": {
+        "text": "当前业务能改吗？",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 19
+    },
+    "redirect_fact": {
+      "id": "o001:11",
+      "type": "composite_shape",
+      "x": 620,
+      "y": 1055,
+      "width": 1175,
+      "height": 170,
+      "text": {
+        "text": "被哪份素材替代\nredirect_item_id",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#d4b45b",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 20
+    },
+    "owner_fact": {
+      "id": "o001:12",
+      "type": "composite_shape",
+      "x": 1865,
+      "y": 1055,
+      "width": 535,
+      "height": 170,
+      "text": {
+        "text": "由哪个业务维护\nowner_biz_id",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "center",
+        "vertical_align": "mid",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#d4b45b",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "z_index": 21
+    },
+    "note_shared": {
+      "id": "a001:11",
+      "type": "text_shape",
+      "x": 40,
+      "y": 1320,
+      "width": 2380,
+      "height": 78,
+      "text": {
+        "text": "页面与 OpenAPI 共用检查；写入前重新查询",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#646a73",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 30
+    },
+    "note_history": {
+      "id": "a001:12",
+      "type": "text_shape",
+      "x": 40,
+      "y": 1405,
+      "width": 2380,
+      "height": 78,
+      "text": {
+        "text": "历史引用按原 ID 读取，不经过这两项检查",
+        "font_weight": "regular",
+        "font_size": 48,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#646a73",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      },
+      "z_index": 31
+    }
+  },
+  "specs": {
+    "title": {
+      "x": 40,
+      "y": 30,
+      "w": 2380,
+      "h": 101,
+      "text": "⑤ 素材使用准入与归属维护",
+      "size": 64,
+      "kind": "text",
+      "bold": true
+    },
+    "lane_page": {
+      "x": 30,
+      "y": 160,
+      "w": 2400,
+      "h": 280,
+      "kind": "container"
+    },
+    "lane_server": {
+      "x": 30,
+      "y": 560,
+      "w": 2400,
+      "h": 320,
+      "kind": "container"
+    },
+    "lane_feed": {
+      "x": 30,
+      "y": 1000,
+      "w": 2400,
+      "h": 280,
+      "kind": "container"
+    },
+    "page_label": {
+      "x": 70,
+      "y": 261,
+      "w": 480,
+      "h": 78,
+      "text": "VIMO 页面",
+      "size": 48,
+      "kind": "text",
+      "bold": true
+    },
+    "server_label": {
+      "x": 70,
+      "y": 650,
+      "w": 480,
+      "h": 78,
+      "text": "VIMO 服务端",
+      "size": 48,
+      "kind": "text",
+      "bold": true
+    },
+    "server_psm": {
+      "x": 70,
+      "y": 735,
+      "w": 500,
+      "h": 66,
+      "text": "ies.vimo.material_web",
+      "size": 40,
+      "kind": "text",
+      "bold": false
+    },
+    "feed_label": {
+      "x": 70,
+      "y": 1070,
+      "w": 480,
+      "h": 78,
+      "text": "Feed 素材服务",
+      "size": 48,
+      "kind": "text",
+      "bold": true
+    },
+    "feed_psm": {
+      "x": 70,
+      "y": 1155,
+      "w": 500,
+      "h": 66,
+      "text": "faceu.artist.feed",
+      "size": 40,
+      "kind": "text",
+      "bold": false
+    },
+    "popup_redirect": {
+      "x": 620,
+      "y": 215,
+      "w": 320,
+      "h": 170,
+      "text": "转独立弹窗\n查看新素材",
+      "size": 48,
+      "kind": "box"
+    },
+    "search": {
+      "x": 985,
+      "y": 215,
+      "w": 240,
+      "h": 170,
+      "text": "搜索素材",
+      "size": 48,
+      "kind": "box"
+    },
+    "select": {
+      "x": 1270,
+      "y": 215,
+      "w": 360,
+      "h": 170,
+      "text": "选材加入面板",
+      "size": 48,
+      "kind": "box"
+    },
+    "edit": {
+      "x": 1675,
+      "y": 215,
+      "w": 360,
+      "h": 170,
+      "text": "编辑 / 上下线",
+      "size": 48,
+      "kind": "box"
+    },
+    "popup_owner": {
+      "x": 2080,
+      "y": 215,
+      "w": 320,
+      "h": 170,
+      "text": "归属弹窗\n提示或确认",
+      "size": 48,
+      "kind": "box"
+    },
+    "usage": {
+      "x": 620,
+      "y": 620,
+      "w": 1175,
+      "h": 200,
+      "kind": "container"
+    },
+    "usage_title": {
+      "x": 650,
+      "y": 640,
+      "w": 1115,
+      "h": 78,
+      "text": "使用准入",
+      "size": 48,
+      "kind": "text",
+      "bold": true
+    },
+    "usage_question": {
+      "x": 650,
+      "y": 728,
+      "w": 1115,
+      "h": 78,
+      "text": "当前业务还能用吗？",
+      "size": 48,
+      "kind": "text",
+      "bold": false
+    },
+    "ownership": {
+      "x": 1865,
+      "y": 620,
+      "w": 535,
+      "h": 200,
+      "kind": "container"
+    },
+    "ownership_title": {
+      "x": 1895,
+      "y": 640,
+      "w": 475,
+      "h": 78,
+      "text": "归属维护",
+      "size": 48,
+      "kind": "text",
+      "bold": true
+    },
+    "ownership_question": {
+      "x": 1895,
+      "y": 728,
+      "w": 475,
+      "h": 78,
+      "text": "当前业务能改吗？",
+      "size": 48,
+      "kind": "text",
+      "bold": false
+    },
+    "redirect_fact": {
+      "x": 620,
+      "y": 1055,
+      "w": 1175,
+      "h": 170,
+      "text": "被哪份素材替代\nredirect_item_id",
+      "size": 48,
+      "kind": "box"
+    },
+    "owner_fact": {
+      "x": 1865,
+      "y": 1055,
+      "w": 535,
+      "h": 170,
+      "text": "由哪个业务维护\nowner_biz_id",
+      "size": 48,
+      "kind": "box"
+    },
+    "note_shared": {
+      "x": 40,
+      "y": 1320,
+      "w": 2380,
+      "h": 78,
+      "text": "页面与 OpenAPI 共用检查；写入前重新查询",
+      "size": 48,
+      "kind": "text",
+      "bold": false
+    },
+    "note_history": {
+      "x": 40,
+      "y": 1405,
+      "w": 2380,
+      "h": 78,
+      "text": "历史引用按原 ID 读取，不经过这两项检查",
+      "size": 48,
+      "kind": "text",
+      "bold": false
+    }
+  },
+  "edges": [
+    {
+      "id": "search_call",
+      "from": "search",
+      "to": "usage",
+      "points": [
+        {
+          "x": 1105,
+          "y": 385
+        },
+        {
+          "x": 1105,
+          "y": 620
+        }
+      ],
+      "dashed": false,
+      "label": "过滤旧素材",
+      "pos": 0.5
+    },
+    {
+      "id": "select_call",
+      "from": "select",
+      "to": "usage",
+      "points": [
+        {
+          "x": 1450,
+          "y": 385
+        },
+        {
+          "x": 1450,
+          "y": 620
+        }
+      ],
+      "dashed": false,
+      "label": "整批校验",
+      "pos": 0.5
+    },
+    {
+      "id": "edit_usage",
+      "from": "edit",
+      "to": "usage",
+      "points": [
+        {
+          "x": 1735,
+          "y": 385
+        },
+        {
+          "x": 1735,
+          "y": 620
+        }
+      ],
+      "dashed": false,
+      "label": "先查",
+      "pos": 0.5
+    },
+    {
+      "id": "edit_owner",
+      "from": "edit",
+      "to": "ownership",
+      "points": [
+        {
+          "x": 1975,
+          "y": 385
+        },
+        {
+          "x": 1975,
+          "y": 620
+        }
+      ],
+      "dashed": false,
+      "label": "再查",
+      "pos": 0.5
+    },
+    {
+      "id": "redirect_reject",
+      "from": "usage",
+      "to": "popup_redirect",
+      "points": [
+        {
+          "x": 780,
+          "y": 620
+        },
+        {
+          "x": 780,
+          "y": 385
+        }
+      ],
+      "dashed": true,
+      "label": "拒绝",
+      "pos": 0.5
+    },
+    {
+      "id": "owner_reject",
+      "from": "ownership",
+      "to": "popup_owner",
+      "points": [
+        {
+          "x": 2240,
+          "y": 620
+        },
+        {
+          "x": 2240,
+          "y": 385
+        }
+      ],
+      "dashed": true,
+      "label": "拒绝",
+      "pos": 0.5
+    },
+    {
+      "id": "redirect_read",
+      "from": "usage",
+      "to": "redirect_fact",
+      "points": [
+        {
+          "x": 1207.5,
+          "y": 820
+        },
+        {
+          "x": 1207.5,
+          "y": 1055
+        }
+      ],
+      "dashed": true,
+      "label": "按当前业务读取",
+      "pos": 0.5
+    },
+    {
+      "id": "owner_read",
+      "from": "ownership",
+      "to": "owner_fact",
+      "points": [
+        {
+          "x": 2132.5,
+          "y": 820
+        },
+        {
+          "x": 2132.5,
+          "y": 1055
+        }
+      ],
+      "dashed": true,
+      "label": "读取",
+      "pos": 0.5
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "native-stage-flow",
+  "cn": "原生阶段流程参考",
+  "use_case": "需要阶段标题分色、浅色动作框和原生折线的业务流程",
+  "source_token": "JPHPw3H96hVeU2bXPv4cHpLRnAD",
+  "verified_on": "2026-10-07",
+  "extracted": {
+    "canvas": "#ffffff",
+    "action_fill": "#f0f4fc",
+    "decision_fill": "#fef1ce",
+    "storage_fill": "#dff5e5",
+    "subprocess_fill": "#eae2fe",
+    "body_text": "#1f2329",
+    "line_color": "#000000",
+    "stage_accents": ["#509863", "#d4b45b"],
+    "action_shape": "round_rect",
+    "decision_shape": "diamond",
+    "boundary_shape": "round_rect",
+    "boundary_style": "dash",
+    "connector_shape": "polyline",
+    "connector_arrow_end": "line_arrow",
+    "line_width": "narrow"
+  },
+  "approved_extensions": {
+    "stage_accents": ["#5b7fcb"],
+    "reason": "本次用户确认的第三阶段色；不是源画板提取值"
+  },
+  "typography": {
+    "rule": "按目标展示宽度确定字号；阶段标题大于正文，必要旁注保持可读",
+    "source_absolute_sizes_are_not_defaults": true
+  }
+}

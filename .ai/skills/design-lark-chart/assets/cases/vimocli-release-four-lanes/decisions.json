@@ -1,0 +1,659 @@
+{
+  "reader_question": "沿主流程能讲完发布；向上解释机制，向下说明平台与身份",
+  "chart_choice": {
+    "type": "four-lane-flow-dependencies",
+    "reason": "用户明确选择四条横向信息通道，不把通道当执行阶段"
+  },
+  "palette": {
+    "ink": "#1f2329",
+    "line": "#738092",
+    "muted": "#5e6672",
+    "blue": "#5b7fcb",
+    "teal": "#168b91",
+    "green": "#509863",
+    "white": "#ffffff",
+    "action": "#f0f4fc",
+    "yellow": "#fef1ce",
+    "violet": "#eae2fe",
+    "sub": "#eff9f8",
+    "rule": "#dee0e3"
+  },
+  "grid": {
+    "margin": 40,
+    "laneLabel": 220,
+    "pad": 32,
+    "step": 80,
+    "stageGap": 144,
+    "font": 30,
+    "detail": 28,
+    "top": 300,
+    "bottom": 2220,
+    "upper": 1110,
+    "lower": 1380,
+    "platform": 1690,
+    "credential": 2060
+  },
+  "areas": [
+    {
+      "x": 260,
+      "width": 1714
+    },
+    {
+      "x": 2118,
+      "width": 1444
+    },
+    {
+      "x": 3706,
+      "width": 2774
+    },
+    {
+      "x": 6624,
+      "width": 480
+    }
+  ],
+  "rows": [
+    {
+      "id": "detail",
+      "title": "1\n细节展开",
+      "top": 420,
+      "bottom": 940
+    },
+    {
+      "id": "main",
+      "title": "2\n主流程",
+      "top": 980,
+      "bottom": 1510
+    },
+    {
+      "id": "platform",
+      "title": "3\n平台",
+      "top": 1550,
+      "bottom": 1880
+    },
+    {
+      "id": "auth",
+      "title": "4\n认证",
+      "top": 1920,
+      "bottom": 2220
+    }
+  ],
+  "specs": {
+    "legend-shape0": {
+      "kind": "person",
+      "cy": 218,
+      "x": 40,
+      "width": 104,
+      "text": "",
+      "lane": "legend",
+      "font": 26
+    },
+    "legend-shape1": {
+      "kind": "action",
+      "cy": 218,
+      "x": 824.8888888888889,
+      "width": 104,
+      "text": "",
+      "lane": "legend",
+      "font": 26
+    },
+    "legend-shape2": {
+      "kind": "decision",
+      "cy": 218,
+      "x": 1609.7777777777778,
+      "width": 104,
+      "text": "",
+      "lane": "legend",
+      "font": 26
+    },
+    "legend-shape4": {
+      "kind": "platform",
+      "cy": 218,
+      "x": 3179.5555555555557,
+      "width": 104,
+      "text": "",
+      "lane": "legend",
+      "font": 26
+    },
+    "legend-shape5": {
+      "kind": "runner",
+      "cy": 218,
+      "x": 3964.4444444444443,
+      "width": 104,
+      "text": "",
+      "lane": "legend",
+      "font": 26
+    },
+    "legend-shape6": {
+      "kind": "store",
+      "cy": 218,
+      "x": 4749.333333333334,
+      "width": 104,
+      "text": "",
+      "lane": "legend",
+      "font": 26
+    },
+    "legend-shape7": {
+      "kind": "credential",
+      "cy": 218,
+      "x": 5534.222222222223,
+      "width": 104,
+      "text": "",
+      "lane": "legend",
+      "font": 26
+    },
+    "legend-shape8": {
+      "kind": "file",
+      "cy": 218,
+      "x": 6319.111111111111,
+      "width": 104,
+      "text": "",
+      "lane": "legend",
+      "font": 26
+    },
+    "merge": {
+      "kind": "person",
+      "cy": 1110,
+      "x": 292,
+      "width": 240,
+      "text": "开发者：\n将功能 MR\n合入 main",
+      "lane": "main",
+      "font": 30
+    },
+    "calculate": {
+      "kind": "action",
+      "cy": 1110,
+      "x": 612,
+      "width": 270,
+      "text": "编排 CI：\n计算下一个\n正式版本号",
+      "lane": "main",
+      "font": 30
+    },
+    "release": {
+      "kind": "action",
+      "cy": 1110,
+      "x": 962,
+      "width": 270,
+      "text": "编排 CI：\n创建或更新\n版本 MR",
+      "lane": "main",
+      "font": 30
+    },
+    "merge-release": {
+      "kind": "action",
+      "cy": 1110,
+      "x": 1312,
+      "width": 270,
+      "text": "编排 CI：\n检查通过后\n自动合入 MR",
+      "lane": "main",
+      "font": 30
+    },
+    "tag": {
+      "kind": "file",
+      "cy": 1245,
+      "x": 1662,
+      "width": 280,
+      "text": "编排 CI：\n创建版本 Tag\nv0.2.78\n（示例）",
+      "lane": "main",
+      "font": 30,
+      "height": 478
+    },
+    "package-check": {
+      "kind": "action",
+      "cy": 1110,
+      "x": 2150,
+      "width": 280,
+      "text": "制品 CI：\n检查代码\n构建 npm 包",
+      "lane": "main",
+      "font": 30
+    },
+    "npm": {
+      "kind": "action",
+      "cy": 1110,
+      "x": 2510,
+      "width": 280,
+      "text": "制品 CI：\n发布 npm 包\n@byted/vimocli",
+      "lane": "main",
+      "font": 30
+    },
+    "skill": {
+      "kind": "action",
+      "cy": 1110,
+      "x": 2870,
+      "width": 300,
+      "text": "制品 CI：\n发布变更 Skill\n到 AgentBuddy",
+      "lane": "main",
+      "font": 30
+    },
+    "mark": {
+      "kind": "action",
+      "cy": 1110,
+      "x": 3250,
+      "width": 280,
+      "text": "制品 CI：\n登记本次\n包与 Skill 已发布",
+      "lane": "main",
+      "font": 30
+    },
+    "wait": {
+      "kind": "action",
+      "cy": 1380,
+      "x": 3738,
+      "width": 270,
+      "text": "沙箱 CI：\n等待本次包与\nSkill 发布成功",
+      "lane": "main",
+      "font": 30
+    },
+    "download": {
+      "kind": "action",
+      "cy": 1380,
+      "x": 4088,
+      "width": 270,
+      "text": "区域 Runner：\n下载本次\n精确版本 npm 包",
+      "lane": "main",
+      "font": 30
+    },
+    "template-check": {
+      "kind": "action",
+      "cy": 1380,
+      "x": 4438,
+      "width": 260,
+      "text": "沙箱 CI：\n确认模板已有\n构建成功",
+      "lane": "main",
+      "font": 30
+    },
+    "instance-check": {
+      "kind": "action",
+      "cy": 1380,
+      "x": 4778,
+      "width": 280,
+      "text": "沙箱 CI：\n确认实例没有\n正在进行的发布",
+      "lane": "main",
+      "font": 30
+    },
+    "patch": {
+      "kind": "action",
+      "cy": 1380,
+      "x": 5138,
+      "width": 270,
+      "text": "沙箱 CI：\n更新模板内的\nnpm 安装版本",
+      "lane": "main",
+      "font": 30
+    },
+    "build": {
+      "kind": "action",
+      "cy": 1380,
+      "x": 5488,
+      "width": 260,
+      "text": "模板平台：\n构建镜像\n返回镜像版本",
+      "lane": "main",
+      "font": 30
+    },
+    "deploy": {
+      "kind": "action",
+      "cy": 1380,
+      "x": 5828,
+      "width": 260,
+      "text": "沙箱 CI：\n使用本次镜像\n部署实例",
+      "lane": "main",
+      "font": 30
+    },
+    "verify": {
+      "kind": "action",
+      "cy": 1380,
+      "x": 6168,
+      "width": 280,
+      "text": "沙箱 CI：\n回读实例\n核对版本与状态",
+      "lane": "main",
+      "font": 30
+    },
+    "version-detail-0": {
+      "kind": "action",
+      "cy": 692,
+      "x": 316,
+      "width": 407.3333333333333,
+      "text": "main 的 package.json\nGit 正式版本 Tag\nbnpm 已发布版本",
+      "lane": "detail",
+      "font": 28
+    },
+    "version-detail-1": {
+      "kind": "action",
+      "cy": 692,
+      "x": 783.3333333333333,
+      "width": 407.3333333333333,
+      "text": "在当前发布线\n取最高正式版本",
+      "lane": "detail",
+      "font": 28
+    },
+    "version-detail-2": {
+      "kind": "action",
+      "cy": 692,
+      "x": 1250.6666666666665,
+      "width": 407.3333333333333,
+      "text": "版本末位加一\n0.2.77 → 0.2.78",
+      "lane": "detail",
+      "font": 28
+    },
+    "npm-detail-0": {
+      "kind": "action",
+      "cy": 692,
+      "x": 2174,
+      "width": 162,
+      "text": "检查并\n构建",
+      "lane": "detail",
+      "font": 28
+    },
+    "npm-detail-1": {
+      "kind": "action",
+      "cy": 692,
+      "x": 2396,
+      "width": 162,
+      "text": "打包并\n计算摘要",
+      "lane": "detail",
+      "font": 28
+    },
+    "npm-detail-2": {
+      "kind": "action",
+      "cy": 692,
+      "x": 2618,
+      "width": 162,
+      "text": "对比摘要\n不同停止",
+      "lane": "detail",
+      "font": 28
+    },
+    "skill-detail-0": {
+      "kind": "action",
+      "cy": 692,
+      "x": 2900,
+      "width": 162,
+      "text": "对比上次\n成功发布",
+      "lane": "detail",
+      "font": 28
+    },
+    "skill-detail-1": {
+      "kind": "action",
+      "cy": 692,
+      "x": 3122,
+      "width": 162,
+      "text": "筛选变更\nSkill 目录",
+      "lane": "detail",
+      "font": 28
+    },
+    "skill-detail-2": {
+      "kind": "action",
+      "cy": 692,
+      "x": 3344,
+      "width": 162,
+      "text": "发布 Skill\n逐个回查",
+      "lane": "detail",
+      "font": 28
+    },
+    "wait-detail-0": {
+      "kind": "action",
+      "cy": 692,
+      "x": 3762,
+      "width": 260,
+      "text": "查询本次\n发布结果",
+      "lane": "detail",
+      "font": 28
+    },
+    "wait-detail-1": {
+      "kind": "action",
+      "cy": 692,
+      "x": 4082,
+      "width": 260,
+      "text": "未完成就等\n失败则停止",
+      "lane": "detail",
+      "font": 28
+    },
+    "old-state": {
+      "kind": "decision",
+      "cy": 704,
+      "x": 4462,
+      "width": 210,
+      "text": "构建\n状态？",
+      "lane": "detail",
+      "font": 28,
+      "height": 210
+    },
+    "old-ok": {
+      "kind": "action",
+      "cy": 588,
+      "x": 4772,
+      "width": 270,
+      "text": "成功：继续",
+      "lane": "detail",
+      "font": 28
+    },
+    "old-wait": {
+      "kind": "action",
+      "cy": 710,
+      "x": 4772,
+      "width": 270,
+      "text": "进行中：等待\n原构建结束",
+      "lane": "detail",
+      "font": 28
+    },
+    "old-fail": {
+      "kind": "action",
+      "cy": 832,
+      "x": 4772,
+      "width": 270,
+      "text": "失败：停止\n提示人工处理",
+      "lane": "detail",
+      "font": 28
+    },
+    "patch-detail-0": {
+      "kind": "action",
+      "cy": 692,
+      "x": 5162,
+      "width": 380.6666666666667,
+      "text": "读取模板\n原配置",
+      "lane": "detail",
+      "font": 28
+    },
+    "patch-detail-1": {
+      "kind": "action",
+      "cy": 692,
+      "x": 5602.666666666667,
+      "width": 380.6666666666667,
+      "text": "固定安装版本\n加入版本校验",
+      "lane": "detail",
+      "font": 28
+    },
+    "patch-detail-2": {
+      "kind": "action",
+      "cy": 692,
+      "x": 6043.333333333333,
+      "width": 380.6666666666667,
+      "text": "再读确认未变\n提交一次更新",
+      "lane": "detail",
+      "font": 28
+    },
+    "codebase": {
+      "kind": "platform",
+      "cy": 1690,
+      "x": 292,
+      "width": 300,
+      "text": "Codebase\n代码托管平台",
+      "lane": "platform",
+      "font": 30
+    },
+    "version-file": {
+      "kind": "file",
+      "cy": 1690,
+      "x": 962,
+      "width": 320,
+      "text": "package.json\n版本 0.2.78\n（示例）",
+      "lane": "platform",
+      "font": 28
+    },
+    "artifact-lock": {
+      "kind": "store",
+      "cy": 1690,
+      "x": 2150,
+      "width": 300,
+      "text": "包与 Skill 发布占用\n一次只运行一个任务",
+      "lane": "platform",
+      "font": 28
+    },
+    "bnpm": {
+      "kind": "platform",
+      "cy": 1690,
+      "x": 2510,
+      "width": 300,
+      "text": "bnpm",
+      "lane": "platform",
+      "font": 30
+    },
+    "agentbuddy": {
+      "kind": "platform",
+      "cy": 1690,
+      "x": 2870,
+      "width": 320,
+      "text": "AgentBuddy",
+      "lane": "platform",
+      "font": 30
+    },
+    "success-record": {
+      "kind": "store",
+      "cy": 1690,
+      "x": 3738,
+      "width": 300,
+      "text": "Git 发布结果\n本次包与 Skill\n均已发布",
+      "lane": "platform",
+      "font": 28
+    },
+    "runner": {
+      "kind": "runner",
+      "cy": 1690,
+      "x": 4088,
+      "width": 300,
+      "text": "区域 Runner\n国内 / 海外",
+      "lane": "platform",
+      "font": 28
+    },
+    "sandbox-lock": {
+      "kind": "store",
+      "cy": 1690,
+      "x": 4438,
+      "width": 300,
+      "text": "本站发布占用\n国内、海外各一份",
+      "lane": "platform",
+      "font": 28
+    },
+    "instance-task": {
+      "kind": "store",
+      "cy": 1690,
+      "x": 4778,
+      "width": 300,
+      "text": "实例发布任务\n已有任务则停止",
+      "lane": "platform",
+      "font": 28
+    },
+    "template-platform": {
+      "kind": "platform",
+      "cy": 1690,
+      "x": 5138,
+      "width": 300,
+      "text": "模板平台",
+      "lane": "platform",
+      "font": 30
+    },
+    "image": {
+      "kind": "store",
+      "cy": 1690,
+      "x": 5488,
+      "width": 280,
+      "text": "本次构建的\n镜像版本",
+      "lane": "platform",
+      "font": 28
+    },
+    "instance": {
+      "kind": "platform",
+      "cy": 1690,
+      "x": 6168,
+      "width": 310,
+      "text": "目标实例\n实际版本 / 状态",
+      "lane": "platform",
+      "font": 28
+    },
+    "actor": {
+      "kind": "credential",
+      "cy": 2060,
+      "x": 282,
+      "width": 320,
+      "text": "平台身份\nGit / MR 权限",
+      "lane": "auth",
+      "font": 28
+    },
+    "npm-token": {
+      "kind": "credential",
+      "cy": 2060,
+      "x": 2510,
+      "width": 300,
+      "text": "NPM_TOKEN",
+      "lane": "auth",
+      "font": 28
+    },
+    "skill-sa": {
+      "kind": "credential",
+      "cy": 2060,
+      "x": 2870,
+      "width": 320,
+      "text": "服务账号\n换取 JWT",
+      "lane": "auth",
+      "font": 28
+    },
+    "template-sa": {
+      "kind": "credential",
+      "cy": 2060,
+      "x": 5138,
+      "width": 300,
+      "text": "模板账号\ncn / i18n",
+      "lane": "auth",
+      "font": 28
+    },
+    "package-notice": {
+      "kind": "person",
+      "cy": 1110,
+      "x": 6656,
+      "width": 416,
+      "text": "平台通知：\n包与 Skill 发布结果\n成功 / 失败",
+      "lane": "main",
+      "font": 30
+    },
+    "sandbox-notice": {
+      "kind": "person",
+      "cy": 1380,
+      "x": 6656,
+      "width": 416,
+      "text": "平台通知：\n两站沙箱发布结果\n成功 / 失败",
+      "lane": "main",
+      "font": 30
+    }
+  },
+  "shape_rules": {
+    "action": "round_rect",
+    "person": "round_rect2",
+    "platform": "predefined_process",
+    "runner": "hexagon",
+    "credential": "parallelogram",
+    "file": "note_shape",
+    "store": "cylinder",
+    "decision": "diamond"
+  },
+  "source": "origin/main 1e0fd15a76c8c2145f5636292c55ad2e17b984b2",
+  "preserved_user_edits": [
+    "平台名只保留 bnpm / AgentBuddy",
+    "不恢复底部影响说明框和长图例"
+  ],
+  "wording": {
+    "CAS": "同一范围只运行一个任务；先读状态，仅在状态未被他人更新时才能抢占",
+    "versions": "汇总 main 的 package.json、正式 Git Tag 和 bnpm 已发布版本，在当前发布线取最高正式版本后末位加一"
+  },
+  "reading_questions": [
+    "版本计算读取什么",
+    "为什么不会并发重复发布",
+    "Skill 到哪里，哪些要发",
+    "两个任务如何关联",
+    "平台与凭据是否分层"
+  ]
+}

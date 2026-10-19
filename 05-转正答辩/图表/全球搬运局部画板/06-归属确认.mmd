@@ -1,0 +1,19 @@
+sequenceDiagram
+    participant U as 归属确认界面<br/>提交选择、展示结果
+    participant V as VIMO 归属确认<br/>OwnershipService<br/>ies.vimo.material_web
+    participant F as 素材事实服务<br/>Feed<br/>faceu.artist.feed
+
+    Note over U,F: ⑥ 补齐空归属，不覆盖他人已确认的结果
+    U->>V: 确认素材所属业务<br/>confirmOwnership()
+    V->>F: 写前重新读取归属和更新时间<br/>MGetItem()
+    F-->>V: 当前归属与更新时间快照
+    alt 已有归属与选择相同
+        V-->>U: 直接返回成功，不重复写入
+    else 已有归属与选择不同
+        V-->>U: 拒绝覆盖，提示刷新归属
+    else 归属为空且快照有效
+        V->>F: 携同一快照补齐归属<br/>UpdateItem(update_time_snap)
+        F-->>V: 写入成功，或冲突后提示刷新重试
+        V-->>U: 返回确认结果，失败项保留
+    end
+    Note over U,F: 只允许同区候选；读失败或缺少更新时间不写入。批量逐项确认，原操作由用户重提。

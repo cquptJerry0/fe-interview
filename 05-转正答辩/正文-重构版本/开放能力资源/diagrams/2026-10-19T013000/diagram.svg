@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="640" viewBox="0 0 1640 640">
+  <rect x="0" y="0" width="1640" height="640" fill="#FFFFFF"/>
+  <text x="60" y="64" font-size="30" font-weight="bold" fill="#1F2329">VIMO 开放能力演进路径</text>
+  <text x="60" y="100" font-size="16" fill="#646A73">每接入一类新的调用方，都会暴露新问题，推动下一阶段的建设</text>
+
+  <text x="60" y="160" font-size="14" fill="#8F959E">调用方扩展</text>
+  <polyline points="60,180 1330,180" fill="none" stroke="#C2D3F7" stroke-width="3"/>
+  <polygon points="1330,172 1346,180 1330,188" fill="#C2D3F7"/>
+
+  <g>
+    <circle cx="200" cy="180" r="18" fill="#3370FF"/>
+    <text x="200" y="186" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <rect x="60" y="216" width="280" height="356" rx="12" fill="#F5F8FF" stroke="#D6E2FF" stroke-width="1.5"/>
+    <text x="84" y="258" font-size="22" font-weight="bold" fill="#1F2329">程序调用</text>
+    <text x="84" y="292" font-size="13" fill="#8F959E">调用方</text>
+    <text x="84" y="318" font-size="16" fill="#1F2329">脚本、生产服务</text>
+    <text x="84" y="358" font-size="13" fill="#8F959E">遇到的问题</text>
+    <text x="84" y="384" font-size="16" fill="#1F2329">需自行签名，接口覆盖不足</text>
+    <text x="84" y="424" font-size="13" fill="#8F959E">解决方式</text>
+    <text x="84" y="450" font-size="16" fill="#1F2329">接入字节云网关</text>
+    <text x="84" y="476" font-size="16" fill="#1F2329">补齐素材业务接口</text>
+    <text x="84" y="540" font-size="13" fill="#3370FF">对应 2.3.1 演进鉴权体系</text>
+  </g>
+
+  <g>
+    <circle cx="510" cy="180" r="18" fill="#3370FF"/>
+    <text x="510" y="186" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <rect x="370" y="216" width="280" height="356" rx="12" fill="#F5F8FF" stroke="#D6E2FF" stroke-width="1.5"/>
+    <text x="394" y="258" font-size="22" font-weight="bold" fill="#1F2329">本地 Agent</text>
+    <text x="394" y="292" font-size="13" fill="#8F959E">调用方</text>
+    <text x="394" y="318" font-size="16" fill="#1F2329">研发与运营的本地 Agent</text>
+    <text x="394" y="358" font-size="13" fill="#8F959E">遇到的问题</text>
+    <text x="394" y="384" font-size="16" fill="#1F2329">接入成本高，操作范围难管控</text>
+    <text x="394" y="424" font-size="13" fill="#8F959E">解决方式</text>
+    <text x="394" y="450" font-size="16" fill="#1F2329">个人 JWT 直连</text>
+    <text x="394" y="476" font-size="16" fill="#1F2329">细化资源权限</text>
+    <text x="394" y="502" font-size="16" fill="#1F2329">统一 CLI 与 Skill</text>
+    <text x="394" y="540" font-size="13" fill="#3370FF">对应 2.3.1 与 2.3.2</text>
+  </g>
+
+  <g>
+    <circle cx="820" cy="180" r="18" fill="#3370FF"/>
+    <text x="820" y="186" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <rect x="680" y="216" width="280" height="356" rx="12" fill="#F5F8FF" stroke="#D6E2FF" stroke-width="1.5"/>
+    <text x="704" y="258" font-size="22" font-weight="bold" fill="#1F2329">云端 Agent</text>
+    <text x="704" y="292" font-size="13" fill="#8F959E">调用方</text>
+    <text x="704" y="318" font-size="16" fill="#1F2329">VIMO Agent</text>
+    <text x="704" y="344" font-size="16" fill="#1F2329">Capcut 运营 Agent</text>
+    <text x="704" y="384" font-size="13" fill="#8F959E">遇到的问题</text>
+    <text x="704" y="410" font-size="16" fill="#1F2329">沙箱无法登录，跨站点与环境</text>
+    <text x="704" y="450" font-size="13" fill="#8F959E">解决方式</text>
+    <text x="704" y="476" font-size="16" fill="#1F2329">浏览器凭证工具</text>
+    <text x="704" y="502" font-size="16" fill="#1F2329">沙箱注入凭证，站点与环境适配</text>
+    <text x="704" y="540" font-size="13" fill="#3370FF">对应 2.3.1 与 2.3.2</text>
+  </g>
+
+  <g>
+    <circle cx="1130" cy="180" r="18" fill="#3370FF"/>
+    <text x="1130" y="186" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <rect x="990" y="216" width="280" height="356" rx="12" fill="#F5F8FF" stroke="#D6E2FF" stroke-width="1.5"/>
+    <text x="1014" y="258" font-size="22" font-weight="bold" fill="#1F2329">多业务复用</text>
+    <text x="1014" y="292" font-size="13" fill="#8F959E">调用方</text>
+    <text x="1014" y="318" font-size="16" fill="#1F2329">商业化、Q&amp;A、醒图助手等</text>
+    <text x="1014" y="358" font-size="13" fill="#8F959E">遇到的问题</text>
+    <text x="1014" y="384" font-size="16" fill="#1F2329">迭代频繁，交付与观测跟不上</text>
+    <text x="1014" y="424" font-size="13" fill="#8F959E">解决方式</text>
+    <text x="1014" y="450" font-size="16" fill="#1F2329">工作项驱动研发</text>
+    <text x="1014" y="476" font-size="16" fill="#1F2329">研发交付流水线</text>
+    <text x="1014" y="502" font-size="16" fill="#1F2329">客户端调用观测</text>
+    <text x="1014" y="540" font-size="13" fill="#3370FF">对应 2.3.2 与 2.3.3</text>
+  </g>
+
+  <g>
+    <circle cx="1440" cy="180" r="18" fill="#FFFFFF" stroke="#8F959E" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="1440" y="186" font-size="15" fill="#8F959E" text-anchor="middle">→</text>
+    <rect x="1300" y="216" width="280" height="356" rx="12" fill="#FFFFFF" stroke="#8F959E" stroke-width="1.5" stroke-dasharray="8 6"/>
+    <text x="1324" y="258" font-size="22" font-weight="bold" fill="#646A73">后续规划</text>
+    <text x="1324" y="292" font-size="13" fill="#8F959E">目标</text>
+    <text x="1324" y="318" font-size="16" fill="#646A73">运营 Agent 完整交付任务</text>
+    <text x="1324" y="358" font-size="13" fill="#8F959E">方向</text>
+    <text x="1324" y="384" font-size="16" fill="#646A73">沉淀运营工作流</text>
+    <text x="1324" y="410" font-size="16" fill="#646A73">建立任务评测</text>
+    <text x="1324" y="540" font-size="13" fill="#8F959E">对应 2.4 后续规划</text>
+  </g>
+</svg>

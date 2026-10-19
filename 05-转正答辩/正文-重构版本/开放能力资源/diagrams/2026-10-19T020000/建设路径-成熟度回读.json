@@ -1,0 +1,1464 @@
+{
+  "nodes": [
+    {
+      "angle": 0,
+      "children": [
+        "o29:34",
+        "a29:109",
+        "a29:110",
+        "a29:111",
+        "a29:112",
+        "a29:113"
+      ],
+      "height": 187.5294952392578,
+      "id": "n29:6",
+      "type": "group",
+      "width": 270,
+      "x": 90,
+      "y": 382,
+      "z_index": 15
+    },
+    {
+      "angle": 0,
+      "height": 20.27199935913086,
+      "id": "a29:116",
+      "parent_id": "n29:7",
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "• 支持关联维护　• 支持素材发布",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 215,
+      "x": 360,
+      "y": 371.52899169921875,
+      "z_index": 3
+    },
+    {
+      "angle": 0,
+      "height": 20.27199935913086,
+      "id": "a29:125",
+      "parent_id": "n29:9",
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "• 串联发布流程　• 分发客户端能力",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 230,
+      "x": 860,
+      "y": 185.5290069580078,
+      "z_index": 2
+    },
+    {
+      "angle": 0,
+      "height": 28.959999084472656,
+      "id": "a29:129",
+      "parent_id": "n29:10",
+      "text": {
+        "angle": 0,
+        "font_size": 20,
+        "font_weight": "bold",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "走向智能化运营",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 175,
+      "x": 1135,
+      "y": 68.47000122070312,
+      "z_index": 1
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "ellipse"
+      },
+      "height": 14,
+      "id": "o29:30",
+      "style": {
+        "border_style": "none",
+        "fill_color": "#3370ff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 14,
+      "x": 408,
+      "y": 413,
+      "z_index": 11
+    },
+    {
+      "angle": 0,
+      "height": 43.439998626708984,
+      "id": "a29:105",
+      "text": {
+        "angle": 0,
+        "font_size": 30,
+        "font_weight": "bold",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "VIMO 开放能力建设路径",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 405,
+      "x": 60,
+      "y": 22.704999923706055,
+      "z_index": 1
+    },
+    {
+      "angle": 0,
+      "height": 21.719999313354492,
+      "id": "a29:112",
+      "parent_id": "n29:6",
+      "text": {
+        "angle": 0,
+        "font_size": 15,
+        "font_weight": "bold",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "04—05 月",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 87,
+      "x": 121.5,
+      "y": 524.3524780273438,
+      "z_index": 4
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 118,
+      "id": "o29:35",
+      "parent_id": "n29:7",
+      "style": {
+        "border_color": "#d6e2ff",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_radius": {
+          "bottom_left": 10,
+          "bottom_right": 10,
+          "top_left": 10,
+          "top_right": 10
+        },
+        "border_style": "solid",
+        "border_width": "extra_narrow",
+        "fill_color": "#f5f8ff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 270,
+      "x": 340,
+      "y": 302,
+      "z_index": 0
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 118,
+      "id": "o29:36",
+      "parent_id": "n29:8",
+      "style": {
+        "border_color": "#d6e2ff",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_radius": {
+          "bottom_left": 10,
+          "bottom_right": 10,
+          "top_left": 10,
+          "top_right": 10
+        },
+        "border_style": "solid",
+        "border_width": "extra_narrow",
+        "fill_color": "#f5f8ff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 270,
+      "x": 590,
+      "y": 222,
+      "z_index": 0
+    },
+    {
+      "angle": 0,
+      "children": [
+        "o29:37",
+        "a29:124",
+        "a29:125",
+        "a29:126",
+        "a29:127",
+        "a29:128"
+      ],
+      "height": 427.5295104980469,
+      "id": "n29:9",
+      "type": "group",
+      "width": 270,
+      "x": 840,
+      "y": 142,
+      "z_index": 18
+    },
+    {
+      "angle": 0,
+      "height": 21.719999313354492,
+      "id": "a29:127",
+      "parent_id": "n29:9",
+      "text": {
+        "angle": 0,
+        "font_size": 15,
+        "font_weight": "bold",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "09 月",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 49,
+      "x": 940.5,
+      "y": 524.3524780273438,
+      "z_index": 4
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "rect"
+      },
+      "height": 720,
+      "id": "o29:28",
+      "style": {
+        "border_style": "none",
+        "fill_color": "#ffffff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 1600,
+      "x": 0,
+      "y": 0,
+      "z_index": 0
+    },
+    {
+      "angle": 0,
+      "height": 21.719999313354492,
+      "id": "a29:107",
+      "text": {
+        "angle": 0,
+        "font_size": 15,
+        "font_weight": "regular",
+        "horizontal_align": "right",
+        "italic": false,
+        "line_through": false,
+        "text": "开放能力成熟度",
+        "text_background_color_type": 0,
+        "text_color": "#646a73",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 105,
+      "x": -47,
+      "y": 94.35250091552734,
+      "z_index": 7
+    },
+    {
+      "angle": 0,
+      "connector": {
+        "caption_auto_direction": false,
+        "end": {
+          "arrow_style": "none",
+          "position": {
+            "x": 1435,
+            "y": 180
+          }
+        },
+        "shape": "right_angled_polyline",
+        "specified_coordinate": true,
+        "start": {
+          "arrow_style": "none",
+          "position": {
+            "x": 165,
+            "y": 500
+          }
+        },
+        "turning_points": [
+          {
+            "x": 250,
+            "y": 320
+          },
+          {
+            "x": 250,
+            "y": 240
+          },
+          {
+            "x": 525,
+            "y": 240
+          },
+          {
+            "x": 525,
+            "y": 160
+          },
+          {
+            "x": 800,
+            "y": 160
+          },
+          {
+            "x": 800,
+            "y": 80
+          },
+          {
+            "x": 1075,
+            "y": 80
+          },
+          {
+            "x": 1075,
+            "y": 0
+          }
+        ]
+      },
+      "height": 320,
+      "id": "c29:12",
+      "style": {
+        "border_color": "#3370ff",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow"
+      },
+      "type": "connector",
+      "width": 1270,
+      "x": 165,
+      "y": 180,
+      "z_index": 9
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 118,
+      "id": "o29:34",
+      "parent_id": "n29:6",
+      "style": {
+        "border_color": "#d6e2ff",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_radius": {
+          "bottom_left": 10,
+          "bottom_right": 10,
+          "top_left": 10,
+          "top_right": 10
+        },
+        "border_style": "solid",
+        "border_width": "extra_narrow",
+        "fill_color": "#f5f8ff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 270,
+      "x": 90,
+      "y": 382,
+      "z_index": 0
+    },
+    {
+      "angle": 0,
+      "height": 20.27199935913086,
+      "id": "a29:111",
+      "parent_id": "n29:6",
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "• 接入 JWT 身份　• 开通接口权限",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 226,
+      "x": 110,
+      "y": 451.52899169921875,
+      "z_index": 3
+    },
+    {
+      "angle": 0,
+      "height": 28.959999084472656,
+      "id": "a29:114",
+      "parent_id": "n29:7",
+      "text": {
+        "angle": 0,
+        "font_size": 20,
+        "font_weight": "bold",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "素材操作闭环",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 151,
+      "x": 360,
+      "y": 308.4700012207031,
+      "z_index": 1
+    },
+    {
+      "angle": 0,
+      "height": 18.823999404907227,
+      "id": "a29:118",
+      "parent_id": "n29:7",
+      "text": {
+        "angle": 0,
+        "font_size": 13,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "查询、配置、发布形成闭环",
+        "text_background_color_type": 0,
+        "text_color": "#86909c",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 156,
+      "x": 337,
+      "y": 550.7055053710938,
+      "z_index": 5
+    },
+    {
+      "angle": 0,
+      "children": [
+        "o29:36",
+        "a29:119",
+        "a29:120",
+        "a29:121",
+        "a29:122",
+        "a29:123"
+      ],
+      "height": 347.5295104980469,
+      "id": "n29:8",
+      "type": "group",
+      "width": 270,
+      "x": 590,
+      "y": 222,
+      "z_index": 17
+    },
+    {
+      "angle": 0,
+      "height": 21,
+      "id": "d29:4",
+      "image": {
+        "token": "\u003csvg viewBox=\"1507.5 599.5 23 21\" width=\"23\" height=\"21\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cpolygon points=\"1510,602 1528,610 1510,618\" fill=\"#3370FF\" /\u003e\u003c/svg\u003e"
+      },
+      "style": {
+        "border_style": "none"
+      },
+      "type": "image",
+      "width": 23,
+      "x": 1507.5,
+      "y": 599.5,
+      "z_index": 4
+    },
+    {
+      "angle": 0,
+      "height": 20.27199935913086,
+      "id": "a29:126",
+      "parent_id": "n29:9",
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "• 同步用户 Skill　• 采集调用数据",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 218,
+      "x": 860,
+      "y": 211.5290069580078,
+      "z_index": 3
+    },
+    {
+      "angle": 0,
+      "height": 20.27199935913086,
+      "id": "a29:110",
+      "parent_id": "n29:6",
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "• 开放基础接口　• 接入统一网关",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 215,
+      "x": 110,
+      "y": 425.52899169921875,
+      "z_index": 2
+    },
+    {
+      "angle": 0,
+      "height": 20.27199935913086,
+      "id": "a29:115",
+      "parent_id": "n29:7",
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "• 覆盖查询能力　• 开放配置能力",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 215,
+      "x": 360,
+      "y": 345.52899169921875,
+      "z_index": 2
+    },
+    {
+      "angle": 0,
+      "height": 20.27199935913086,
+      "id": "a29:121",
+      "parent_id": "n29:8",
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "• 兼容调用身份　• 分级管控权限",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 215,
+      "x": 610,
+      "y": 291.52899169921875,
+      "z_index": 3
+    },
+    {
+      "angle": 0,
+      "height": 18.823999404907227,
+      "id": "a29:128",
+      "parent_id": "n29:9",
+      "text": {
+        "angle": 0,
+        "font_size": 13,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "形成持续交付与观测闭环",
+        "text_background_color_type": 0,
+        "text_color": "#86909c",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 143,
+      "x": 893.5,
+      "y": 550.7055053710938,
+      "z_index": 5
+    },
+    {
+      "angle": 0,
+      "height": 21.719999313354492,
+      "id": "a29:108",
+      "text": {
+        "angle": 0,
+        "font_size": 15,
+        "font_weight": "regular",
+        "horizontal_align": "right",
+        "italic": false,
+        "line_through": false,
+        "text": "时间",
+        "text_background_color_type": 0,
+        "text_color": "#646a73",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 30,
+      "x": 1488,
+      "y": 628.3524780273438,
+      "z_index": 8
+    },
+    {
+      "angle": 0,
+      "height": 18.823999404907227,
+      "id": "a29:113",
+      "parent_id": "n29:6",
+      "text": {
+        "angle": 0,
+        "font_size": 13,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "具备程序调用基础",
+        "text_background_color_type": 0,
+        "text_color": "#86909c",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 104,
+      "x": 113,
+      "y": 550.7055053710938,
+      "z_index": 5
+    },
+    {
+      "angle": 0,
+      "height": 20.27199935913086,
+      "id": "a29:120",
+      "parent_id": "n29:8",
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "• 收敛站点协议　• 适配网络环境",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 215,
+      "x": 610,
+      "y": 265.52899169921875,
+      "z_index": 2
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 118,
+      "id": "o29:38",
+      "parent_id": "n29:10",
+      "style": {
+        "border_color": "#86909c",
+        "border_color_type": 1,
+        "border_dasharrays": [
+          8,
+          6
+        ],
+        "border_opacity": 100,
+        "border_radius": {
+          "bottom_left": 10,
+          "bottom_right": 10,
+          "top_left": 10,
+          "top_right": 10
+        },
+        "border_style": "dash",
+        "border_width": "narrow",
+        "fill_color": "#ffffff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 320,
+      "x": 1115,
+      "y": 62,
+      "z_index": 0
+    },
+    {
+      "angle": 0,
+      "height": 20.27199935913086,
+      "id": "a29:130",
+      "parent_id": "n29:10",
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "• 沉淀运营工作流　• 建设 Workflow Skill",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 268,
+      "x": 1135,
+      "y": 105.52899932861328,
+      "z_index": 2
+    },
+    {
+      "angle": 0,
+      "height": 21.719999313354492,
+      "id": "a29:132",
+      "parent_id": "n29:10",
+      "text": {
+        "angle": 0,
+        "font_size": 15,
+        "font_weight": "bold",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "10 月以后",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 86,
+      "x": 1232,
+      "y": 214.3524932861328,
+      "z_index": 4
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "ellipse"
+      },
+      "height": 14,
+      "id": "o29:33",
+      "style": {
+        "border_style": "none",
+        "fill_color": "#3370ff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 14,
+      "x": 1233,
+      "y": 173,
+      "z_index": 14
+    },
+    {
+      "angle": 0,
+      "connector": {
+        "caption_auto_direction": false,
+        "end": {
+          "arrow_style": "none",
+          "position": {
+            "x": 70,
+            "y": 132
+          }
+        },
+        "shape": "straight",
+        "specified_coordinate": true,
+        "start": {
+          "arrow_style": "none",
+          "position": {
+            "x": 70,
+            "y": 610
+          }
+        },
+        "turning_points": []
+      },
+      "height": 478,
+      "id": "c29:11",
+      "style": {
+        "border_color": "#1f2329",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow"
+      },
+      "type": "connector",
+      "width": 0,
+      "x": 70,
+      "y": 132,
+      "z_index": 5
+    },
+    {
+      "angle": 0,
+      "height": 21.719999313354492,
+      "id": "a29:122",
+      "parent_id": "n29:8",
+      "text": {
+        "angle": 0,
+        "font_size": 15,
+        "font_weight": "bold",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "07—08 月",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 87,
+      "x": 646.5,
+      "y": 524.3524780273438,
+      "z_index": 4
+    },
+    {
+      "angle": 0,
+      "height": 28.959999084472656,
+      "id": "a29:124",
+      "parent_id": "n29:9",
+      "text": {
+        "angle": 0,
+        "font_size": 20,
+        "font_weight": "bold",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "完善交付观测",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 151,
+      "x": 860,
+      "y": 148.47000122070312,
+      "z_index": 1
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "ellipse"
+      },
+      "height": 14,
+      "id": "o29:32",
+      "style": {
+        "border_style": "none",
+        "fill_color": "#3370ff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 14,
+      "x": 958,
+      "y": 253,
+      "z_index": 13
+    },
+    {
+      "angle": 0,
+      "height": 28.959999084472656,
+      "id": "a29:109",
+      "parent_id": "n29:6",
+      "text": {
+        "angle": 0,
+        "font_size": 20,
+        "font_weight": "bold",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "开放基础能力",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 151,
+      "x": 110,
+      "y": 388.4700012207031,
+      "z_index": 1
+    },
+    {
+      "angle": 0,
+      "children": [
+        "o29:35",
+        "a29:114",
+        "a29:115",
+        "a29:116",
+        "a29:117",
+        "a29:118"
+      ],
+      "height": 267.5295104980469,
+      "id": "n29:7",
+      "type": "group",
+      "width": 273,
+      "x": 337,
+      "y": 302,
+      "z_index": 16
+    },
+    {
+      "angle": 0,
+      "height": 21.719999313354492,
+      "id": "a29:117",
+      "parent_id": "n29:7",
+      "text": {
+        "angle": 0,
+        "font_size": 15,
+        "font_weight": "bold",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "05—06 月",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 87,
+      "x": 371.5,
+      "y": 524.3524780273438,
+      "z_index": 4
+    },
+    {
+      "angle": 0,
+      "height": 28.959999084472656,
+      "id": "a29:119",
+      "parent_id": "n29:8",
+      "text": {
+        "angle": 0,
+        "font_size": 20,
+        "font_weight": "bold",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "扩展接入范围",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 151,
+      "x": 610,
+      "y": 228.47000122070312,
+      "z_index": 1
+    },
+    {
+      "angle": 0,
+      "children": [
+        "o29:38",
+        "a29:129",
+        "a29:130",
+        "a29:131",
+        "a29:132",
+        "a29:133"
+      ],
+      "height": 197.5294952392578,
+      "id": "n29:10",
+      "type": "group",
+      "width": 320,
+      "x": 1115,
+      "y": 62,
+      "z_index": 19
+    },
+    {
+      "angle": 0,
+      "height": 20.27199935913086,
+      "id": "a29:131",
+      "parent_id": "n29:10",
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "• 建设任务评测　　• 评估执行结果",
+        "text_background_color_type": 0,
+        "text_color": "#4e5969",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 230,
+      "x": 1135,
+      "y": 131.5290069580078,
+      "z_index": 3
+    },
+    {
+      "angle": 0,
+      "connector": {
+        "caption_auto_direction": false,
+        "end": {
+          "arrow_style": "none",
+          "position": {
+            "x": 1510,
+            "y": 610
+          }
+        },
+        "shape": "straight",
+        "specified_coordinate": true,
+        "start": {
+          "arrow_style": "none",
+          "position": {
+            "x": 70,
+            "y": 610
+          }
+        },
+        "turning_points": []
+      },
+      "height": 0,
+      "id": "c29:10",
+      "style": {
+        "border_color": "#3370ff",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow"
+      },
+      "type": "connector",
+      "width": 1440,
+      "x": 70,
+      "y": 610,
+      "z_index": 3
+    },
+    {
+      "angle": 0,
+      "height": 23,
+      "id": "d29:5",
+      "image": {
+        "token": "\u003csvg viewBox=\"59.5 111.5 21 23\" width=\"21\" height=\"23\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cpolygon points=\"62,132 70,114 78,132\" fill=\"#1F2329\" /\u003e\u003c/svg\u003e"
+      },
+      "style": {
+        "border_style": "none"
+      },
+      "type": "image",
+      "width": 21,
+      "x": 59.5,
+      "y": 111.5,
+      "z_index": 6
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "ellipse"
+      },
+      "height": 14,
+      "id": "o29:29",
+      "style": {
+        "border_style": "none",
+        "fill_color": "#3370ff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 14,
+      "x": 158,
+      "y": 493,
+      "z_index": 10
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "ellipse"
+      },
+      "height": 14,
+      "id": "o29:31",
+      "style": {
+        "border_style": "none",
+        "fill_color": "#3370ff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 14,
+      "x": 683,
+      "y": 333,
+      "z_index": 12
+    },
+    {
+      "angle": 0,
+      "height": 18.823999404907227,
+      "id": "a29:123",
+      "parent_id": "n29:8",
+      "text": {
+        "angle": 0,
+        "font_size": 13,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "扩展到多环境、多业务",
+        "text_background_color_type": 0,
+        "text_color": "#86909c",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 130,
+      "x": 625,
+      "y": 550.7055053710938,
+      "z_index": 5
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 118,
+      "id": "o29:37",
+      "parent_id": "n29:9",
+      "style": {
+        "border_color": "#d6e2ff",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_radius": {
+          "bottom_left": 10,
+          "bottom_right": 10,
+          "top_left": 10,
+          "top_right": 10
+        },
+        "border_style": "solid",
+        "border_width": "extra_narrow",
+        "fill_color": "#f5f8ff",
+        "fill_color_type": 1,
+        "fill_opacity": 100
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 270,
+      "x": 840,
+      "y": 142,
+      "z_index": 0
+    },
+    {
+      "angle": 0,
+      "height": 18.823999404907227,
+      "id": "a29:133",
+      "parent_id": "n29:10",
+      "text": {
+        "angle": 0,
+        "font_size": 13,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "运营 Agent 完整交付任务",
+        "text_background_color_type": 0,
+        "text_color": "#86909c",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 147,
+      "x": 1201.5,
+      "y": 240.70550537109375,
+      "z_index": 5
+    },
+    {
+      "angle": 0,
+      "height": 23.167999267578125,
+      "id": "a29:106",
+      "text": {
+        "angle": 0,
+        "font_size": 16,
+        "font_weight": "regular",
+        "horizontal_align": "left",
+        "italic": false,
+        "line_through": false,
+        "text": "从单点程序调用，逐步演进为支撑智能化运营的业务执行基础",
+        "text_background_color_type": 0,
+        "text_color": "#646a73",
+        "text_color_type": 1,
+        "theme_text_background_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "text_shape",
+      "width": 452,
+      "x": 60,
+      "y": 75.1760025024414,
+      "z_index": 2
+    }
+  ]
+}

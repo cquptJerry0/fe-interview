@@ -1,0 +1,290 @@
+{
+  "W": 2460,
+  "H": 1500,
+  "specs": {
+    "title": {
+      "x": 40,
+      "y": 30,
+      "w": 2380,
+      "h": 101,
+      "text": "⑤ 素材使用准入与归属维护",
+      "size": 64,
+      "kind": "text",
+      "bold": true
+    },
+    "lane_page": {
+      "x": 30,
+      "y": 160,
+      "w": 2400,
+      "h": 280,
+      "kind": "container"
+    },
+    "lane_server": {
+      "x": 30,
+      "y": 560,
+      "w": 2400,
+      "h": 320,
+      "kind": "container"
+    },
+    "lane_feed": {
+      "x": 30,
+      "y": 1000,
+      "w": 2400,
+      "h": 280,
+      "kind": "container"
+    },
+    "page_label": {
+      "x": 70,
+      "y": 261,
+      "w": 480,
+      "h": 78,
+      "text": "VIMO 页面",
+      "size": 48,
+      "kind": "text",
+      "bold": true
+    },
+    "server_label": {
+      "x": 70,
+      "y": 650,
+      "w": 480,
+      "h": 78,
+      "text": "VIMO 服务端",
+      "size": 48,
+      "kind": "text",
+      "bold": true
+    },
+    "server_psm": {
+      "x": 70,
+      "y": 735,
+      "w": 500,
+      "h": 66,
+      "text": "ies.vimo.material_web",
+      "size": 40,
+      "kind": "text",
+      "bold": false
+    },
+    "feed_label": {
+      "x": 70,
+      "y": 1070,
+      "w": 480,
+      "h": 78,
+      "text": "Feed 素材服务",
+      "size": 48,
+      "kind": "text",
+      "bold": true
+    },
+    "feed_psm": {
+      "x": 70,
+      "y": 1155,
+      "w": 500,
+      "h": 66,
+      "text": "faceu.artist.feed",
+      "size": 40,
+      "kind": "text",
+      "bold": false
+    },
+    "popup_redirect": {
+      "x": 620,
+      "y": 215,
+      "w": 320,
+      "h": 170,
+      "text": "转独立弹窗\n查看新素材",
+      "size": 48,
+      "kind": "box"
+    },
+    "search": {
+      "x": 985,
+      "y": 215,
+      "w": 240,
+      "h": 170,
+      "text": "搜索素材",
+      "size": 48,
+      "kind": "box"
+    },
+    "select": {
+      "x": 1270,
+      "y": 215,
+      "w": 360,
+      "h": 170,
+      "text": "选材加入面板",
+      "size": 48,
+      "kind": "box"
+    },
+    "edit": {
+      "x": 1675,
+      "y": 215,
+      "w": 360,
+      "h": 170,
+      "text": "编辑 / 上下线",
+      "size": 48,
+      "kind": "box"
+    },
+    "popup_owner": {
+      "x": 2080,
+      "y": 215,
+      "w": 320,
+      "h": 170,
+      "text": "归属弹窗\n提示或确认",
+      "size": 48,
+      "kind": "box"
+    },
+    "usage": {
+      "x": 620,
+      "y": 620,
+      "w": 1175,
+      "h": 200,
+      "kind": "container"
+    },
+    "usage_title": {
+      "x": 650,
+      "y": 640,
+      "w": 1115,
+      "h": 78,
+      "text": "使用准入",
+      "size": 48,
+      "kind": "text",
+      "bold": true
+    },
+    "usage_question": {
+      "x": 650,
+      "y": 728,
+      "w": 1115,
+      "h": 78,
+      "text": "当前业务还能用吗？",
+      "size": 48,
+      "kind": "text",
+      "bold": false
+    },
+    "ownership": {
+      "x": 1865,
+      "y": 620,
+      "w": 535,
+      "h": 200,
+      "kind": "container"
+    },
+    "ownership_title": {
+      "x": 1895,
+      "y": 640,
+      "w": 475,
+      "h": 78,
+      "text": "归属维护",
+      "size": 48,
+      "kind": "text",
+      "bold": true
+    },
+    "ownership_question": {
+      "x": 1895,
+      "y": 728,
+      "w": 475,
+      "h": 78,
+      "text": "当前业务能改吗？",
+      "size": 48,
+      "kind": "text",
+      "bold": false
+    },
+    "redirect_fact": {
+      "x": 620,
+      "y": 1055,
+      "w": 1175,
+      "h": 170,
+      "text": "被哪份素材替代\nredirect_item_id",
+      "size": 48,
+      "kind": "box"
+    },
+    "owner_fact": {
+      "x": 1865,
+      "y": 1055,
+      "w": 535,
+      "h": 170,
+      "text": "由哪个业务维护\nowner_biz_id",
+      "size": 48,
+      "kind": "box"
+    },
+    "note_shared": {
+      "x": 40,
+      "y": 1320,
+      "w": 2380,
+      "h": 78,
+      "text": "页面与 OpenAPI 共用检查；写入前重新查询",
+      "size": 48,
+      "kind": "text",
+      "bold": false
+    },
+    "note_history": {
+      "x": 40,
+      "y": 1405,
+      "w": 2380,
+      "h": 78,
+      "text": "历史引用按原 ID 读取，不经过这两项检查",
+      "size": 48,
+      "kind": "text",
+      "bold": false
+    }
+  },
+  "routes": {
+    "search_call": {
+      "points": [],
+      "dashed": false,
+      "pos": 0.5,
+      "label": "过滤旧素材",
+      "sp": 0.5,
+      "ep": 0.4127659574468085
+    },
+    "select_call": {
+      "points": [],
+      "dashed": false,
+      "pos": 0.5,
+      "label": "整批校验",
+      "sp": 0.5,
+      "ep": 0.7063829787234043
+    },
+    "edit_usage": {
+      "points": [],
+      "dashed": false,
+      "pos": 0.5,
+      "label": "先查",
+      "sp": 0.16666666666666666,
+      "ep": 0.948936170212766
+    },
+    "edit_owner": {
+      "points": [],
+      "dashed": false,
+      "pos": 0.5,
+      "label": "再查",
+      "sp": 0.8333333333333334,
+      "ep": 0.205607476635514
+    },
+    "redirect_reject": {
+      "points": [],
+      "dashed": true,
+      "pos": 0.5,
+      "label": "拒绝",
+      "sp": 0.13617021276595745,
+      "ep": 0.5
+    },
+    "owner_reject": {
+      "points": [],
+      "dashed": true,
+      "pos": 0.5,
+      "label": "拒绝",
+      "sp": 0.7009345794392523,
+      "ep": 0.5
+    },
+    "redirect_read": {
+      "points": [],
+      "dashed": true,
+      "pos": 0.5,
+      "label": "按当前业务读取",
+      "sp": 0.5,
+      "ep": 0.5
+    },
+    "owner_read": {
+      "points": [],
+      "dashed": true,
+      "pos": 0.5,
+      "label": "读取",
+      "sp": 0.5,
+      "ep": 0.5
+    }
+  }
+}

@@ -1,0 +1,890 @@
+{
+  "boxes": {
+    "stage0": {
+      "x": 320,
+      "y": 128,
+      "w": 328,
+      "h": 60,
+      "text": "准备与预检"
+    },
+    "stage1": {
+      "x": 704,
+      "y": 128,
+      "w": 328,
+      "h": 60,
+      "text": "审批 / 字段准备"
+    },
+    "stage2": {
+      "x": 1088,
+      "y": 128,
+      "w": 328,
+      "h": 60,
+      "text": "创建搬运"
+    },
+    "stage3": {
+      "x": 1472,
+      "y": 128,
+      "w": 328,
+      "h": 60,
+      "text": "查询结果"
+    },
+    "stage4": {
+      "x": 1856,
+      "y": 128,
+      "w": 328,
+      "h": 60,
+      "text": "后处理"
+    },
+    "stage5": {
+      "x": 2240,
+      "y": 128,
+      "w": 328,
+      "h": 60,
+      "text": "通知 / 结束"
+    },
+    "wf0": {
+      "x": 320,
+      "y": 251,
+      "w": 328,
+      "h": 65,
+      "text": "预检"
+    },
+    "wf1": {
+      "x": 704,
+      "y": 251,
+      "w": 142,
+      "h": 65,
+      "text": "审批"
+    },
+    "wf2": {
+      "x": 890,
+      "y": 251,
+      "w": 142,
+      "h": 65,
+      "text": "字段准备"
+    },
+    "wf3": {
+      "x": 1088,
+      "y": 251,
+      "w": 328,
+      "h": 65,
+      "text": "创建搬运"
+    },
+    "wf4": {
+      "x": 1472,
+      "y": 251,
+      "w": 328,
+      "h": 65,
+      "text": "查询结果"
+    },
+    "wf5": {
+      "x": 1856,
+      "y": 251,
+      "w": 328,
+      "h": 65,
+      "text": "后处理"
+    },
+    "wf6": {
+      "x": 2240,
+      "y": 251,
+      "w": 210,
+      "h": 65,
+      "text": "通知"
+    },
+    "wfend": {
+      "x": 2523,
+      "y": 270,
+      "w": 26,
+      "h": 26,
+      "text": ""
+    },
+    "pcstart": {
+      "x": 290,
+      "y": 476,
+      "w": 22,
+      "h": 22,
+      "text": ""
+    },
+    "pc0": {
+      "x": 320,
+      "y": 447,
+      "w": 206,
+      "h": 82,
+      "text": "检查中"
+    },
+    "pc1": {
+      "x": 704,
+      "y": 431,
+      "w": 230,
+      "h": 64,
+      "text": "可提交"
+    },
+    "pc2": {
+      "x": 704,
+      "y": 537,
+      "w": 230,
+      "h": 64,
+      "text": "未通过"
+    },
+    "pcfixed": {
+      "x": 1088,
+      "y": 457,
+      "w": 1480,
+      "h": 78,
+      "text": "提交后固定本轮预检结果"
+    },
+    "itemidle": {
+      "x": 320,
+      "y": 712,
+      "w": 712,
+      "h": 78,
+      "text": "尚未发起搬运"
+    },
+    "itempending": {
+      "x": 1088,
+      "y": 714,
+      "w": 280,
+      "h": 82,
+      "text": "受理待确认"
+    },
+    "itemprocessing": {
+      "x": 1472,
+      "y": 714,
+      "w": 240,
+      "h": 82,
+      "text": "已受理 · 复制中"
+    },
+    "itemsuccess": {
+      "x": 1882,
+      "y": 683,
+      "w": 260,
+      "h": 92,
+      "text": "复制成功\n目标素材 ID"
+    },
+    "itemfailed": {
+      "x": 1882,
+      "y": 843,
+      "w": 260,
+      "h": 92,
+      "text": "复制失败\n失败原因"
+    },
+    "itemreject": {
+      "x": 1472,
+      "y": 893,
+      "w": 240,
+      "h": 92,
+      "text": "受理拒绝\n拒绝原因"
+    },
+    "itemend1": {
+      "x": 2173,
+      "y": 716,
+      "w": 26,
+      "h": 26,
+      "text": ""
+    },
+    "itemend2": {
+      "x": 2173,
+      "y": 876,
+      "w": 26,
+      "h": 26,
+      "text": ""
+    },
+    "itemend3": {
+      "x": 1741,
+      "y": 926,
+      "w": 26,
+      "h": 26,
+      "text": ""
+    },
+    "itemkeep": {
+      "x": 2240,
+      "y": 772,
+      "w": 328,
+      "h": 118,
+      "text": "已确认终态保持\n未结束项仍可回查"
+    },
+    "ag0": {
+      "x": 320,
+      "y": 1113,
+      "w": 712,
+      "h": 64,
+      "text": "未开始"
+    },
+    "ag1": {
+      "x": 1088,
+      "y": 1113,
+      "w": 624,
+      "h": 64,
+      "text": "处理中"
+    },
+    "agend": {
+      "x": 1856,
+      "y": 1092,
+      "w": 712,
+      "h": 109,
+      "text": "无复制中项：全部成功 / 部分成功 / 失败\n仍有复制中项：继续保持处理中"
+    },
+    "pollwait": {
+      "x": 1472,
+      "y": 1280,
+      "w": 240,
+      "h": 68,
+      "text": "等待中"
+    },
+    "pollcomplete": {
+      "x": 1856,
+      "y": 1268,
+      "w": 205,
+      "h": 65,
+      "text": "完成"
+    },
+    "polltimeout": {
+      "x": 1856,
+      "y": 1371,
+      "w": 205,
+      "h": 65,
+      "text": "超时"
+    },
+    "pollkeep": {
+      "x": 2240,
+      "y": 1304,
+      "w": 328,
+      "h": 104,
+      "text": "流程可结束\n素材结果继续保留"
+    },
+    "postidle0": {
+      "x": 1382,
+      "y": 1511,
+      "w": 210,
+      "h": 88,
+      "text": "加入面板\n未执行"
+    },
+    "post0_0": {
+      "x": 1814,
+      "y": 1521,
+      "w": 144,
+      "h": 68,
+      "text": "成功"
+    },
+    "post0_1": {
+      "x": 1980,
+      "y": 1521,
+      "w": 144,
+      "h": 68,
+      "text": "部分失败"
+    },
+    "post0_2": {
+      "x": 2146,
+      "y": 1521,
+      "w": 144,
+      "h": 68,
+      "text": "失败"
+    },
+    "post0_3": {
+      "x": 2312,
+      "y": 1521,
+      "w": 144,
+      "h": 68,
+      "text": "跳过"
+    },
+    "postidle1": {
+      "x": 1382,
+      "y": 1639,
+      "w": 210,
+      "h": 88,
+      "text": "创建测试任务\n未执行"
+    },
+    "post1_0": {
+      "x": 1814,
+      "y": 1649,
+      "w": 144,
+      "h": 68,
+      "text": "成功"
+    },
+    "post1_1": {
+      "x": 1980,
+      "y": 1649,
+      "w": 144,
+      "h": 68,
+      "text": "部分失败"
+    },
+    "post1_2": {
+      "x": 2146,
+      "y": 1649,
+      "w": 144,
+      "h": 68,
+      "text": "失败"
+    },
+    "post1_3": {
+      "x": 2312,
+      "y": 1649,
+      "w": 144,
+      "h": 68,
+      "text": "跳过"
+    }
+  },
+  "edges": [
+    {
+      "id": "wfedge0",
+      "a": "wf0",
+      "b": "wf1",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "wfedge1",
+      "a": "wf1",
+      "b": "wf2",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "wfedge2",
+      "a": "wf2",
+      "b": "wf3",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "wfedge3",
+      "a": "wf3",
+      "b": "wf4",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "wfedge4",
+      "a": "wf4",
+      "b": "wf5",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "wfedge5",
+      "a": "wf5",
+      "b": "wf6",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "wfedge6",
+      "a": "wf6",
+      "b": "wfend",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "wfexit",
+      "a": "wf1",
+      "b": "wf6",
+      "label": "审批拒绝、取消或编排失败：转通知收尾",
+      "fa": "bottom",
+      "ta": "bottom",
+      "points": [
+        {
+          "x": 775,
+          "y": 363
+        },
+        {
+          "x": 2345,
+          "y": 363
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "pcbegin",
+      "a": "pcstart",
+      "b": "pc0",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "pcpass",
+      "a": "pc0",
+      "b": "pc1",
+      "label": "通过",
+      "fa": "right",
+      "ta": "left",
+      "points": [
+        {
+          "x": 592,
+          "y": 488
+        },
+        {
+          "x": 592,
+          "y": 463
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "pcfail",
+      "a": "pc0",
+      "b": "pc2",
+      "label": "未通过",
+      "fa": "bottom",
+      "ta": "left",
+      "points": [
+        {
+          "x": 423,
+          "y": 569
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "pcretry1",
+      "a": "pc1",
+      "b": "pc0",
+      "label": "提交前重新校验",
+      "fa": "top",
+      "ta": "top",
+      "points": [
+        {
+          "x": 819,
+          "y": 420
+        },
+        {
+          "x": 423,
+          "y": 420
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "pcretry2",
+      "a": "pc2",
+      "b": "pc0",
+      "label": "重新校验",
+      "fa": "bottom",
+      "ta": "bottom",
+      "points": [
+        {
+          "x": 819,
+          "y": 622
+        },
+        {
+          "x": 423,
+          "y": 622
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "pcfreeze",
+      "a": "pc1",
+      "b": "pcfixed",
+      "label": "提交",
+      "fa": "right",
+      "ta": "left",
+      "points": [
+        {
+          "x": 1060,
+          "y": 463
+        },
+        {
+          "x": 1060,
+          "y": 496
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "itemsubmit",
+      "a": "itemidle",
+      "b": "itempending",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "itemaccept",
+      "a": "itempending",
+      "b": "itemprocessing",
+      "label": "确认受理",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "itemsuccess",
+      "a": "itemprocessing",
+      "b": "itemsuccess",
+      "label": "成功",
+      "fa": "right",
+      "ta": "left",
+      "points": [
+        {
+          "x": 1822,
+          "y": 755
+        },
+        {
+          "x": 1822,
+          "y": 729
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "itemfailed",
+      "a": "itemprocessing",
+      "b": "itemfailed",
+      "label": "明确失败",
+      "fa": "bottom",
+      "ta": "left",
+      "points": [
+        {
+          "x": 1592,
+          "y": 861
+        },
+        {
+          "x": 1822,
+          "y": 861
+        },
+        {
+          "x": 1822,
+          "y": 889
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "itemreject",
+      "a": "itempending",
+      "b": "itemreject",
+      "label": "明确拒绝",
+      "fa": "bottom",
+      "ta": "left",
+      "points": [
+        {
+          "x": 1228,
+          "y": 939
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "isend",
+      "a": "itemsuccess",
+      "b": "itemend1",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "ifend",
+      "a": "itemfailed",
+      "b": "itemend2",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "irend",
+      "a": "itemreject",
+      "b": "itemend3",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "itempoll",
+      "a": "itemprocessing",
+      "b": "itemprocessing",
+      "label": "查询仍在执行 / 缺项",
+      "fa": "top",
+      "ta": "top",
+      "points": [
+        {
+          "x": 1592,
+          "y": 686
+        },
+        {
+          "x": 1670,
+          "y": 686
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "agbegin",
+      "a": "ag0",
+      "b": "ag1",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "agresult",
+      "a": "ag1",
+      "b": "agend",
+      "label": "",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "pollcomp",
+      "a": "pollwait",
+      "b": "pollcomplete",
+      "label": "无复制中项",
+      "fa": "right",
+      "ta": "left",
+      "points": [
+        {
+          "x": 1810,
+          "y": 1314
+        },
+        {
+          "x": 1810,
+          "y": 1300
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "polltimeout",
+      "a": "pollwait",
+      "b": "polltimeout",
+      "label": "到期仍有复制中项",
+      "fa": "bottom",
+      "ta": "left",
+      "points": [
+        {
+          "x": 1592,
+          "y": 1403
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "postout0",
+      "a": "postidle0",
+      "b": "post0_0",
+      "label": "结果分别记录",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "postout0_1",
+      "a": "postidle0",
+      "b": "post0_1",
+      "label": "",
+      "fa": "bottom",
+      "ta": "bottom",
+      "points": [
+        {
+          "x": 1487,
+          "y": 1624
+        },
+        {
+          "x": 2052,
+          "y": 1624
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "postout0_2",
+      "a": "postidle0",
+      "b": "post0_2",
+      "label": "",
+      "fa": "bottom",
+      "ta": "bottom",
+      "points": [
+        {
+          "x": 1487,
+          "y": 1624
+        },
+        {
+          "x": 2218,
+          "y": 1624
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "postout0_3",
+      "a": "postidle0",
+      "b": "post0_3",
+      "label": "",
+      "fa": "bottom",
+      "ta": "bottom",
+      "points": [
+        {
+          "x": 1487,
+          "y": 1624
+        },
+        {
+          "x": 2384,
+          "y": 1624
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "postout1",
+      "a": "postidle1",
+      "b": "post1_0",
+      "label": "结果分别记录",
+      "fa": "right",
+      "ta": "left",
+      "points": [],
+      "dash": false
+    },
+    {
+      "id": "postout1_1",
+      "a": "postidle1",
+      "b": "post1_1",
+      "label": "",
+      "fa": "bottom",
+      "ta": "bottom",
+      "points": [
+        {
+          "x": 1487,
+          "y": 1752
+        },
+        {
+          "x": 2052,
+          "y": 1752
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "postout1_2",
+      "a": "postidle1",
+      "b": "post1_2",
+      "label": "",
+      "fa": "bottom",
+      "ta": "bottom",
+      "points": [
+        {
+          "x": 1487,
+          "y": 1752
+        },
+        {
+          "x": 2218,
+          "y": 1752
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "postout1_3",
+      "a": "postidle1",
+      "b": "post1_3",
+      "label": "",
+      "fa": "bottom",
+      "ta": "bottom",
+      "points": [
+        {
+          "x": 1487,
+          "y": 1752
+        },
+        {
+          "x": 2384,
+          "y": 1752
+        }
+      ],
+      "dash": false
+    }
+  ],
+  "types": {
+    "stage0": "round_rect",
+    "stage1": "round_rect",
+    "stage2": "round_rect",
+    "stage3": "round_rect",
+    "stage4": "round_rect",
+    "stage5": "round_rect",
+    "wf0": "round_rect",
+    "wf1": "round_rect",
+    "wf2": "round_rect",
+    "wf3": "round_rect",
+    "wf4": "round_rect",
+    "wf5": "round_rect",
+    "wf6": "round_rect",
+    "wfend": "state_end",
+    "pcstart": "state_start",
+    "pc0": "round_rect",
+    "pc1": "round_rect",
+    "pc2": "round_rect",
+    "pcfixed": "round_rect",
+    "itemidle": "round_rect",
+    "itempending": "round_rect",
+    "itemprocessing": "round_rect",
+    "itemsuccess": "round_rect",
+    "itemfailed": "round_rect",
+    "itemreject": "round_rect",
+    "itemend1": "state_end",
+    "itemend2": "state_end",
+    "itemend3": "state_end",
+    "itemkeep": "round_rect",
+    "ag0": "round_rect",
+    "ag1": "round_rect",
+    "agend": "round_rect",
+    "pollwait": "round_rect",
+    "pollcomplete": "round_rect",
+    "polltimeout": "round_rect",
+    "pollkeep": "round_rect",
+    "postidle0": "round_rect",
+    "post0_0": "round_rect",
+    "post0_1": "round_rect",
+    "post0_2": "round_rect",
+    "post0_3": "round_rect",
+    "postidle1": "round_rect",
+    "post1_0": "round_rect",
+    "post1_1": "round_rect",
+    "post1_2": "round_rect",
+    "post1_3": "round_rect"
+  },
+  "containers": [
+    "workflow",
+    "precheck",
+    "material",
+    "aggregate",
+    "polling",
+    "post"
+  ],
+  "width": 2720,
+  "height": 1850
+}

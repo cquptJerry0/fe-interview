@@ -1,0 +1,691 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "layout": "none",
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 720,
+      "gap": 0,
+      "padding": 0,
+      "fillColor": "#FFFFFF",
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "x": 60,
+          "y": 34,
+          "width": 500,
+          "height": "fit-content",
+          "text": "VIMO 开放能力建设路径",
+          "fontSize": 30,
+          "textColor": "#1F2329",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "x": 60,
+          "y": 82,
+          "width": 720,
+          "height": "fit-content",
+          "text": "从单点程序调用，逐步演进为支撑智能化运营的业务执行基础",
+          "fontSize": 16,
+          "textColor": "#646A73",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "y-label",
+          "x": 20,
+          "y": 126,
+          "width": 120,
+          "height": "fit-content",
+          "text": "开放能力成熟度",
+          "fontSize": 15,
+          "textColor": "#646A73",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "x-label",
+          "x": 1480,
+          "y": 646,
+          "width": 80,
+          "height": "fit-content",
+          "text": "时间",
+          "fontSize": 15,
+          "textColor": "#646A73",
+          "textAlign": "right"
+        },
+        {
+          "type": "ellipse",
+          "id": "dot-1",
+          "x": 157,
+          "y": 492,
+          "width": 16,
+          "height": 16,
+          "fillColor": "#3370FF"
+        },
+        {
+          "type": "ellipse",
+          "id": "dot-2",
+          "x": 407,
+          "y": 412,
+          "width": 16,
+          "height": 16,
+          "fillColor": "#3370FF"
+        },
+        {
+          "type": "ellipse",
+          "id": "dot-3",
+          "x": 682,
+          "y": 332,
+          "width": 16,
+          "height": 16,
+          "fillColor": "#3370FF"
+        },
+        {
+          "type": "ellipse",
+          "id": "dot-4",
+          "x": 957,
+          "y": 252,
+          "width": 16,
+          "height": 16,
+          "fillColor": "#3370FF"
+        },
+        {
+          "type": "ellipse",
+          "id": "dot-5",
+          "x": 1232,
+          "y": 172,
+          "width": 16,
+          "height": 16,
+          "fillColor": "#3370FF"
+        },
+        {
+          "type": "rect",
+          "id": "card-0",
+          "x": 90,
+          "y": 382,
+          "width": 270,
+          "height": 118,
+          "fillColor": "#F0F4FC",
+          "borderColor": "#5178C6",
+          "borderWidth": 2,
+          "borderDash": "solid",
+          "borderRadius": 10
+        },
+        {
+          "type": "text",
+          "id": "ct-0",
+          "x": 110,
+          "y": 404,
+          "width": 230,
+          "height": "fit-content",
+          "text": "开放基础能力",
+          "fontSize": 20,
+          "textColor": "#1F2329",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "cl1-0",
+          "x": 110,
+          "y": 440,
+          "width": 230,
+          "height": "fit-content",
+          "text": "开放基础接口　接入统一网关",
+          "fontSize": 14,
+          "textColor": "#4E5969",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "cl2-0",
+          "x": 110,
+          "y": 466,
+          "width": 230,
+          "height": "fit-content",
+          "text": "接入 JWT 身份　开通接口权限",
+          "fontSize": 14,
+          "textColor": "#4E5969",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "date-0",
+          "x": 90,
+          "y": 542,
+          "width": 270,
+          "height": "fit-content",
+          "text": "04—05 月",
+          "fontSize": 15,
+          "textColor": "#1F2329",
+          "textAlign": "center",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "id": "res-0",
+          "x": 90,
+          "y": 566,
+          "width": 270,
+          "height": "fit-content",
+          "text": "具备程序调用基础",
+          "fontSize": 13,
+          "textColor": "#86909C",
+          "textAlign": "center"
+        },
+        {
+          "type": "rect",
+          "id": "card-1",
+          "x": 340,
+          "y": 302,
+          "width": 270,
+          "height": 118,
+          "fillColor": "#F0F4FC",
+          "borderColor": "#5178C6",
+          "borderWidth": 2,
+          "borderDash": "solid",
+          "borderRadius": 10
+        },
+        {
+          "type": "text",
+          "id": "ct-1",
+          "x": 360,
+          "y": 324,
+          "width": 230,
+          "height": "fit-content",
+          "text": "素材操作闭环",
+          "fontSize": 20,
+          "textColor": "#1F2329",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "cl1-1",
+          "x": 360,
+          "y": 360,
+          "width": 230,
+          "height": "fit-content",
+          "text": "覆盖查询能力　开放配置能力",
+          "fontSize": 14,
+          "textColor": "#4E5969",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "cl2-1",
+          "x": 360,
+          "y": 386,
+          "width": 230,
+          "height": "fit-content",
+          "text": "支持关联维护　支持素材发布",
+          "fontSize": 14,
+          "textColor": "#4E5969",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "date-1",
+          "x": 340,
+          "y": 462,
+          "width": 270,
+          "height": "fit-content",
+          "text": "05—06 月",
+          "fontSize": 15,
+          "textColor": "#1F2329",
+          "textAlign": "center",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "id": "res-1",
+          "x": 340,
+          "y": 486,
+          "width": 270,
+          "height": "fit-content",
+          "text": "查询、配置、发布形成闭环",
+          "fontSize": 13,
+          "textColor": "#86909C",
+          "textAlign": "center"
+        },
+        {
+          "type": "rect",
+          "id": "card-2",
+          "x": 590,
+          "y": 222,
+          "width": 270,
+          "height": 118,
+          "fillColor": "#F0F4FC",
+          "borderColor": "#5178C6",
+          "borderWidth": 2,
+          "borderDash": "solid",
+          "borderRadius": 10
+        },
+        {
+          "type": "text",
+          "id": "ct-2",
+          "x": 610,
+          "y": 244,
+          "width": 230,
+          "height": "fit-content",
+          "text": "扩展接入范围",
+          "fontSize": 20,
+          "textColor": "#1F2329",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "cl1-2",
+          "x": 610,
+          "y": 280,
+          "width": 230,
+          "height": "fit-content",
+          "text": "收敛站点协议　适配网络环境",
+          "fontSize": 14,
+          "textColor": "#4E5969",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "cl2-2",
+          "x": 610,
+          "y": 306,
+          "width": 230,
+          "height": "fit-content",
+          "text": "兼容调用身份　分级管控权限",
+          "fontSize": 14,
+          "textColor": "#4E5969",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "date-2",
+          "x": 590,
+          "y": 382,
+          "width": 270,
+          "height": "fit-content",
+          "text": "07—08 月",
+          "fontSize": 15,
+          "textColor": "#1F2329",
+          "textAlign": "center",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "id": "res-2",
+          "x": 590,
+          "y": 406,
+          "width": 270,
+          "height": "fit-content",
+          "text": "扩展到多环境、多业务",
+          "fontSize": 13,
+          "textColor": "#86909C",
+          "textAlign": "center"
+        },
+        {
+          "type": "rect",
+          "id": "card-3",
+          "x": 840,
+          "y": 142,
+          "width": 270,
+          "height": 118,
+          "fillColor": "#F0F4FC",
+          "borderColor": "#5178C6",
+          "borderWidth": 2,
+          "borderDash": "solid",
+          "borderRadius": 10
+        },
+        {
+          "type": "text",
+          "id": "ct-3",
+          "x": 860,
+          "y": 164,
+          "width": 230,
+          "height": "fit-content",
+          "text": "完善交付观测",
+          "fontSize": 20,
+          "textColor": "#1F2329",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "cl1-3",
+          "x": 860,
+          "y": 200,
+          "width": 230,
+          "height": "fit-content",
+          "text": "串联发布流程　分发客户端能力",
+          "fontSize": 14,
+          "textColor": "#4E5969",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "cl2-3",
+          "x": 860,
+          "y": 226,
+          "width": 230,
+          "height": "fit-content",
+          "text": "同步用户 Skill　采集调用数据",
+          "fontSize": 14,
+          "textColor": "#4E5969",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "date-3",
+          "x": 840,
+          "y": 302,
+          "width": 270,
+          "height": "fit-content",
+          "text": "09 月",
+          "fontSize": 15,
+          "textColor": "#1F2329",
+          "textAlign": "center",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "id": "res-3",
+          "x": 840,
+          "y": 326,
+          "width": 270,
+          "height": "fit-content",
+          "text": "形成持续交付与观测闭环",
+          "fontSize": 13,
+          "textColor": "#86909C",
+          "textAlign": "center"
+        },
+        {
+          "type": "rect",
+          "id": "future-card",
+          "x": 1115,
+          "y": 62,
+          "width": 320,
+          "height": 118,
+          "fillColor": "#FFFFFF",
+          "borderColor": "#86909C",
+          "borderWidth": 2,
+          "borderDash": "dashed",
+          "borderRadius": 10
+        },
+        {
+          "type": "text",
+          "id": "future-title",
+          "x": 1135,
+          "y": 84,
+          "width": 260,
+          "height": "fit-content",
+          "text": "走向智能化运营",
+          "fontSize": 20,
+          "textColor": "#4E5969",
+          "textAlign": "left",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "id": "future-1",
+          "x": 1135,
+          "y": 122,
+          "width": 280,
+          "height": "fit-content",
+          "text": "沉淀运营工作流　建设 Workflow Skill",
+          "fontSize": 14,
+          "textColor": "#4E5969",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "future-2",
+          "x": 1135,
+          "y": 148,
+          "width": 260,
+          "height": "fit-content",
+          "text": "建设任务评测　评估执行结果",
+          "fontSize": 14,
+          "textColor": "#4E5969",
+          "textAlign": "left"
+        },
+        {
+          "type": "text",
+          "id": "future-date",
+          "x": 1115,
+          "y": 232,
+          "width": 320,
+          "height": "fit-content",
+          "text": "10 月以后",
+          "fontSize": 15,
+          "textColor": "#4E5969",
+          "textAlign": "center",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "id": "future-result",
+          "x": 1115,
+          "y": 256,
+          "width": 320,
+          "height": "fit-content",
+          "text": "运营 Agent 完整交付任务",
+          "fontSize": 13,
+          "textColor": "#86909C",
+          "textAlign": "center"
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "id": "y-axis",
+      "connector": {
+        "from": {
+          "x": 70,
+          "y": 610
+        },
+        "to": {
+          "x": 70,
+          "y": 146
+        },
+        "lineShape": "straight",
+        "lineColor": "#3370FF",
+        "lineWidth": 2.5,
+        "lineStyle": "solid",
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "x-axis",
+      "connector": {
+        "from": {
+          "x": 70,
+          "y": 610
+        },
+        "to": {
+          "x": 1510,
+          "y": 610
+        },
+        "lineShape": "straight",
+        "lineColor": "#3370FF",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "step-1-h",
+      "connector": {
+        "from": {
+          "x": 165,
+          "y": 500
+        },
+        "to": {
+          "x": 415,
+          "y": 500
+        },
+        "lineShape": "straight",
+        "lineColor": "#3370FF",
+        "lineWidth": 4,
+        "lineStyle": "solid",
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "step-1-v",
+      "connector": {
+        "from": {
+          "x": 415,
+          "y": 500
+        },
+        "to": {
+          "x": 415,
+          "y": 420
+        },
+        "lineShape": "straight",
+        "lineColor": "#3370FF",
+        "lineWidth": 4,
+        "lineStyle": "solid",
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "step-2-h",
+      "connector": {
+        "from": {
+          "x": 415,
+          "y": 420
+        },
+        "to": {
+          "x": 690,
+          "y": 420
+        },
+        "lineShape": "straight",
+        "lineColor": "#3370FF",
+        "lineWidth": 4,
+        "lineStyle": "solid",
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "step-2-v",
+      "connector": {
+        "from": {
+          "x": 690,
+          "y": 420
+        },
+        "to": {
+          "x": 690,
+          "y": 340
+        },
+        "lineShape": "straight",
+        "lineColor": "#3370FF",
+        "lineWidth": 4,
+        "lineStyle": "solid",
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "step-3-h",
+      "connector": {
+        "from": {
+          "x": 690,
+          "y": 340
+        },
+        "to": {
+          "x": 965,
+          "y": 340
+        },
+        "lineShape": "straight",
+        "lineColor": "#3370FF",
+        "lineWidth": 4,
+        "lineStyle": "solid",
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "step-3-v",
+      "connector": {
+        "from": {
+          "x": 965,
+          "y": 340
+        },
+        "to": {
+          "x": 965,
+          "y": 260
+        },
+        "lineShape": "straight",
+        "lineColor": "#3370FF",
+        "lineWidth": 4,
+        "lineStyle": "solid",
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "step-4-h",
+      "connector": {
+        "from": {
+          "x": 965,
+          "y": 260
+        },
+        "to": {
+          "x": 1240,
+          "y": 260
+        },
+        "lineShape": "straight",
+        "lineColor": "#3370FF",
+        "lineWidth": 4,
+        "lineStyle": "solid",
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "step-4-v",
+      "connector": {
+        "from": {
+          "x": 1240,
+          "y": 260
+        },
+        "to": {
+          "x": 1240,
+          "y": 180
+        },
+        "lineShape": "straight",
+        "lineColor": "#3370FF",
+        "lineWidth": 4,
+        "lineStyle": "solid",
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "id": "step-future",
+      "connector": {
+        "from": {
+          "x": 1240,
+          "y": 180
+        },
+        "to": {
+          "x": 1435,
+          "y": 180
+        },
+        "lineShape": "straight",
+        "lineColor": "#86909C",
+        "lineWidth": 3,
+        "lineStyle": "dashed",
+        "endArrow": "none"
+      }
+    }
+  ]
+}

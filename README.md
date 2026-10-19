@@ -16,3 +16,7 @@
 3. Agent、CLI、MCP、Skill 和 AI Coding 知识统一放在 `03-Agent与Codex`。
 4. 近期要做和已经完成的内容统一维护在 [待办](待办.md)。
 5. AI 专用工作流位于 `.ai/skills`，仓库规则位于根目录 `AGENTS.md`，不占用复习目录。
+
+## 可复用 Skill
+
+[Skill 使用说明](.ai/skills/README.md) 包含飞书画板套件的职责、依赖与本地校验方式。套件以 `design-lark-chart` 为设计入口，配合 `lark-whiteboard-cli` 和 `lark-whiteboard` 完成原生画板交付。

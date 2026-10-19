@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+  <rect width="1600" height="720" fill="#FFFFFF"/>
+  <text x="60" y="58" font-size="30" font-weight="bold" fill="#1F2329">VIMO 开放能力建设路径</text>
+  <text x="60" y="94" font-size="16" fill="#646A73">从单点程序调用，逐步演进为支撑智能化运营的业务执行基础</text>
+
+  <line x1="70" y1="610" x2="1510" y2="610" stroke="#3370FF" stroke-width="3"/>
+  <polygon points="1510,602 1528,610 1510,618" fill="#3370FF"/>
+  <line x1="70" y1="610" x2="70" y2="132" stroke="#1F2329" stroke-width="2.5"/>
+  <polygon points="62,132 70,114 78,132" fill="#1F2329"/>
+  <text x="58" y="112" font-size="15" fill="#646A73" text-anchor="end">开放能力成熟度</text>
+  <text x="1518" y="646" font-size="15" fill="#646A73" text-anchor="end">时间</text>
+
+  <polyline points="165,500 415,500 415,420 690,420 690,340 965,340 965,260 1240,260 1240,180 1435,180" fill="none" stroke="#3370FF" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="165" cy="500" r="7" fill="#3370FF"/>
+  <circle cx="415" cy="420" r="7" fill="#3370FF"/>
+  <circle cx="690" cy="340" r="7" fill="#3370FF"/>
+  <circle cx="965" cy="260" r="7" fill="#3370FF"/>
+  <circle cx="1240" cy="180" r="7" fill="#3370FF"/>
+
+  <g>
+    <rect x="90" y="382" width="270" height="118" rx="10" fill="#F5F8FF" stroke="#D6E2FF"/>
+    <text x="110" y="412" font-size="20" font-weight="bold" fill="#1F2329">开放基础能力</text>
+    <text x="110" y="442" font-size="14" fill="#4E5969">• 开放基础接口　• 接入统一网关</text>
+    <text x="110" y="468" font-size="14" fill="#4E5969">• 接入 JWT 身份　• 开通接口权限</text>
+    <text x="165" y="542" font-size="15" font-weight="bold" fill="#1F2329" text-anchor="middle">04—05 月</text>
+    <text x="165" y="566" font-size="13" fill="#86909C" text-anchor="middle">具备程序调用基础</text>
+  </g>
+
+  <g>
+    <rect x="340" y="302" width="270" height="118" rx="10" fill="#F5F8FF" stroke="#D6E2FF"/>
+    <text x="360" y="332" font-size="20" font-weight="bold" fill="#1F2329">素材操作闭环</text>
+    <text x="360" y="362" font-size="14" fill="#4E5969">• 覆盖查询能力　• 开放配置能力</text>
+    <text x="360" y="388" font-size="14" fill="#4E5969">• 支持关联维护　• 支持素材发布</text>
+    <text x="415" y="542" font-size="15" font-weight="bold" fill="#1F2329" text-anchor="middle">05—06 月</text>
+    <text x="415" y="566" font-size="13" fill="#86909C" text-anchor="middle">查询、配置、发布形成闭环</text>
+  </g>
+
+  <g>
+    <rect x="590" y="222" width="270" height="118" rx="10" fill="#F5F8FF" stroke="#D6E2FF"/>
+    <text x="610" y="252" font-size="20" font-weight="bold" fill="#1F2329">扩展接入范围</text>
+    <text x="610" y="282" font-size="14" fill="#4E5969">• 收敛站点协议　• 适配网络环境</text>
+    <text x="610" y="308" font-size="14" fill="#4E5969">• 兼容调用身份　• 分级管控权限</text>
+    <text x="690" y="542" font-size="15" font-weight="bold" fill="#1F2329" text-anchor="middle">07—08 月</text>
+    <text x="690" y="566" font-size="13" fill="#86909C" text-anchor="middle">扩展到多环境、多业务</text>
+  </g>
+
+  <g>
+    <rect x="840" y="142" width="270" height="118" rx="10" fill="#F5F8FF" stroke="#D6E2FF"/>
+    <text x="860" y="172" font-size="20" font-weight="bold" fill="#1F2329">完善交付观测</text>
+    <text x="860" y="202" font-size="14" fill="#4E5969">• 串联发布流程　• 分发客户端能力</text>
+    <text x="860" y="228" font-size="14" fill="#4E5969">• 同步用户 Skill　• 采集调用数据</text>
+    <text x="965" y="542" font-size="15" font-weight="bold" fill="#1F2329" text-anchor="middle">09 月</text>
+    <text x="965" y="566" font-size="13" fill="#86909C" text-anchor="middle">形成持续交付与观测闭环</text>
+  </g>
+
+  <g>
+    <rect x="1115" y="62" width="320" height="118" rx="10" fill="#FFFFFF" stroke="#86909C" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="1135" y="92" font-size="20" font-weight="bold" fill="#4E5969">走向智能化运营</text>
+    <text x="1135" y="122" font-size="14" fill="#4E5969">• 沉淀运营工作流　• 建设 Workflow Skill</text>
+    <text x="1135" y="148" font-size="14" fill="#4E5969">• 建设任务评测　　• 评估执行结果</text>
+    <text x="1275" y="232" font-size="15" font-weight="bold" fill="#4E5969" text-anchor="middle">10 月以后</text>
+    <text x="1275" y="256" font-size="13" fill="#86909C" text-anchor="middle">运营 Agent 完整交付任务</text>
+  </g>
+</svg>

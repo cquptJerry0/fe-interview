@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "id": "o001:1",
+      "type": "composite_shape",
+      "x": 0,
+      "y": 0,
+      "width": 1500,
+      "height": 680,
+      "style": {
+        "border_style": "none",
+        "fill_opacity": 100,
+        "fill_color": "#ffffff",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      }
+    },
+    {
+      "id": "a001:1",
+      "type": "text_shape",
+      "x": 80,
+      "y": 40,
+      "width": 500,
+      "height": 35,
+      "text": {
+        "text": "测试标题",
+        "font_weight": "regular",
+        "font_size": 24,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      }
+    },
+    {
+      "id": "o001:2",
+      "type": "composite_shape",
+      "x": 80,
+      "y": 120,
+      "width": 260,
+      "height": 120,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "narrow",
+        "border_color": "#5178c6",
+        "border_color_type": 1,
+        "border_style": "solid",
+        "fill_opacity": 100,
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 1
+      },
+      "composite_shape": {
+        "type": "round_rect"
+      }
+    },
+    {
+      "id": "a001:2",
+      "type": "text_shape",
+      "x": 80,
+      "y": 167,
+      "width": 260,
+      "height": 26,
+      "text": {
+        "text": "卡片",
+        "font_weight": "regular",
+        "font_size": 18,
+        "horizontal_align": "center",
+        "vertical_align": "top",
+        "line_through": false,
+        "underline": false,
+        "italic": false,
+        "angle": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 1,
+        "text_background_color_type": 0,
+        "theme_text_background_color_code": -1
+      }
+    },
+    {
+      "id": "c001:1",
+      "type": "connector",
+      "x": 80,
+      "y": 500,
+      "width": 420,
+      "height": 1,
+      "style": {
+        "border_opacity": 100,
+        "border_width": "medium",
+        "border_color": "#3370ff",
+        "border_color_type": 1,
+        "border_style": "solid"
+      },
+      "connector": {
+        "start": {
+          "position": {
+            "x": 80,
+            "y": 500
+          },
+          "arrow_style": "none"
+        },
+        "end": {
+          "position": {
+            "x": 500,
+            "y": 500
+          },
+          "arrow_style": "line_arrow"
+        },
+        "shape": "right_angled_polyline",
+        "caption_auto_direction": false,
+        "specified_coordinate": true
+      }
+    }
+  ]
+}

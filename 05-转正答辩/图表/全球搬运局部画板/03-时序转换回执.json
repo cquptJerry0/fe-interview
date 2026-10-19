@@ -1,0 +1,3238 @@
+{
+  "code": 0,
+  "data": {
+    "to": "openapi",
+    "result": {
+      "nodes": [
+        {
+          "id": "r001:1",
+          "type": "life_line",
+          "x": 0,
+          "y": 20,
+          "width": 120,
+          "height": 60,
+          "text": {
+            "text": "BPM 节点\n创建／查询入口",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "BPM 节点"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                },
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "创建／查询入口"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#4e83fd",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#e1eaff",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "lifeline": {
+            "size": 2930.7999999999993,
+            "type": "round_rect"
+          }
+        },
+        {
+          "id": "r001:2",
+          "type": "life_line",
+          "x": 458.4800109863281,
+          "y": 20,
+          "width": 191.50999450683594,
+          "height": 60,
+          "text": {
+            "text": "VIMO · TransferService\n搬运任务编排\nies.vimo.material_web",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "VIMO · TransferService"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                },
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "搬运任务编排"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                },
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "ies.vimo.material_web"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#4e83fd",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#e1eaff",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "lifeline": {
+            "size": 2930.7999999999993,
+            "type": "round_rect"
+          }
+        },
+        {
+          "id": "r001:3",
+          "type": "life_line",
+          "x": 978.8499908447266,
+          "y": 20,
+          "width": 235.2899932861328,
+          "height": 60,
+          "text": {
+            "text": "VIMO 任务主库\nmaterial_transfer_task\ntoutiao.mysql.lv_artist_op_write",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "VIMO 任务主库"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                },
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "material_transfer_task"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                },
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "toutiao.mysql.lv_artist_op_write"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#4e83fd",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#e1eaff",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "lifeline": {
+            "size": 2930.7999999999993,
+            "type": "round_rect"
+          }
+        },
+        {
+          "id": "r001:4",
+          "type": "life_line",
+          "x": 1314.1399841308594,
+          "y": 20,
+          "width": 169.94000244140625,
+          "height": 60,
+          "text": {
+            "text": "ArtistOpService\n素材搬运执行\nfaceu.artist.op_server",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "ArtistOpService"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                },
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "素材搬运执行"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                },
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "faceu.artist.op_server"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#4e83fd",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#e1eaff",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "lifeline": {
+            "size": 2930.7999999999993,
+            "type": "round_rect"
+          }
+        },
+        {
+          "id": "o001:1",
+          "type": "composite_shape",
+          "x": 506.3575096130371,
+          "y": 95,
+          "width": 935.237476348877,
+          "height": 40.272,
+          "text": {
+            "text": "taskId 定位整批申请；externalTaskId 定位每份素材的同一次执行",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "taskId 定位整批申请；externalTaskId 定位每份素材的同一次执行"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#ffa53d",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#feead2",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "composite_shape": {
+            "type": "note_shape"
+          }
+        },
+        {
+          "id": "c001:1",
+          "type": "connector",
+          "x": 60,
+          "y": 230.608,
+          "width": 494.2350082397461,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 60,
+                "y": 230.608
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 230.608
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "createTransfer(taskId, bid)\n创建或恢复本次搬运",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "createTransfer(taskId, bid)"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "创建或恢复本次搬运"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:2",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 325.944,
+          "width": 542.2599792480469,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 325.944
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 1096.494987487793,
+                "y": 325.944
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "TaskRepo.findByTaskId()\n读取固定执行成员与已有结果",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "TaskRepo.findByTaskId()"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "读取固定执行成员与已有结果"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:3",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 398.112,
+          "width": 542.2599792480469,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "dot"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 1096.494987487793,
+                "y": 398.112
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 398.112
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "requestSnapshot / itemResults",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "requestSnapshot / itemResults"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 2
+          }
+        },
+        {
+          "id": "c001:4",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 493.44800000000004,
+          "width": 0,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 473.44800000000004
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 533.4480000000001
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "polyline",
+            "captions": {
+              "data": [
+                {
+                  "text": "ensureExternalTaskIds()\n仅为缺失项生成执行编号",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "ensureExternalTaskIds()"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "仅为缺失项生成执行编号"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "turning_points": [
+              {
+                "x": 60,
+                "y": -20
+              },
+              {
+                "x": 60,
+                "y": 40
+              }
+            ],
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:5",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 648.7840000000001,
+          "width": 542.2599792480469,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 648.7840000000001
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 1096.494987487793,
+                "y": 648.7840000000001
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "TaskRepo.updateWithVersion()\n首次 RPC 前持久化 externalTaskId",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "TaskRepo.updateWithVersion()"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "首次 RPC 前持久化 externalTaskId"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:6",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 720.9520000000001,
+          "width": 542.2599792480469,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "dot"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 1096.494987487793,
+                "y": 720.9520000000001
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 720.9520000000001
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "已保存编号；恢复时复用原编号",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "已保存编号；恢复时复用原编号"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 2
+          }
+        },
+        {
+          "id": "c001:7",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 942.2880000000001,
+          "width": 844.8749771118164,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 942.2880000000001
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 1399.1099853515625,
+                "y": 942.2880000000001
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "submitChunk() → CreateSyncTaskV2()\n携带 source_item_id + external_task_id",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "submitChunk() → CreateSyncTaskV2()"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "携带 source_item_id + external_task_id"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:8",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 1140.456,
+          "width": 844.8749771118164,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "dot"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 1399.1099853515625,
+                "y": 1140.456
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 1140.456
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "results：accepted / reject_code",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "results：accepted / reject_code"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 2
+          }
+        },
+        {
+          "id": "c001:9",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 1235.792,
+          "width": 542.2599792480469,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 1235.792
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 1096.494987487793,
+                "y": 1235.792
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "mergeItemResults()\n合并本批受理／拒绝结果",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "mergeItemResults()"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "合并本批受理／拒绝结果"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:10",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 1307.9599999999998,
+          "width": 542.2599792480469,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "dot"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 1096.494987487793,
+                "y": 1307.9599999999998
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 1307.9599999999998
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "保存完成，保留其他素材的进展",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "保存完成，保留其他素材的进展"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 2
+          }
+        },
+        {
+          "id": "o001:2",
+          "type": "composite_shape",
+          "x": 506.3575096130371,
+          "y": 1397.9599999999998,
+          "width": 935.237476348877,
+          "height": 40.272,
+          "text": {
+            "text": "未确认项保持 PENDING；请求异常时停止后续分批",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "未确认项保持 PENDING；请求异常时停止后续分批"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#ffa53d",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#feead2",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "composite_shape": {
+            "type": "note_shape"
+          }
+        },
+        {
+          "id": "f001:2",
+          "type": "combined_fragment",
+          "x": 534.2350082397461,
+          "y": 972.2880000000001,
+          "width": 884.8749771118164,
+          "height": 0,
+          "text": {
+            "text": "响应包含有效的逐素材结果",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "left",
+            "vertical_align": "top",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#eff0f1",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "table": {
+            "title": "",
+            "meta": {
+              "row_sizes": [
+                36,
+                314.6719999999997,
+                135.27199999999993
+              ],
+              "col_sizes": [
+                884.8749771118164
+              ],
+              "style": {
+                "fill_opacity": 100,
+                "border_opacity": 100,
+                "border_style": "solid",
+                "border_width": "narrow",
+                "fill_color_type": 0,
+                "border_color_type": 0
+              },
+              "text": {
+                "text": "",
+                "font_weight": "bold",
+                "font_size": 14,
+                "horizontal_align": "center",
+                "vertical_align": "top",
+                "line_through": false,
+                "underline": false,
+                "italic": false,
+                "angle": 0,
+                "text_color": "#1f2329",
+                "text_color_type": 0,
+                "text_background_color_type": 0,
+                "theme_text_color_code": -1,
+                "theme_text_background_color_code": -1
+              },
+              "row_num": 3,
+              "col_num": 1
+            },
+            "cells": [
+              {
+                "row_index": 1,
+                "col_index": 1,
+                "children": [],
+                "text": {
+                  "text": "alt",
+                  "font_weight": "bold",
+                  "font_size": 14,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1
+                },
+                "style": {
+                  "fill_opacity": 100,
+                  "fill_color_type": 0
+                }
+              },
+              {
+                "row_index": 2,
+                "col_index": 1,
+                "children": [],
+                "text": {
+                  "text": "[响应包含有效的逐素材结果]",
+                  "font_weight": "bold",
+                  "font_size": 14,
+                  "horizontal_align": "left",
+                  "vertical_align": "top",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "[响应包含有效的逐素材结"
+                            }
+                          },
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text": "果]"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                },
+                "style": {
+                  "fill_opacity": 100,
+                  "fill_color_type": 0
+                }
+              },
+              {
+                "row_index": 3,
+                "col_index": 1,
+                "children": [],
+                "text": {
+                  "text": "[响应缺项或请求异常]",
+                  "font_weight": "bold",
+                  "font_size": 14,
+                  "horizontal_align": "left",
+                  "vertical_align": "top",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "[响应缺项或请求异"
+                            }
+                          },
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text": "常]"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                },
+                "style": {
+                  "fill_opacity": 100,
+                  "fill_color_type": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "f001:1",
+          "type": "combined_fragment",
+          "x": 534.2350082397461,
+          "y": 750.9520000000001,
+          "width": 884.8749771118164,
+          "height": 0,
+          "text": {
+            "text": "selectPendingItems()：只提交受理待确认项，每批最多 50 份",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "left",
+            "vertical_align": "top",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#eff0f1",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "table": {
+            "title": "",
+            "meta": {
+              "row_sizes": [
+                36,
+                681.2799999999996
+              ],
+              "col_sizes": [
+                884.8749771118164
+              ],
+              "style": {
+                "fill_opacity": 100,
+                "border_opacity": 100,
+                "border_style": "solid",
+                "border_width": "narrow",
+                "fill_color_type": 0,
+                "border_color_type": 0
+              },
+              "text": {
+                "text": "",
+                "font_weight": "bold",
+                "font_size": 14,
+                "horizontal_align": "center",
+                "vertical_align": "top",
+                "line_through": false,
+                "underline": false,
+                "italic": false,
+                "angle": 0,
+                "text_color": "#1f2329",
+                "text_color_type": 0,
+                "text_background_color_type": 0,
+                "theme_text_color_code": -1,
+                "theme_text_background_color_code": -1
+              },
+              "row_num": 2,
+              "col_num": 1
+            },
+            "cells": [
+              {
+                "row_index": 1,
+                "col_index": 1,
+                "children": [],
+                "text": {
+                  "text": "loop",
+                  "font_weight": "bold",
+                  "font_size": 14,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1
+                },
+                "style": {
+                  "fill_opacity": 100,
+                  "fill_color_type": 0
+                }
+              },
+              {
+                "row_index": 2,
+                "col_index": 1,
+                "children": [],
+                "text": {
+                  "text": "[selectPendingItems()：只提交受理待确认项，每批最多 50 份]",
+                  "font_weight": "bold",
+                  "font_size": 14,
+                  "horizontal_align": "left",
+                  "vertical_align": "top",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "[selectPendingItems()：只提交受理待确认项，每批最多 50 "
+                            }
+                          },
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text": "份]"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                },
+                "style": {
+                  "fill_opacity": 100,
+                  "fill_color_type": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "c001:11",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 1553.5679999999998,
+          "width": 0,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 1533.5679999999998
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 1593.5679999999998
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "polyline",
+            "captions": {
+              "data": [
+                {
+                  "text": "finishCreate()\n重读任务并检查待确认项",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "finishCreate()"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "重读任务并检查待确认项"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "turning_points": [
+              {
+                "x": 60,
+                "y": -20
+              },
+              {
+                "x": 60,
+                "y": 40
+              }
+            ],
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:12",
+          "type": "connector",
+          "x": 60,
+          "y": 1834.9039999999998,
+          "width": 494.2350082397461,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "dot"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 1834.9039999999998
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 60,
+                "y": 1834.9039999999998
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "TRANSFER_CREATE_INCOMPLETE（5xx）\n创建未完成，重投创建节点",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "TRANSFER_CREATE_INCOMPLETE（5xx）"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "创建未完成，重投创建节点"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 2
+          }
+        },
+        {
+          "id": "o001:3",
+          "type": "composite_shape",
+          "x": 30,
+          "y": 1849.9039999999998,
+          "width": 1411.594985961914,
+          "height": 40.272,
+          "text": {
+            "text": "重入 createTransfer() 读取原记录；不另起一轮搬运",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "重入 createTransfer() 读取原记录；不另起一轮搬运"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#ffa53d",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#feead2",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "composite_shape": {
+            "type": "note_shape"
+          }
+        },
+        {
+          "id": "c001:13",
+          "type": "connector",
+          "x": 60,
+          "y": 2060.5119999999997,
+          "width": 494.2350082397461,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "dot"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 2060.5119999999997
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 60,
+                "y": 2060.5119999999997
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "accepted / partially_accepted\n允许进入结果查询",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "accepted / partially_accepted"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "允许进入结果查询"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 2
+          }
+        },
+        {
+          "id": "c001:14",
+          "type": "connector",
+          "x": 60,
+          "y": 2155.8479999999995,
+          "width": 494.2350082397461,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 60,
+                "y": 2155.8479999999995
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 2155.8479999999995
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "queryTransfer(taskId, bid)\n查询本次搬运结果",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "queryTransfer(taskId, bid)"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "查询本次搬运结果"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:15",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 2251.1839999999993,
+          "width": 0,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 2231.1839999999993
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 2291.1839999999993
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "polyline",
+            "captions": {
+              "data": [
+                {
+                  "text": "selectQueryableItems()\n只取 ACCEPTED 且 PROCESSING 项",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "selectQueryableItems()"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "只取 ACCEPTED 且 PROCESSING 项"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "turning_points": [
+              {
+                "x": 60,
+                "y": -20
+              },
+              {
+                "x": 60,
+                "y": 40
+              }
+            ],
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:16",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 2406.519999999999,
+          "width": 844.8749771118164,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 2406.519999999999
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 1399.1099853515625,
+                "y": 2406.519999999999
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "MGetMaterialTransferResult(external_task_ids)\n按原执行编号批量查询",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "MGetMaterialTransferResult(external_task_ids)"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "按原执行编号批量查询"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:17",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 2478.687999999999,
+          "width": 844.8749771118164,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "dot"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 1399.1099853515625,
+                "y": 2478.687999999999
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 2478.687999999999
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "results：status / target_item_id / fail_message",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "results：status / target_item_id / fail_message"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 2
+          }
+        },
+        {
+          "id": "c001:18",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 2574.023999999999,
+          "width": 542.2599792480469,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 2574.023999999999
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 1096.494987487793,
+                "y": 2574.023999999999
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "writeQueryResult() → mergeItemResults()\n保存逐素材执行结果",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "writeQueryResult() → mergeItemResults()"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      },
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "保存逐素材执行结果"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 1
+          }
+        },
+        {
+          "id": "c001:19",
+          "type": "connector",
+          "x": 554.2350082397461,
+          "y": 2646.191999999999,
+          "width": 542.2599792480469,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "dot"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 1096.494987487793,
+                "y": 2646.191999999999
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 2646.191999999999
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "更新完成",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "更新完成"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 2
+          }
+        },
+        {
+          "id": "c001:20",
+          "type": "connector",
+          "x": 60,
+          "y": 2718.359999999999,
+          "width": 494.2350082397461,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "dot"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 2718.359999999999
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 60,
+                "y": 2718.359999999999
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "finished / pollingStatus / transferStatus",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "finished / pollingStatus / transferStatus"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 2
+          }
+        },
+        {
+          "id": "c001:21",
+          "type": "connector",
+          "x": 60,
+          "y": 2865.5279999999993,
+          "width": 494.2350082397461,
+          "height": 0,
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "dot"
+          },
+          "connector": {
+            "start": {
+              "position": {
+                "x": 554.2350082397461,
+                "y": 2865.5279999999993
+              },
+              "arrow_style": "none"
+            },
+            "end": {
+              "position": {
+                "x": 60,
+                "y": 2865.5279999999993
+              },
+              "arrow_style": "triangle_arrow"
+            },
+            "shape": "straight",
+            "captions": {
+              "data": [
+                {
+                  "text": "返回本批结果，不再查询",
+                  "font_weight": "regular",
+                  "font_size": 16,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "返回本批结果，不再查询"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "caption_auto_direction": false,
+            "specified_coordinate": true,
+            "caption_position": 0.5,
+            "caption_position_type": 2
+          }
+        },
+        {
+          "id": "f001:3",
+          "type": "combined_fragment",
+          "x": 40,
+          "y": 1643.5679999999998,
+          "width": 1379.1099853515625,
+          "height": 0,
+          "text": {
+            "text": "仍有 PENDING 素材",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "left",
+            "vertical_align": "top",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#bbbfc4",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#eff0f1",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "table": {
+            "title": "",
+            "meta": {
+              "row_sizes": [
+                36,
+                225.60799999999995,
+                828.1839999999995,
+                152.16800000000012
+              ],
+              "col_sizes": [
+                1379.1099853515625
+              ],
+              "style": {
+                "fill_opacity": 100,
+                "border_opacity": 100,
+                "border_style": "solid",
+                "border_width": "narrow",
+                "fill_color_type": 0,
+                "border_color_type": 0
+              },
+              "text": {
+                "text": "",
+                "font_weight": "bold",
+                "font_size": 14,
+                "horizontal_align": "center",
+                "vertical_align": "top",
+                "line_through": false,
+                "underline": false,
+                "italic": false,
+                "angle": 0,
+                "text_color": "#1f2329",
+                "text_color_type": 0,
+                "text_background_color_type": 0,
+                "theme_text_color_code": -1,
+                "theme_text_background_color_code": -1
+              },
+              "row_num": 4,
+              "col_num": 1
+            },
+            "cells": [
+              {
+                "row_index": 1,
+                "col_index": 1,
+                "children": [],
+                "text": {
+                  "text": "alt",
+                  "font_weight": "bold",
+                  "font_size": 14,
+                  "horizontal_align": "center",
+                  "vertical_align": "mid",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1
+                },
+                "style": {
+                  "fill_opacity": 100,
+                  "fill_color_type": 0
+                }
+              },
+              {
+                "row_index": 2,
+                "col_index": 1,
+                "children": [],
+                "text": {
+                  "text": "[仍有 PENDING 素材]",
+                  "font_weight": "bold",
+                  "font_size": 14,
+                  "horizontal_align": "left",
+                  "vertical_align": "top",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "[仍有 PENDING 素"
+                            }
+                          },
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text": "材]"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                },
+                "style": {
+                  "fill_opacity": 100,
+                  "fill_color_type": 0
+                }
+              },
+              {
+                "row_index": 3,
+                "col_index": 1,
+                "children": [],
+                "text": {
+                  "text": "[受理已确认，且存在执行中的素材]",
+                  "font_weight": "bold",
+                  "font_size": 14,
+                  "horizontal_align": "left",
+                  "vertical_align": "top",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "[受理已确认，且存在执行中的素"
+                            }
+                          },
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text": "材]"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                },
+                "style": {
+                  "fill_opacity": 100,
+                  "fill_color_type": 0
+                }
+              },
+              {
+                "row_index": 4,
+                "col_index": 1,
+                "children": [],
+                "text": {
+                  "text": "[全部拒绝或已无执行中素材]",
+                  "font_weight": "bold",
+                  "font_size": 14,
+                  "horizontal_align": "left",
+                  "vertical_align": "top",
+                  "line_through": false,
+                  "underline": false,
+                  "italic": false,
+                  "angle": 0,
+                  "text_color": "#1f2329",
+                  "text_color_type": 0,
+                  "text_background_color_type": 0,
+                  "theme_text_color_code": -1,
+                  "theme_text_background_color_code": -1,
+                  "rich_text": {
+                    "paragraphs": [
+                      {
+                        "paragraph_type": 0,
+                        "elements": [
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text_style": {
+                                "italic": false,
+                                "underline": false,
+                                "line_through": false
+                              },
+                              "text": "[全部拒绝或已无执行中素"
+                            }
+                          },
+                          {
+                            "element_type": 0,
+                            "text_element": {
+                              "text": "材]"
+                            }
+                          }
+                        ],
+                        "indent": 0,
+                        "list_begin_index": 0,
+                        "quote": false
+                      }
+                    ]
+                  }
+                },
+                "style": {
+                  "fill_opacity": 100,
+                  "fill_color_type": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "o001:4",
+          "type": "composite_shape",
+          "x": 506.3575096130371,
+          "y": 2890.5279999999993,
+          "width": 648.9599761962891,
+          "height": 40.272,
+          "text": {
+            "text": "回写版本冲突：重读主库，只合并本次增量；已确认执行终态不被改写",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "回写版本冲突：重读主库，只合并本次增量；已确认执行终态不被改写"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "narrow",
+            "border_color": "#ffa53d",
+            "border_color_type": 0,
+            "theme_border_color_code": -1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#feead2",
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "composite_shape": {
+            "type": "note_shape"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "width": 0,
+      "height": 0,
+      "nodeCount": 32,
+      "connectorCount": 21
+    },
+    "outputPath": "/Users/bytedance/Projects/personal/面试/05-转正答辩/图表/全球搬运局部画板/03-时序转换.json"
+  },
+  "error": ""
+}

@@ -1,0 +1,24 @@
+sequenceDiagram
+    participant B as BPM 节点<br/>创建与查询入口
+    participant V as VIMO 搬运编排<br/>TransferService<br/>ies.vimo.material_web
+    participant D as 任务主库<br/>lv_artist_op<br/>toutiao.mysql.lv_artist_op_write
+    participant S as 素材搬运服务<br/>ArtistOpService<br/>faceu.artist.op_server
+
+    Note over B,S: ③ 请求中断后，继续同一次搬运
+    B->>V: 创建或恢复原任务<br/>createTransfer(taskId, bid)
+    V->>D: 读取原任务，补齐并保存执行编号<br/>ensureExternalTaskIds()
+    D-->>V: 原执行编号与已确认的受理结果
+    loop 只提交待确认素材，复用原执行编号
+        V->>S: 分批创建素材搬运<br/>CreateSyncTaskV2(external_task_id)
+        S-->>V: 返回已确认的受理／拒绝结果
+        V->>D: 保存已确认结果，缺项仍待确认<br/>mergeItemResults()
+    end
+    alt 仍有受理待确认项
+        V-->>B: 重投创建节点，沿用原任务和编号<br/>finishCreate()：创建未完成
+    else 受理均已确认
+        B->>V: 查询已受理且执行中的素材<br/>queryTransfer(taskId, bid)
+        V->>S: 按原执行编号查询结果<br/>MGetMaterialTransferResult()
+        S-->>V: 成功目标 ID／失败原因／仍在执行
+        V->>D: 合并本次结果，保留其他进展<br/>writeQueryResult()
+    end
+    Note over V,S: 创建请求异常时停止后续分批，未确认项不判失败；补齐受理结果后再查询
