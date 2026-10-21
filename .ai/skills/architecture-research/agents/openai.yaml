@@ -1,0 +1,4 @@
+interface:
+  display_name: "知识体系与文档架构"
+  short_description: "研究任意技术领域并建立可供动态双轨 CU 使用的唯一知识总纲"
+  default_prompt: "使用 $architecture-research 研究技术问题与来源，建立唯一知识总纲、依赖、掌握标准和资料索引，并将后续动态学习交接给 $course-delivery-orchestrator。"

@@ -1,0 +1,6 @@
+interface:
+  display_name: "写作共创"
+  short_description: "按读者与目标共同确定大纲，组织内容、逻辑与格式，保留共识并检查正文可用性"
+  default_prompt: "请用 $writing-collab，根据我的材料和用途共创大纲，在方向确认后起草并检查正文。"
+policy:
+  allow_implicit_invocation: true

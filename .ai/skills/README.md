@@ -1,5 +1,23 @@
 # 仓库 Skill
 
+## 写作、调研与面试训练
+
+| Skill | 适用场景 | 配套资源 |
+| --- | --- | --- |
+| [writing-collab](writing-collab/SKILL.md) | 按读者和用途共创大纲、正文、反馈与验收 | 写作参考、样本分析、约定模板和行为验证用例 |
+| [architecture-research](architecture-research/SKILL.md) | 技术调研、多来源合订、知识体系与文档职责梳理 | 来源与架构指南、文档校验脚本和回归测试 |
+| [interview-bagu-coding-coach](interview-bagu-coding-coach/SKILL.md) | 八股、手写题、组件设计与复述训练 | 题目路由与高收益训练地图 |
+
+三个 Skill 可独立使用，将对应完整目录交给使用端的 Skill 安装机制即可。`interview-bagu-coding-coach` 沿用仓库已有版本；另两个同步自本机安装版本，仓库副本不反向覆盖本机。
+
+写作样本已去除内部文档链接和私人会话 ID，保留观察与适用边界。`writing-collab` 的 Markdown 测试文件是行为验证用例，不是自动化测试。`architecture-research` 的结构校验脚本需要 Python 3.10+；后续授课或正式技术方案可按需交接 `course-delivery-orchestrator`、`technical-document-writing`，这两个可选 Skill 不随本次收录。
+
+在仓库根目录运行调研 Skill 的回归测试：
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s .ai/skills/architecture-research/tests -v
+```
+
 ## 飞书画板套件
 
 三个 Skill 配合使用，以 `design-lark-chart` 为创作入口，不重复启动三套设计流程。

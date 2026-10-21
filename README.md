@@ -19,4 +19,4 @@
 
 ## 可复用 Skill
 
-[Skill 使用说明](.ai/skills/README.md) 包含飞书画板套件的职责、依赖与本地校验方式。套件以 `design-lark-chart` 为设计入口，配合 `lark-whiteboard-cli` 和 `lark-whiteboard` 完成原生画板交付。
+[Skill 使用说明](.ai/skills/README.md) 汇总写作共创 `writing-collab`、知识体系调研 `architecture-research`、八股手写训练 `interview-bagu-coding-coach`，以及飞书画板套件的职责、依赖与校验方式。
