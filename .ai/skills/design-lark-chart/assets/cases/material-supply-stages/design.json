@@ -1,0 +1,1009 @@
+{
+  "W": 6350,
+  "H": 2210,
+  "sections": [
+    {
+      "id": "stage_event",
+      "x": 40,
+      "w": 1030,
+      "title": "1  事件接入",
+      "fill": "#EEF3FF",
+      "service": "事件处理 FaaS\nies.vimo.material_lua_check"
+    },
+    {
+      "id": "stage_plan",
+      "x": 1214,
+      "w": 1770,
+      "title": "2  面板同步建单",
+      "fill": "#EFF9F8",
+      "service": "VIMO 素材服务\nies.vimo.material_web"
+    },
+    {
+      "id": "stage_execute",
+      "x": 3128,
+      "w": 1080,
+      "title": "3  内容执行",
+      "fill": "#F0F8F1",
+      "service": "VIMO 素材服务\nies.vimo.material_web"
+    },
+    {
+      "id": "stage_publish",
+      "x": 4352,
+      "w": 1958,
+      "title": "4  正式发布",
+      "fill": "#F5F6F8",
+      "service": "VIMO 素材服务\nies.vimo.material_web"
+    }
+  ],
+  "specs": {
+    "title": {
+      "kind": "text",
+      "x": 55,
+      "y": 30,
+      "w": 6250,
+      "s": "图片文字模板自动供给",
+      "size": 50
+    },
+    "lg_action": {
+      "x": 90,
+      "y": 163,
+      "w": 220,
+      "h": 94,
+      "title": "",
+      "sub": "",
+      "kind": "action",
+      "section": null
+    },
+    "lg_action_text": {
+      "kind": "text",
+      "x": 338,
+      "y": 186,
+      "w": 350,
+      "s": "业务处理",
+      "size": 30
+    },
+    "lg_decision": {
+      "x": 1070,
+      "y": 163,
+      "w": 160,
+      "h": 94,
+      "title": "",
+      "sub": "",
+      "kind": "decision",
+      "section": null
+    },
+    "lg_decision_text": {
+      "kind": "text",
+      "x": 1258,
+      "y": 186,
+      "w": 350,
+      "s": "条件判断",
+      "size": 30
+    },
+    "lg_queue": {
+      "x": 2030,
+      "y": 163,
+      "w": 180,
+      "h": 94,
+      "title": "",
+      "sub": "",
+      "kind": "queue",
+      "section": null
+    },
+    "lg_queue_text": {
+      "kind": "text",
+      "x": 2238,
+      "y": 186,
+      "w": 350,
+      "s": "消息队列",
+      "size": 30
+    },
+    "lg_store": {
+      "x": 3000,
+      "y": 163,
+      "w": 150,
+      "h": 94,
+      "title": "",
+      "sub": "",
+      "kind": "store",
+      "section": null
+    },
+    "lg_store_text": {
+      "kind": "text",
+      "x": 3178,
+      "y": 186,
+      "w": 350,
+      "s": "数据库表",
+      "size": 30
+    },
+    "lg_end": {
+      "x": 3980,
+      "y": 163,
+      "w": 180,
+      "h": 94,
+      "title": "",
+      "sub": "",
+      "kind": "end",
+      "section": null
+    },
+    "lg_end_text": {
+      "kind": "text",
+      "x": 4188,
+      "y": 186,
+      "w": 350,
+      "s": "起点／结果",
+      "size": 30
+    },
+    "lg_line_a": {
+      "x": 4870,
+      "y": 209.5,
+      "w": 1,
+      "h": 1,
+      "title": "",
+      "sub": "",
+      "kind": "pin",
+      "section": null
+    },
+    "lg_line_b": {
+      "x": 5140,
+      "y": 209.5,
+      "w": 1,
+      "h": 1,
+      "title": "",
+      "sub": "",
+      "kind": "pin",
+      "section": null
+    },
+    "lg_solid_text": {
+      "kind": "text",
+      "x": 5180,
+      "y": 170,
+      "w": 420,
+      "s": "业务流转",
+      "size": 30
+    },
+    "lg_dash_a": {
+      "x": 4870,
+      "y": 269.5,
+      "w": 1,
+      "h": 1,
+      "title": "",
+      "sub": "",
+      "kind": "pin",
+      "section": null
+    },
+    "lg_dash_b": {
+      "x": 5140,
+      "y": 269.5,
+      "w": 1,
+      "h": 1,
+      "title": "",
+      "sub": "",
+      "kind": "pin",
+      "section": null
+    },
+    "lg_dashed_text": {
+      "kind": "text",
+      "x": 5180,
+      "y": 247,
+      "w": 1050,
+      "s": "数据读写／定时调用",
+      "size": 30
+    },
+    "stage_event": {
+      "kind": "section",
+      "x": 40,
+      "y": 355,
+      "w": 1030,
+      "h": 1760,
+      "title": "1  事件接入",
+      "fill": "#EEF3FF"
+    },
+    "stage_event_header": {
+      "kind": "text",
+      "x": 80,
+      "y": 390,
+      "w": 950,
+      "s": "1  事件接入\n事件处理 FaaS\nies.vimo.material_lua_check",
+      "size": 34,
+      "section": "stage_event"
+    },
+    "stage_plan": {
+      "kind": "section",
+      "x": 1214,
+      "y": 355,
+      "w": 1770,
+      "h": 1760,
+      "title": "2  面板同步建单",
+      "fill": "#EFF9F8"
+    },
+    "stage_plan_header": {
+      "kind": "text",
+      "x": 1254,
+      "y": 390,
+      "w": 1690,
+      "s": "2  面板同步建单\nVIMO 素材服务\nies.vimo.material_web",
+      "size": 34,
+      "section": "stage_plan"
+    },
+    "stage_execute": {
+      "kind": "section",
+      "x": 3128,
+      "y": 355,
+      "w": 1080,
+      "h": 1760,
+      "title": "3  内容执行",
+      "fill": "#F0F8F1"
+    },
+    "stage_execute_header": {
+      "kind": "text",
+      "x": 3168,
+      "y": 390,
+      "w": 1000,
+      "s": "3  内容执行\nVIMO 素材服务\nies.vimo.material_web",
+      "size": 34,
+      "section": "stage_execute"
+    },
+    "stage_publish": {
+      "kind": "section",
+      "x": 4352,
+      "y": 355,
+      "w": 1958,
+      "h": 1760,
+      "title": "4  正式发布",
+      "fill": "#F5F6F8"
+    },
+    "stage_publish_header": {
+      "kind": "text",
+      "x": 4392,
+      "y": 390,
+      "w": 1878,
+      "s": "4  正式发布\nVIMO 素材服务\nies.vimo.material_web",
+      "size": 34,
+      "section": "stage_publish"
+    },
+    "source_panel": {
+      "x": 1280,
+      "y": 565,
+      "w": 470,
+      "h": 170,
+      "title": "来源：视频文字模板面板",
+      "sub": "text-template\n来源分类／发布版本",
+      "kind": "panel",
+      "section": "stage_plan"
+    },
+    "config": {
+      "x": 2030,
+      "y": 555,
+      "w": 810,
+      "h": 190,
+      "title": "分类同步配置",
+      "sub": "category_auto_sync_config",
+      "kind": "store",
+      "section": "stage_plan"
+    },
+    "target_draft": {
+      "x": 3420,
+      "y": 565,
+      "w": 720,
+      "h": 170,
+      "title": "目标：图片文字模板面板",
+      "sub": "image-editor-text-template\n内测内容 · Draft",
+      "kind": "panel",
+      "section": "stage_execute"
+    },
+    "target_prod": {
+      "x": 5270,
+      "y": 565,
+      "w": 780,
+      "h": 170,
+      "title": "目标：图片文字模板面板",
+      "sub": "image-editor-text-template\n正式版本",
+      "kind": "panel",
+      "section": "stage_publish"
+    },
+    "item_queue": {
+      "x": 90,
+      "y": 1010,
+      "w": 320,
+      "h": 160,
+      "title": "素材变更消息",
+      "sub": "item_change",
+      "kind": "queue",
+      "section": "stage_event"
+    },
+    "review": {
+      "x": 465,
+      "y": 930,
+      "w": 580,
+      "h": 320,
+      "title": "图片审核变为通过？",
+      "sub": "static_review_status\n未通过／缺失 → 通过",
+      "kind": "decision",
+      "section": "stage_event"
+    },
+    "skip_review": {
+      "x": 600,
+      "y": 1410,
+      "w": 360,
+      "h": 120,
+      "title": "不创建同步任务",
+      "sub": "",
+      "kind": "end",
+      "section": "stage_event"
+    },
+    "condition": {
+      "x": 1240,
+      "y": 920,
+      "w": 660,
+      "h": 340,
+      "title": "转静完成且已上线？",
+      "sub": "biz_extra.\nstatic_preview_time\n存在，且素材已上线",
+      "kind": "decision",
+      "section": "stage_plan"
+    },
+    "skip_condition": {
+      "x": 1370,
+      "y": 1410,
+      "w": 350,
+      "h": 120,
+      "title": "不创建同步任务",
+      "sub": "",
+      "kind": "end",
+      "section": "stage_plan"
+    },
+    "match_static": {
+      "x": 1980,
+      "y": 1015,
+      "w": 320,
+      "h": 150,
+      "title": "匹配来源、目标分类",
+      "sub": "",
+      "kind": "action",
+      "section": "stage_plan"
+    },
+    "create_static": {
+      "x": 2390,
+      "y": 1005,
+      "w": 500,
+      "h": 170,
+      "title": "创建动转静同步任务",
+      "sub": "记录该模板要加入的图片分类",
+      "kind": "action",
+      "section": "stage_plan"
+    },
+    "panel_queue": {
+      "x": 90,
+      "y": 1700,
+      "w": 320,
+      "h": 160,
+      "title": "面板发布消息",
+      "sub": "panel_publish",
+      "kind": "queue",
+      "section": "stage_event"
+    },
+    "panel_handler": {
+      "x": 490,
+      "y": 1705,
+      "w": 480,
+      "h": 150,
+      "title": "转发来源面板发布事件",
+      "sub": "",
+      "kind": "action",
+      "section": "stage_event"
+    },
+    "match_panel": {
+      "x": 1260,
+      "y": 1705,
+      "w": 410,
+      "h": 150,
+      "title": "匹配来源、目标分类",
+      "sub": "",
+      "kind": "action",
+      "section": "stage_plan"
+    },
+    "diff": {
+      "x": 1790,
+      "y": 1695,
+      "w": 420,
+      "h": 170,
+      "title": "计算分类变更",
+      "sub": "过滤候选新增素材",
+      "kind": "action",
+      "section": "stage_plan"
+    },
+    "create_panel": {
+      "x": 2350,
+      "y": 1695,
+      "w": 540,
+      "h": 170,
+      "title": "创建面板同步任务",
+      "sub": "记录本次来源版本的分类变更",
+      "kind": "action",
+      "section": "stage_plan"
+    },
+    "task_table": {
+      "x": 3190,
+      "y": 837.5,
+      "w": 450,
+      "h": 185,
+      "title": "同步任务表",
+      "sub": "distribute_record",
+      "kind": "store",
+      "section": "stage_execute"
+    },
+    "consume": {
+      "x": 3185,
+      "y": 1222.5,
+      "w": 320,
+      "h": 155,
+      "title": "执行同步任务",
+      "sub": "",
+      "kind": "action",
+      "section": "stage_execute"
+    },
+    "write": {
+      "x": 3640,
+      "y": 1215,
+      "w": 480,
+      "h": 170,
+      "title": "更新图片文字模板面板",
+      "sub": "内测内容 · Draft",
+      "kind": "action",
+      "section": "stage_execute"
+    },
+    "draft_table": {
+      "x": 3720,
+      "y": 837.5,
+      "w": 485,
+      "h": 185,
+      "title": "目标内测内容表",
+      "sub": "client_scene_content_draft",
+      "kind": "store",
+      "section": "stage_execute"
+    },
+    "register": {
+      "x": 4400,
+      "y": 1225,
+      "w": 330,
+      "h": 150,
+      "title": "登记发布任务",
+      "sub": "",
+      "kind": "action",
+      "section": "stage_publish"
+    },
+    "merge": {
+      "x": 4850,
+      "y": 1225,
+      "w": 330,
+      "h": 150,
+      "title": "合并同面板发布需求",
+      "sub": "",
+      "kind": "action",
+      "section": "stage_publish"
+    },
+    "publish": {
+      "x": 5300,
+      "y": 1215,
+      "w": 400,
+      "h": 170,
+      "title": "发布图片文字模板面板",
+      "sub": "正式版本",
+      "kind": "action",
+      "section": "stage_publish"
+    },
+    "result": {
+      "x": 5820,
+      "y": 1207.5,
+      "w": 440,
+      "h": 185,
+      "title": "图片文字模板面板",
+      "sub": "正式版本可用",
+      "kind": "end",
+      "section": "stage_publish"
+    },
+    "publish_table": {
+      "x": 4510,
+      "y": 837.5,
+      "w": 500,
+      "h": 185,
+      "title": "发布任务表",
+      "sub": "publish_task",
+      "kind": "store",
+      "section": "stage_publish"
+    },
+    "prod_table": {
+      "x": 5300,
+      "y": 837.5,
+      "w": 760,
+      "h": 185,
+      "title": "正式版本内容表",
+      "sub": "client_scene_content",
+      "kind": "store",
+      "section": "stage_publish"
+    },
+    "timer_consume": {
+      "x": 3290,
+      "y": 1847.5,
+      "w": 850,
+      "h": 185,
+      "title": "同步任务定时调度 FaaS",
+      "sub": "ies.vimo.material_event_consume\nautoDistributeTask",
+      "kind": "platform",
+      "section": "stage_execute"
+    },
+    "timer_publish": {
+      "x": 4560,
+      "y": 1847.5,
+      "w": 850,
+      "h": 185,
+      "title": "发布任务定时调度 FaaS",
+      "sub": "ies.vimo.material_event_consume\npublishTask",
+      "kind": "platform",
+      "section": "stage_publish"
+    }
+  },
+  "routes": {
+    "lg_solid": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "lg_dashed": {
+      "fa": "right",
+      "ta": "left",
+      "dash": true,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "item_event": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "review_yes": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "review_no": {
+      "fa": "bottom",
+      "ta": "top",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "condition_yes": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "condition_no": {
+      "fa": "bottom",
+      "ta": "top",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "match_create": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "static_enqueue": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": [
+        {
+          "x": 3040,
+          "y": 1090
+        },
+        {
+          "x": 3040,
+          "y": 930
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "panel_event": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "panel_request": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "panel_diff": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "panel_create": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "panel_enqueue": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": [
+        {
+          "x": 3008,
+          "y": 1780
+        },
+        {
+          "x": 3008,
+          "y": 981.8
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.78,
+      "noArrow": false,
+      "pos": 0.8
+    },
+    "read_task": {
+      "fa": "bottom",
+      "ta": "top",
+      "dash": true,
+      "points": [
+        {
+          "x": 3415,
+          "y": 1160
+        },
+        {
+          "x": 3345,
+          "y": 1160
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "main_write": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "main_register": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "register_write": {
+      "fa": "top",
+      "ta": "bottom",
+      "dash": true,
+      "points": [
+        {
+          "x": 4565,
+          "y": 1110
+        },
+        {
+          "x": 4760,
+          "y": 1110
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "publish_read": {
+      "fa": "bottom",
+      "ta": "top",
+      "dash": true,
+      "points": [
+        {
+          "x": 4760,
+          "y": 1140
+        },
+        {
+          "x": 5015,
+          "y": 1140
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.55
+    },
+    "main_register_merge": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "main_publish": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "main_result": {
+      "fa": "right",
+      "ta": "left",
+      "dash": false,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "source_static": {
+      "fa": "bottom",
+      "ta": "top",
+      "dash": true,
+      "points": [
+        {
+          "x": 1515,
+          "y": 820
+        },
+        {
+          "x": 2140,
+          "y": 820
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "config_static": {
+      "fa": "bottom",
+      "ta": "top",
+      "dash": true,
+      "points": [
+        {
+          "x": 2435,
+          "y": 870
+        },
+        {
+          "x": 2204,
+          "y": 870
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.7,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "source_panel_diff": {
+      "fa": "left",
+      "ta": "top",
+      "dash": true,
+      "points": [
+        {
+          "x": 1130,
+          "y": 650
+        },
+        {
+          "x": 1130,
+          "y": 1610
+        },
+        {
+          "x": 2000,
+          "y": 1610
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.75
+    },
+    "config_panel": {
+      "fa": "left",
+      "ta": "top",
+      "dash": true,
+      "points": [
+        {
+          "x": 1888,
+          "y": 650
+        },
+        {
+          "x": 1888,
+          "y": 780
+        },
+        {
+          "x": 1210,
+          "y": 780
+        },
+        {
+          "x": 1210,
+          "y": 1640
+        },
+        {
+          "x": 1465,
+          "y": 1640
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.86
+    },
+    "write_draft": {
+      "fa": "top",
+      "ta": "bottom",
+      "dash": true,
+      "points": [
+        {
+          "x": 3880,
+          "y": 1120
+        },
+        {
+          "x": 3962.5,
+          "y": 1120
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "draft_context": {
+      "fa": "top",
+      "ta": "bottom",
+      "dash": true,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": true,
+      "pos": 0.5
+    },
+    "write_prod": {
+      "fa": "top",
+      "ta": "bottom",
+      "dash": true,
+      "points": [
+        {
+          "x": 5500,
+          "y": 1110
+        },
+        {
+          "x": 5680,
+          "y": 1110
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "prod_context": {
+      "fa": "top",
+      "ta": "bottom",
+      "dash": true,
+      "points": null,
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": true,
+      "pos": 0.5
+    },
+    "timer_call_consume": {
+      "fa": "top",
+      "ta": "bottom",
+      "dash": true,
+      "points": [
+        {
+          "x": 3715,
+          "y": 1880
+        },
+        {
+          "x": 3535,
+          "y": 1880
+        },
+        {
+          "x": 3535,
+          "y": 1520
+        },
+        {
+          "x": 3345,
+          "y": 1520
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    },
+    "timer_call_publish": {
+      "fa": "top",
+      "ta": "bottom",
+      "dash": true,
+      "points": [
+        {
+          "x": 4985,
+          "y": 1770
+        },
+        {
+          "x": 5015,
+          "y": 1770
+        }
+      ],
+      "sp": 0.5,
+      "ep": 0.5,
+      "noArrow": false,
+      "pos": 0.5
+    }
+  }
+}

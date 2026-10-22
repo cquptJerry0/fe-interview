@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "nodes": 85,
+    "sections": 4,
+    "connectors": 32
+  },
+  "scope": "最终原生节点全局几何、绑定及坐标空间；文字内接区、标签和无关线交叉仍需真实导图验收"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "material-supply-stages",
+  "scope": "已验收多入口阶段链路案例的制作参数；不是所有画板的固定画幅",
+  "canvas": {"width": 6350, "height": 2210, "fill": "#FFFFFF"},
+  "typography": {"title": 50, "body": 32, "technical": 27, "decision": 28, "connector_label": 26, "service_header": 28, "title_align": "left", "title_weight": "bold", "section_title": "section.title 原生显示，不伪造字体参数"},
+  "colors": {"sections": ["#EEF3FF", "#EFF9F8", "#F0F8F1", "#F5F6F8"], "action": "#FFFFFF", "decision": "#FEF1CE", "queue": "#DFF5E5", "store": "#EAE2FE", "result": "#EAE2FE", "text": "#1F2329", "line": "#454F5D", "dash": "#626F80", "border": "#687587"},
+  "spacing": {"section_gap": 144, "section_top": 355, "section_height": 1760, "service_header_y": 470, "service_header_height": 95, "service_header_inset_x": 40, "main_node_gap_min": 80},
+  "shapes": {"queue": "horiz_cylinder", "store": "cylinder", "action": "round_rect", "decision": "diamond", "result": "round_rect2", "panel": "note_shape", "platform": "predefined_process", "section": "section"},
+  "rules": ["按新图实际行数与形状内接区重算尺寸", "主链不折行", "顶部图例集中解释组件与线型", "同区连线与节点一致局部化", "真实导图检查标题/字段/虚线/标签"]
+}
