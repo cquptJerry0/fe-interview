@@ -4,13 +4,20 @@
 
 | Skill | 适用场景 | 配套资源 |
 | --- | --- | --- |
-| [writing-collab](writing-collab/SKILL.md) | 按读者和用途共创大纲、正文、反馈与验收 | 写作参考、样本分析、约定模板和行为验证用例 |
+| [writing-collab](writing-collab/SKILL.md) | 按读者任务组织整体到局部的正文，执行语言、最终状态与格式红线 | 核心规则、写作流程、场景专项、样本、结构检查与行为用例 |
 | [architecture-research](architecture-research/SKILL.md) | 技术调研、多来源合订、知识体系与文档职责梳理 | 来源与架构指南、文档校验脚本和回归测试 |
 | [interview-bagu-coding-coach](interview-bagu-coding-coach/SKILL.md) | 八股、手写题、组件设计与复述训练 | 题目路由与高收益训练地图 |
 
-三个 Skill 可独立使用，将对应完整目录交给使用端的 Skill 安装机制即可。`interview-bagu-coding-coach` 沿用仓库已有版本；另两个同步自本机安装版本，仓库副本不反向覆盖本机。
+三个 Skill 可独立使用，将对应完整目录交给使用端的 Skill 安装机制即可。`writing-collab` 的仓库与本机安装副本同步维护；其余 Skill 按各自分发规则更新。
 
-写作样本已去除内部文档链接和私人会话 ID，保留观察与适用边界。`writing-collab` 的 Markdown 测试文件是行为验证用例，不是自动化测试。`architecture-research` 的结构校验脚本需要 Python 3.10+；后续授课或正式技术方案可按需交接 `course-delivery-orchestrator`、`technical-document-writing`，这两个可选 Skill 不随本次收录。
+写作样本使用匿名对照，结构与扫描器测试由 Python 自动执行；Markdown 行为用例用于验证实际首稿和多轮表现，自动检查不证明文档可读性。`architecture-research` 的结构校验脚本需要 Python 3.10+。
+
+在仓库根目录运行写作 Skill 的结构与回归检查：
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 .ai/skills/writing-collab/scripts/check_skill.py .ai/skills/writing-collab
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s .ai/skills/writing-collab/tests -p 'test_*.py' -v
+```
 
 在仓库根目录运行调研 Skill 的回归测试：
 
