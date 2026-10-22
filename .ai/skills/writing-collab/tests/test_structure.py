@@ -38,6 +38,17 @@ class StructureTests(unittest.TestCase):
         draft = (ROOT / 'references/写作流程/正文生成.md').read_text()
         self.assertIn('共同理由交代一次', draft)
 
+    def test_positive_statement_redline_is_prominent(self):
+        entry = (ROOT / 'SKILL.md').read_text()
+        self.assertLess(entry.index('## 大红线：直接陈述对象、动作与结果'),
+                        entry.index('## 每次生成正文都执行'))
+        self.assertIn('先说做什么，再补一句不做什么', entry)
+        detail = (ROOT / 'references/核心规则/语言与最终状态.md').read_text()
+        self.assertIn('相邻句、分点、段落', detail)
+        self.assertIn('已消费额度不再追扣', detail)
+        cases = (ROOT / 'tests/语言与格式红线.md').read_text()
+        self.assertIn('同类内容放入下一句、下一点或交付说明仍判失败', cases)
+
     def test_no_legacy_reference_tree(self):
         for folder in ['内容指导', '逻辑与语言', '格式与图表', '协作与验收', '目标与取舍']:
             self.assertFalse((ROOT / 'references' / folder).exists())
