@@ -11,7 +11,7 @@ INTERNAL = re.compile(r'https?://[^\s)<>]*\b(?:larkoffice\.com|bytedance\.(?:net
 LINK = re.compile(r'\[[^\]]+\]\(([^)]+)\)')
 
 
-def validate(root):
+def validate(root, allow_private_sources=False):
     root = Path(root).resolve()
     errors = []
     checks = []
@@ -42,7 +42,8 @@ def validate(root):
             continue
         content = path.read_text(encoding='utf-8')
         rel = str(path.relative_to(root))
-        if INTERNAL.search(content):
+        private_case = allow_private_sources and rel.startswith('references/样本/原案例/')
+        if INTERNAL.search(content) and not private_case:
             errors.append(f'private source or identifier in portable content: {rel}')
         if not content.strip():
             errors.append(f'empty file: {rel}')
@@ -51,12 +52,16 @@ def validate(root):
         for target in LINK.findall(content):
             if target.startswith(('https://', 'http://', '#', 'mailto:')):
                 continue
+            if private_case and target.startswith('codex://threads/'):
+                continue
             resolved = (path.parent / target.split('#')[0]).resolve()
             if not resolved.is_relative_to(root):
                 errors.append(f'external relative dependency: {rel} -> {target}')
             elif not resolved.is_file():
                 errors.append(f'broken reference: {rel} -> {target}')
-    checks += ['relative links resolve within Skill', 'portable content has no private source identifiers']
+    checks += ['relative links resolve within Skill',
+               'private sources allowed only in original-case directory' if allow_private_sources
+               else 'portable content has no private source identifiers']
     return {'passed': not errors, 'errors': errors, 'checks': checks,
             'scope': 'structure, loading routes, references, portability; not prose quality'}
 
@@ -64,8 +69,10 @@ def validate(root):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('root', nargs='?', default='.')
+    parser.add_argument('--allow-private-sources', action='store_true',
+                        help='local original cases only; never use for public repository checks')
     args = parser.parse_args()
-    result = validate(args.root)
+    result = validate(args.root, allow_private_sources=args.allow_private_sources)
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if result['passed'] else 1
 

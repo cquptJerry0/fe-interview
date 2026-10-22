@@ -19,7 +19,41 @@ reviewer = load('review_text')
 
 class StructureTests(unittest.TestCase):
     def test_real_skill_structure(self):
-        self.assertTrue(checker.validate(ROOT)['passed'])
+        self.assertTrue(checker.validate(ROOT, allow_private_sources=True)['passed'])
+
+    def test_language_calibration_and_template_boundary(self):
+        entry = (ROOT / 'SKILL.md').read_text()
+        self.assertIn('references/核心规则/语言诊断与校准.md', entry)
+        self.assertIn('不调用 `technical-document-writing` 或 `distill-work-summary` 作为写作模板', entry)
+        rules = (ROOT / 'references/核心规则/语言诊断与校准.md').read_text()
+        for phrase in ['保留', '轻改', '局部重组', '保真', '位置／原句', '阅读收益']:
+            self.assertIn(phrase, rules)
+
+    def test_original_case_feedback_and_quote_are_preserved(self):
+        original = ROOT / 'references/样本/原案例'
+        for name in ['来源与适用场景.md', '优秀片段解析.md', '失败与纠偏记录.md']:
+            self.assertTrue((original / name).is_file())
+        history = (original / '失败与纠偏记录.md').read_text()
+        for quote in ['句与句之间没啥联系', '还是感觉你这样一大段的话读起来AI味很重',
+                      '分类内保留原任务顺序，避免合批改变素材内容和排列。', '非常好', '全文只暂定保留']:
+            self.assertIn(quote, history)
+        positive = (original / '优秀片段解析.md').read_text()
+        self.assertIn('BPM：条件决定选择，例子保持连续', positive)
+        self.assertIn('onenet-cli', positive)
+
+    def test_private_case_mode_is_scoped(self):
+        import shutil
+        with tempfile.TemporaryDirectory() as temp:
+            copy = Path(temp) / 'writing-collab'
+            shutil.copytree(ROOT, copy, ignore=shutil.ignore_patterns('__pycache__'))
+            case = copy / 'references/样本/原案例/来源与适用场景.md'
+            case.write_text(case.read_text() + '\n[原会话](codex://threads/example)\nhttps://example.larkoffice.com/docx/example\n')
+            self.assertFalse(checker.validate(copy)['passed'])
+            self.assertTrue(checker.validate(copy, allow_private_sources=True)['passed'])
+            entry = copy / 'SKILL.md'
+            entry.write_text(entry.read_text() + '\nhttps://example.larkoffice.com/docx/example\n')
+            self.assertFalse(checker.validate(copy, allow_private_sources=True)['passed'])
+
 
     def test_missing_entry_fails(self):
         with tempfile.TemporaryDirectory() as temp:
